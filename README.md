@@ -32,9 +32,9 @@ Every example includes its original media files. The prompt below is an English 
 | --- | --- | --- | --- | --- | --- |
 | ![Reference 1](./assets/reference-images/tpl-sd25-16-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-16-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-16-image-3.webp) | ![Reference 4](./assets/reference-images/tpl-sd25-16-image-4.webp) | ![Reference 5](./assets/reference-images/tpl-sd25-16-image-5.webp) | ![Reference 6](./assets/reference-images/tpl-sd25-16-image-6.webp) |
 
-| Reference 7 | Reference 8 |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 7](./assets/reference-images/tpl-sd25-16-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-16-image-8.webp) |  |  |  |  |
+| Reference 7 | Reference 8 |
+| --- | --- |
+| ![Reference 7](./assets/reference-images/tpl-sd25-16-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-16-image-8.webp) |
 
 #### Prompt (English)
 
@@ -62,9 +62,9 @@ The overall film quality is high-end fashion advertising style. The light is com
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-01-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-01-image-1.webp) |
 
 #### Prompt (English)
 
@@ -88,9 +88,9 @@ Epic fantasy 2.5D, natural hard light superimposed with energy glow, strong cont
 
 #### Reference Images
 
-| Reference 1 | Reference 2 | Reference 3 |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-02-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-02-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-02-image-3.webp) |  |  |  |
+| Reference 1 | Reference 2 | Reference 3 |
+| --- | --- | --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-02-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-02-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-02-image-3.webp) |
 
 #### Prompt (English)
 
@@ -114,9 +114,9 @@ Really shot space science fiction blockbuster, with a tragic and heroic tone, br
 | --- | --- | --- | --- | --- | --- |
 | ![Reference 1](./assets/reference-images/tpl-sd25-04-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-04-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-04-image-3.webp) | ![Reference 4](./assets/reference-images/tpl-sd25-04-image-4.webp) | ![Reference 5](./assets/reference-images/tpl-sd25-04-image-5.webp) | ![Reference 6](./assets/reference-images/tpl-sd25-04-image-6.webp) |
 
-| Reference 7 | Reference 8 | Reference 9 |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 7](./assets/reference-images/tpl-sd25-04-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-04-image-8.webp) | ![Reference 9](./assets/reference-images/tpl-sd25-04-image-9.webp) |  |  |  |
+| Reference 7 | Reference 8 | Reference 9 |
+| --- | --- | --- |
+| ![Reference 7](./assets/reference-images/tpl-sd25-04-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-04-image-8.webp) | ![Reference 9](./assets/reference-images/tpl-sd25-04-image-9.webp) |
 
 #### Prompt (English)
 
@@ -146,9 +146,9 @@ Maintain the visual continuity of the flowers in the picture and form a lens sty
 | --- | --- | --- | --- | --- | --- |
 | ![Reference 7](./assets/reference-images/tpl-sd25-12-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-12-image-8.webp) | ![Reference 9](./assets/reference-images/tpl-sd25-12-image-9.webp) | ![Reference 10](./assets/reference-images/tpl-sd25-12-image-10.webp) | ![Reference 11](./assets/reference-images/tpl-sd25-12-image-11.webp) | ![Reference 12](./assets/reference-images/tpl-sd25-12-image-12.webp) |
 
-| Reference 13 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 13](./assets/reference-images/tpl-sd25-12-image-13.webp) |  |  |  |  |  |
+| Reference 13 |
+| --- |
+| ![Reference 13](./assets/reference-images/tpl-sd25-12-image-13.webp) |
 
 #### Prompt (English)
 
@@ -173,9 +173,9 @@ Segmented camera movement and scene description:
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-15-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-15-image-1.webp) |
 
 #### Prompt (English)
 
@@ -325,9 +325,9 @@ Lens: medium shot to close-up, front view, position: front of the fuselage, cup 
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-13-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-13-image-1.webp) |
 
 #### Prompt (English)
 
@@ -343,9 +343,9 @@ The style of the commercial is bright and colorful, with fruity biscuits as the 
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |
 
 #### Prompt (English)
 
@@ -379,9 +379,9 @@ The subtitles can only keep the brand name, without adding too many words.
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |
 
 #### Prompt (English)
 
@@ -528,9 +528,9 @@ Video editing: Delete everyone in <<<video_1_1>>> except the protagonist.
 | --- | --- | --- | --- | --- | --- |
 | ![Reference 1](./assets/reference-images/tpl-sd25-03-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-03-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-03-image-3.webp) | ![Reference 4](./assets/reference-images/tpl-sd25-03-image-4.webp) | ![Reference 5](./assets/reference-images/tpl-sd25-03-image-5.webp) | ![Reference 6](./assets/reference-images/tpl-sd25-03-image-6.webp) |
 
-| Reference 7 | Reference 8 | Reference 9 | Reference 10 | Reference 11 |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 7](./assets/reference-images/tpl-sd25-03-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-03-image-8.webp) | ![Reference 9](./assets/reference-images/tpl-sd25-03-image-9.webp) | ![Reference 10](./assets/reference-images/tpl-sd25-03-image-10.webp) | ![Reference 11](./assets/reference-images/tpl-sd25-03-image-11.webp) |  |
+| Reference 7 | Reference 8 | Reference 9 | Reference 10 | Reference 11 |
+| --- | --- | --- | --- | --- |
+| ![Reference 7](./assets/reference-images/tpl-sd25-03-image-7.webp) | ![Reference 8](./assets/reference-images/tpl-sd25-03-image-8.webp) | ![Reference 9](./assets/reference-images/tpl-sd25-03-image-9.webp) | ![Reference 10](./assets/reference-images/tpl-sd25-03-image-10.webp) | ![Reference 11](./assets/reference-images/tpl-sd25-03-image-11.webp) |
 
 #### Prompt (English)
 
@@ -558,9 +558,9 @@ The overall atmosphere is an early morning sunrise, with golden backlight, soft 
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-06-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-06-image-1.webp) |
 
 #### Prompt (English)
 
@@ -580,9 +580,9 @@ Technical specifications: Hyper-realistic mechanical textures, rich brass and go
 
 #### Reference Images
 
-| Reference 1 | Reference 2 | Reference 3 |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-08-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-08-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-08-image-3.webp) |  |  |  |
+| Reference 1 | Reference 2 | Reference 3 |
+| --- | --- | --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-08-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-08-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-08-image-3.webp) |
 
 #### Prompt (English)
 
@@ -605,9 +605,9 @@ At the end, the ball is in the center of a modern stadium, and crowds and cheers
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-20-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-20-image-1.webp) |
 
 #### Prompt (English)
 
@@ -634,9 +634,9 @@ White balance 4000K, teal-and-amber color grading, 35mm, shallow depth of field,
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-21-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-21-image-1.webp) |
 
 #### Prompt (English)
 
@@ -655,9 +655,9 @@ Lynx/Serval Female - Lean anthropomorphic lynx/Serval female: dark orange hair, 
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-05-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-05-image-1.webp) |
 
 #### Prompt (English)
 
@@ -678,9 +678,9 @@ Closely follow the dynamic BGM rhythm editing (stuck transition), top-notch cine
 
 #### Reference Images
 
-| Reference 1 |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-07-image-1.webp) |  |  |  |  |  |
+| Reference 1 |
+| --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-07-image-1.webp) |
 
 #### Prompt (English)
 
@@ -701,9 +701,9 @@ A blue-white energy bow and a luminous arrow <<<image_1_2>>> slowly appear in th
 
 #### Reference Images
 
-| Reference 1 | Reference 2 | Reference 3 |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| ![Reference 1](./assets/reference-images/tpl-sd25-11-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-11-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-11-image-3.webp) |  |  |  |
+| Reference 1 | Reference 2 | Reference 3 |
+| --- | --- | --- |
+| ![Reference 1](./assets/reference-images/tpl-sd25-11-image-1.webp) | ![Reference 2](./assets/reference-images/tpl-sd25-11-image-2.webp) | ![Reference 3](./assets/reference-images/tpl-sd25-11-image-3.webp) |
 
 #### Prompt (English)
 

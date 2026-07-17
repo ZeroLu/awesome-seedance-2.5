@@ -116,9 +116,10 @@ render_cases() {
       else
         "#### " + (if $language == "zh" then "参考图片" else "Reference Images" end) + "\n\n" +
         ([range(0; ($images | length); 6) as $i |
-          "| " + ([range(0; 6) as $offset | image_header($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |\n" +
-          "| " + ([range(0; 6) | "---"] | join(" | ")) + " |\n" +
-          "| " + ([range(0; 6) as $offset | image_cell($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |"
+          ([6, ($images | length) - $i] | min) as $count |
+          "| " + ([range(0; $count) as $offset | image_header($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |\n" +
+          "| " + ([range(0; $count) | "---"] | join(" | ")) + " |\n" +
+          "| " + ([range(0; $count) as $offset | image_cell($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |"
         ] | join("\n\n")) + "\n\n"
       end;
     sort_by((category | category_order), .id) | group_by(category)[] |
