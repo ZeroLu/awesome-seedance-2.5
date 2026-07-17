@@ -2,646 +2,637 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-seedance-2.5?style=social)](https://github.com/ZeroLu/awesome-seedance-2.5/stargazers)
 
-An archive of official Seedance 2.5 prompt examples, generated videos, input videos, and reference images from the [BytePlus Seedance 2.5 showcase](https://ai.byteplus.com/ark/promotion?modelName=seedance-2-5).
+| [English](./README.md) | [简体中文](./README-zh.md) |
 
-All media is stored in this repository so it can be previewed or dragged directly into your Seedance workflow:
+> A curated library of official **Seedance 2.5** prompts, organized around the video you want to make: cinematic stories, ads, explainers, music videos, animation, visual effects, and editing.
 
-- Generated results: [`videos/generated/`](./videos/generated)
-- Input videos: [`videos/reference/`](./videos/reference)
-- Reference images: [`assets/reference-images/`](./assets/reference-images)
-- Structured source data: [`data/byteplus-seedance-2.5-cases.json`](./data/byteplus-seedance-2.5-cases.json)
+Every example includes its original media files. The prompt below is an English translation of the official Chinese prompt; see [README-zh.md](./README-zh.md) for the original Chinese text.
 
-## Contents
+## Table of Contents
 
-1. [Text-to-Video](#text-to-video)
-2. [Reference Generation](#reference-generation)
-3. [Video Editing](#video-editing)
+1. [Cinematic Storytelling & Short Drama](#cinematic-storytelling--short-drama)
+2. [Advertising, Brand & Product](#advertising-brand--product)
+3. [Educational & Explainer Videos](#educational--explainer-videos)
+4. [Music, Social & Title Sequences](#music-social--title-sequences)
+5. [Animation & Stylized Stories](#animation--stylized-stories)
+6. [Visual Effects & Creative Experiments](#visual-effects--creative-experiments)
+7. [Video Editing & Restoration](#video-editing--restoration)
 
 ---
-## Text-to-Video
-### tpl-sd25-06
+## Animation & Stylized Stories
+### tpl-sd25-16
 
-**Generated video:** [tpl-sd25-06-src.mp4](./videos/generated/tpl-sd25-06-src.mp4)
+**Result video:** [tpl-sd25-16-src.mp4](./videos/generated/tpl-sd25-16-src.mp4)
 
-**Reference images:** [tpl-sd25-06-image-1.png](./assets/reference-images/tpl-sd25-06-image-1.png)
+**Reference images:** [tpl-sd25-16-image-1.png](./assets/reference-images/tpl-sd25-16-image-1.png) · [tpl-sd25-16-image-2.png](./assets/reference-images/tpl-sd25-16-image-2.png) · [tpl-sd25-16-image-3.png](./assets/reference-images/tpl-sd25-16-image-3.png) · [tpl-sd25-16-image-4.png](./assets/reference-images/tpl-sd25-16-image-4.png) · [tpl-sd25-16-image-5.png](./assets/reference-images/tpl-sd25-16-image-5.png) · [tpl-sd25-16-image-6.png](./assets/reference-images/tpl-sd25-16-image-6.png) · [tpl-sd25-16-image-7.png](./assets/reference-images/tpl-sd25-16-image-7.png) · [tpl-sd25-16-image-8.png](./assets/reference-images/tpl-sd25-16-image-8.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-一段高级、极具电影感的30秒3D动态图形序列，采用精致的蒸汽朋克与复古微缩景观风格，配合连续流畅的环绕与穿透运镜。
-[0-10秒]： 古董黄铜钟面微距特写，奇迹般层层展开为相互啮合的旋转齿轮环与体积雾。镜头向下穿透齿轮，一架机械扑翼机（Ornithopter），正从由做旧古籍堆叠而成的微缩峡谷中盘旋升空。
-[10-20秒]： 镜头跟随扑翼机的轨迹向前滑行，无缝穿透入一个高速旋转的华丽黄铜幻影箱（Zoetrope），内部投射出飞驰的机械骏马动态光影。光影跃出箱体，场景瞬间化为一辆黄铜质感悬浮缆车，正沿着微光铜轨穿梭于机械齿轮森林，沐浴着电影级的黄金时刻光线。
-[20-30秒]： 镜头优雅向下平移，缆车下方出现一艘精美的发条木制机械帆船，在深蓝色玻璃材质的起伏海浪中破浪前行。海浪尽头无缝演变为一轮发光巨月，一群举着摇曳提灯的探险者剪影，正沿着星空下的水晶矿脉山脊艰难跋涉。镜头平滑螺旋拉远，穿过空灵云朵，回到滴答作响的宏大黄铜钟面。最后一秒出现 logo，参考<<<image_1_1>>>。
-技术规格： 超写实机械纹理，丰富黄铜与金色调，电影级浅景深。平滑连贯的无缝穿梭运镜，极强的史诗感与奇幻冒险氛围。
+From left to right, the camera steadily follows a man in a black coat (refer to <<<image_1_1>>>) through six connected rooms of different colors and atmospheres. The structure of each room is the same: white walls, herringbone light wooden floors, French double floor-to-ceiling windows, and white gauze curtains, refer to <<<image_2_2>>> but the scenery outside the window and the indoor atmosphere are completely different. The protagonist moves at a constant speed throughout the game, passing through every open door on the wall.
+0-5 seconds, the first room, the theme is American comic fighting, the protagonist enters the room and fights with the character (<<<image_3_3>>>), the character loses;
+5-10 seconds, the second room, the theme is warm, felt style, the scene outside the window is a sunflower field (<<<image_4_4>>>), the indoor light is warm orange and soft, and a painter is painting sunflowers (<<<image_5_5>>>). The protagonist also changes into a felt style after entering;
+10-15 seconds, the third room, the theme is sadness, the whole picture is in the style of black and white comic stop-motion animation, it is raining outside the window, the light inside is cold and gray, a person is sitting alone on the floor in the center of the empty room, lowering his head and hugging his knees, and a mobile phone next to him lights up the call interface with no one answering. After the protagonist enters the room, he turns off the lights in the room and immediately turns on the lights. The room becomes colorful and flowers grow all over the house in an instant;
+15-20 seconds, the fourth room, the theme is joy, the whole scene is a room soaked in the sea, refer to <<<image_6_6>>>, the protagonist swims into the room, with beautiful coral reefs and fish schools beside him;
+20-25 seconds, the fifth room, the theme is surprise, the scene outside the window is full of fireworks in the night sky, refer to <<<image_7_7>>>, the indoor light is colored and flickered, and the protagonist is involved in the cheering atmosphere.
+After 25-30 seconds, the protagonist finally comes to a blank room, stands in the center and snaps his fingers. At the same time, the sound effect is a snapping sound. The entire screen is black, and the word "seedance" appears in the middle. Please refer to <<<image_8_8>>>.
+The overall film quality is high-end fashion advertising style. The light is completely determined by the scene outside the window, creating a strong emotional contrast. There is no text in the picture.
 ```
 
 </details>
 
-## Reference Generation
+## Cinematic Storytelling & Short Drama
 ### tpl-sd25-01
 
-**Generated video:** [tpl-sd25-01-src.mp4](./videos/generated/tpl-sd25-01-src.mp4)
+**Result video:** [tpl-sd25-01-src.mp4](./videos/generated/tpl-sd25-01-src.mp4)
 
 **Input video:** [tpl-sd25-01-video-1.mp4](./videos/reference/tpl-sd25-01-video-1.mp4)
 
 **Reference images:** [tpl-sd25-01-image-1.png](./assets/reference-images/tpl-sd25-01-image-1.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-<<<video_1_1>>> 仅提供三名战士与巨兽的逐帧连续飞行抛物线轨迹、大幅度攻击弧线、受力接触点、动作时机与九镜头硬切运镜，其 lowpoly 体块与占位特效只作动效参考、不进入画面；<<<image_1_2>>> 锁定原创重甲战士与岩石熔岩巨兽的外形、材质与配色并且提供崩塌石殿废墟的建筑结构与光影基调。
-<<<video_1_1>>>中三个飞行人形→原创重甲战士 A (持发光蓝色长矛)、战士 B (持双青色能量刃)、战士 C (持巨盾战锤); 中央巨型体块→多足岩石熔岩巨兽，背甲开裂渗出熔岩；柱状体块→崩塌的古代石殿立柱。
-白模中的能量拖尾、冲击波环、爆闪、碎块、熔岩、尘埃等一切特效仅为运动位置与时机的参考，严禁沿用其 lowpoly 几何形态；成片中所有特效须按角色与场景参考图的史诗奇幻质感重新渲染 —— 能量为流动的光效粒子，熔岩为真实流体与迸溅火星，冲击波为体积光冲击与空气扭曲，碎石尘埃为带材质的实体颗粒，整体与画面材质、光影、颗粒感完全统一。
-强劲史诗鼓点铜管乐，伴金属崩裂与巨兽低吼；第 0 秒低角全景，战士 A 自石柱大幅助跑腾空跃入、身体划出连续抛物线、长矛拖长蓝色能量光尾。第 3 秒环绕上摇硬切，B、C 两翼高速俯冲、飞行弧线交错缠绕巨兽、全程无悬停。第 6 秒甩镜贴地跟拍，巨兽大摆幅前肢横扫、A 俯身连贯贴地滑过、碎石按重力抛洒。第 9 秒中近景快切，B 空中大幅翻转交叉斩、挥砍超 120°、双刃拖青色光尾、熔岩四溅。第 12 秒侧向跟拍，C 战锤高抡大力砸下、砸地炸开扩张冲击波、巨兽撞断立柱、巨石逐块崩落扬尘。第 15 秒仰拍，C 举盾硬接冲击、身体大幅下沉回弹、脚下地面开裂。第 18 秒快速推近，三人半空大幅翻越连贯聚合。第 22 秒特写转甩镜，A 长矛大回旋蓄能、能量球膨胀、爆发白光巨刺贯穿巨兽。第 27 秒击杀高潮，全屏爆闪、多重冲击波炸开、巨兽背甲与熔岩块向外解体崩飞、熔岩喷发扬尘成光柱、慢镜下三人背对巨兽残骸并肩落地剪影、结尾定格。
-所有腾空、俯冲、翻转全程逐帧位置连续，严禁空中悬停或瞬移急停；每次攻击遵循预备回拉→爆发→惯性过冲→回稳，武器划出明显长弧光尾；仅长矛蓄能与结尾击杀放慢，其余强节奏快切，配运动模糊使快动作顺滑。
-史诗奇幻 2.5D, 自然硬光叠加能量辉光，冷暖强对比，空气尘埃颗粒与体积光，电影级清晰画质，动作大开大合且严格符合重力与惯性。
+<<<video_1_1>>> Only provides frame-by-frame parabolic trajectories, large attack arcs, force contact points, action timing, and nine-lens hard-cut lenses of the three warriors and the behemoth. Its lowpoly volume and placeholder special effects are only for motion reference and do not enter the screen; <<<image_1_2>>> locks in the shape, material, and color of the original heavily armored warrior and the rock lava behemoth, and provides the architectural structure and light and shadow tone of the collapsed stone temple ruins.
+<<<video_1_1>>> Three flying humanoids → Original heavily armored warrior A (holding a luminous blue spear), Warrior B (holding a pair of cyan energy blades), Warrior C (holding a giant shield and hammer); the central giant block → a multi-legged rock lava monster, with cracked back armor and lava oozing out; the columnar block → a collapsed ancient stone temple column.
+All special effects such as energy tails, shock wave rings, flashes, fragments, lava, dust, etc. in the white model are only a reference for movement position and timing, and are strictly prohibited from using their low poly geometric forms; all special effects in the finished film must be re-rendered according to the epic fantasy texture of the character and scene reference images—— Energy is flowing light effect particles, lava is real fluid and splashing sparks, shock waves are volumetric light impact and air distortion, gravel dust is solid particles with texture, and the whole is completely unified with the picture material, light and shadow, and graininess.
+Strong epic drum beats and brass music, accompanied by metal cracking and the roar of the giant beast; a low-angle panorama at the 0th second, Warrior A leaps into the air from the stone pillar, his body draws a continuous parabola, and his spear drags out a blue energy light tail. In the 3rd second, it circled up and made a hard cut. The B and C wings dived at high speed, and the flight arcs intertwined around the giant beast, without hovering in the whole process. At the 6th second, the camera swings to the ground to follow the shot. The giant beast sweeps its forelimbs with a large swing, A leans down and slides across the ground continuously, and the gravel is thrown according to gravity. In the 9th second, there is a quick close-up shot, B performs a large flip in the air and cross-cuts, slashes over 120°, the double blades trail a cyan light tail, and lava splashes everywhere. At the 12th second, the side tracking shot shows C's war hammer swinging high and slamming down, causing an expanding shock wave to explode on the ground. The giant beast breaks the pillars, and the boulders collapse piece by piece and raise dust. At the 15th second of the upward shot, C raised his shield to receive a hard impact, his body sank sharply and rebounded, and the ground beneath his feet cracked. At the 18th second, they quickly pushed closer, and the three people jumped over each other in mid-air. At the 22nd second, a close-up pans the camera, A's spear is charged with a large swing, the energy ball expands, and a giant spike of white light bursts through the giant beast. The climax of the kill is at the 27th second, with a full-screen flash, multiple shock waves exploding, the behemoth's back armor and lava blocks disintegrating outwards and flying, the lava erupting and raising dust into pillars of light, the silhouette of three people landing side by side with their backs to the remains of the behemoth in slow motion, and the ending is frozen.All flying, diving, and flipping are in continuous position frame by frame, and mid-air hovering or teleportation emergency stops are strictly prohibited; each attack follows the preparatory pullback → explosion → inertial overshoot → stabilization, and the weapon draws an obvious long arc light tail; only the spear charging and the final kill are slowed down, and the rest are fast-paced and fast-cut, with motion blur to make fast movements smooth.
+Epic fantasy 2.5D, natural hard light superimposed with energy glow, strong contrast between cold and warm, air dust particles and volumetric light, movie-level clear picture quality, wide open and close movements and strict compliance with gravity and inertia.
 ```
 
 </details>
 
 ### tpl-sd25-02
 
-**Generated video:** [tpl-sd25-02-src.mp4](./videos/generated/tpl-sd25-02-src.mp4)
+**Result video:** [tpl-sd25-02-src.mp4](./videos/generated/tpl-sd25-02-src.mp4)
 
 **Input video:** [tpl-sd25-02-video-1.mp4](./videos/reference/tpl-sd25-02-video-1.mp4)
 
 **Reference images:** [tpl-sd25-02-image-1.png](./assets/reference-images/tpl-sd25-02-image-1.png) · [tpl-sd25-02-image-2.png](./assets/reference-images/tpl-sd25-02-image-2.png) · [tpl-sd25-02-image-3.png](./assets/reference-images/tpl-sd25-02-image-3.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-<<<video_1_1>>> 仅提供五机与母舰的逐帧连续轨迹、分道不重叠航道、咬尾与坠落曲线、受力时机及拉远运镜参考，其体块与占位特效不进画面；<<<image_1_2>>> 锁定隼形我方三机、<<<image_2_3>>>猛禽形敌方两机、<<<image_3_4>>>提供长条楔形母舰的外形材质配色、星云深空环境与光影基调。
-主角机 A (略大双引擎、蓝焰、贯穿光束)、僚机 B (粗壮撞击型、青焰)、僚机 C (轻快侦查型、红焰), 各含座舱驾驶员；敌方拦截机 E1、E2 (暗色棱角、橙红焰); 母舰为原创长条楔形重舰 (舰艏尖楔、分层甲板、舰艉高舰桥、舷侧多炮塔、左舷中前部外露能量核心), 体量约战机百倍；残骸为惯性飞散碎块。战机与母舰约 1:100, 母舰压场、战机成舷侧小楔；景别以大远景为主显巨舰全貌，仅座舱与击穿给近景；五机沿舷侧分道飞行、各占不同纵深高度，全程层次分明绝不重叠；环境明亮通透、强环境光，深空中主体清晰可读，战机有机流线、敌机棱角猛禽、母舰细长楔形，贴舰为沿舷侧外缘掠过而非壕沟；击杀为贯穿光束强攻外露核心而非投弹入口。
-白模的尾焰、弹道、爆炸、冲击环、等离子、尘埃、坠机拖火仅供运动与时机参考，禁用其体块形态；成片按参考图重渲为等离子光柱、能量束光斑、体积火球、带材质金属碎片，与画面质感统一。
-悲壮电子交响与低频轰鸣，伴引擎、告警、充能声；0s 大俯角拉远，三机沿舷侧分道突入、E1E2 拦截、巨舰压场；3s 尾部后视，敌机咬尾发弹、HUD 告警、三机险规避；4.5s 贴舷慢镜，B 决然撞向左舷、炸开缺口露出核心、壮烈坠毁；7.5s 敌机后方追猎，C 缠住 E1 掩护 A、母舰炮火成三方交火；10s 情绪慢镜，C 被击中拖火旋转坠落、A 凝重目送；13s A 座舱视角，仅剩 A 被 E2 死咬、告警急闪、冲向缺口；16s 沿左舷表面横滚掠过，A 贯穿突入、E2 紧追；20s dolly-zoom,A 甩脱 E2、双炮充能锁定核心、放慢蓄力；24s 核心极特写转全景，贯穿光束击穿核心、命中定格；27s 环绕拉远慢镜，母舰自核心炸开逐段解体、冲击波掀飞 E2,A 独自穿越残骸拉升脱离、孤胆悲壮定格。
-各机全程逐帧连续、分道不重叠、坠毁遵循动量旋转下坠，严禁悬停或瞬移急停；机动遵循预备侧倾→爆发变向→惯性过冲→回稳，划出长弧，机体不抖；仅两处牺牲与结尾放慢，其余强节奏快切。
-真实实拍太空科幻大片，悲壮英雄基调，明亮通透高曝光，长焦浅景深，高反差硬光加弱冷补光，胶片颗粒、体积光、运动模糊，冷色深空为主、暖色能量克制，原创造型。
-```
-
-</details>
-
-### tpl-sd25-03
-
-**Generated video:** [tpl-sd25-03-src.mp4](./videos/generated/tpl-sd25-03-src.mp4)
-
-**Reference images:** [tpl-sd25-03-image-1.png](./assets/reference-images/tpl-sd25-03-image-1.png) · [tpl-sd25-03-image-2.png](./assets/reference-images/tpl-sd25-03-image-2.png) · [tpl-sd25-03-image-3.png](./assets/reference-images/tpl-sd25-03-image-3.png) · [tpl-sd25-03-image-4.png](./assets/reference-images/tpl-sd25-03-image-4.png) · [tpl-sd25-03-image-5.png](./assets/reference-images/tpl-sd25-03-image-5.png) · [tpl-sd25-03-image-6.png](./assets/reference-images/tpl-sd25-03-image-6.png) · [tpl-sd25-03-image-7.png](./assets/reference-images/tpl-sd25-03-image-7.png) · [tpl-sd25-03-image-8.png](./assets/reference-images/tpl-sd25-03-image-8.png) · [tpl-sd25-03-image-9.png](./assets/reference-images/tpl-sd25-03-image-9.png) · [tpl-sd25-03-image-10.png](./assets/reference-images/tpl-sd25-03-image-10.png) · [tpl-sd25-03-image-11.png](./assets/reference-images/tpl-sd25-03-image-11.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-一镜到底 FPV 无人机第一视角视频，33 秒连续长镜头，无剪辑、无跳切、无转场。镜头从高空云端内部开始，沿云层、雾气、光影、山谷、瀑布、湖面、花田、城市建筑与近地广场形成一条连续下降飞行动线。全程依次出现 11 个清晰独立的语言展示区块，每个区块只显示对应单一语言文字，不混排、不叠加、不新增其他语言。
-0–3 秒，<<<image_1_1>>>云团自然形成中文 “你好”；
-3–6 秒，<<<image_2_2>>>薄雾和体积光形成英语 “Hello”；
-6–9 秒，<<<image_3_3>>>高空水汽与阳光投影形成西班牙语（墨西哥）“Hola”；
-9–12 秒，<<<image_4_4>>>空中丝带形成印度尼西亚语 “Halo”；
-12–15 秒，<<<image_5_5>>>风筝编队形成马来语 “Hai”；
-15–18 秒，<<<image_6_6>>>山谷晨雾形成泰语 “สวัสดี”；
-18–21 秒，<<<image_7_7>>>瀑布水雾形成阿拉伯语مرحبا
-21-24 秒，<<<image_8_8>>>湖面倒影和水波光纹形成葡萄牙语“Olá”；
-24–27 秒，<<<image_9_9>>>花田与草地自然排列成越南语 “Xin chào”；
-27–30 秒，<<<image_10_10>>>城市玻璃建筑反射光影形成日语 “こんにちは”；
-30–33 秒，<<<image_11_11>>>近地广场喷泉水雾、地面铺装和灯带形成韩语 “안녕하세요”。
-整体为清晨日出氛围，金色逆光、柔和体积光、真实云雾、自然运动模糊、电影级真实感。镜头速度从 3–5 m/s 慢速启动，逐渐加速到 14–16 m/s 穿越自然景观，再减速到 2–3 m/s 于近地广场稳定悬停。镜头参数：广角镜头，24fps，平滑 FPV drone movement，pitch 从 -5° 逐步过渡到 -18°，最后回到 0°；轻微 yaw ±10°，roll 控制在 0–10°，保证连续、稳定、真实的一镜到底飞行感。
+<<<video_1_1>>> Only provides frame-by-frame continuous trajectories of the five aircraft and the mothership, separate and non-overlapping channels, tail biting and falling curves, force timing and telescope reference, and its volume and placeholder special effects do not enter the screen; <<<image_1_2>> Lock three falcon-shaped friendly aircraft, <<<image_2_3>>> two raptor-shaped enemy aircraft, <<<image_3_4>>> provide the appearance, material color, nebula deep space environment and light and shadow tone of the long wedge-shaped mothership.
+Protagonist aircraft A (slightly larger twin engines, blue flames, penetrating beam), wingman B (stout impact type, green flames), wingman C (light reconnaissance type, red flames), each including a cockpit pilot; enemy interceptors E1 and E2 (dark edges, orange-red flames); the mothership is an original long wedge-shaped heavy ship (Tip wedge at the bow, layered deck, high bridge at the stern, multiple gun turrets on the sides, exposed energy core at the middle and front of the port side), the volume is about a hundred times that of a fighter jet; the wreckage is inertial flying fragments. Fighter plane and mothership about 1:100, The mothership presses the field, and the fighter planes form a small wedge on the side; the scene mainly uses a long shot to show the whole picture of the giant ship, and only the cockpit and breakdown are given to the close shot; the five aircraft fly along the side in separate lanes, each occupying a different depth and height, and the whole process is clearly layered and never overlaps; the environment is bright and transparent Transparent and strong ambient light, the main body in the deep sky is clearly readable, the fighter plane has organic streamlines, the enemy aircraft is an angular raptor, and the mothership is a slender wedge. The approach to the ship is to skim along the outer edge of the side instead of a trench; to kill is to penetrate the beam and attack the exposed core instead of the bombing entrance.
+The tail flames, ballistics, explosions, impact rings, plasma, dust, and crash drag fire of the white model are only for movement and timing reference, and their block shapes are disabled; the final film is re-rendered according to the reference image into plasma beams, energy beam spots, volumetric fireballs, and metal fragments with textures, which are consistent with the texture of the picture.Tragic electronic symphony and low-frequency roar, accompanied by engine, warning, and charging sounds; 0s zooming out at a large depression angle, three planes rushing in along the side lanes, E1E2 intercepting, and the giant ship closing in; 3s rear view, enemy planes biting the tail to fire, HUD warning, and three planes evading danger; 4.5s slow motion close to the side, B resolutely crashes into the port side, blows up the gap to reveal the core, and crashes heroically; 7.5s The enemy plane is hunting from behind, C entangles E1 to cover A, and the mothership fires into a three-way firefight; 10s emotional slow motion, C is hit and drags fire, spins and falls, and A watches solemnly; 13s A cockpit perspective, only A is bitten by E2, flashes with warning, and rushes towards the gap; 16s rolls along the port side surface, A penetrates and breaks in, E2 pursues; 20s dolly-zoom, A escapes E2, dual cannons charge to lock the core and slow down the charge; 24s, the core is extremely close-up and panoramic, the penetrating beam penetrates the core, and the hit is frozen; 27s, the surrounding zoom slow motion, the mothership explodes from the core and disintegrates piece by piece, and the shock wave lifts off E2, A alone passes through the wreckage and pulls away, solemn and solemn freeze-frame.
+Each aircraft is continuous frame by frame throughout the whole process, the lanes do not overlap, the crash follows the rotation and fall of the momentum, and hovering or teleportation emergency stops are strictly prohibited; the maneuvers follow the preparatory roll → sudden change of direction → inertial overshoot → stabilization, drawing a long arc, and the aircraft does not shake; there are only two sacrifices and the final slowdown, and the rest is fast-paced.
+Really shot space science fiction blockbuster, with a tragic and heroic tone, bright and transparent high exposure, long focus and shallow depth of field, high contrast hard light plus weak cold fill light, film grain, volumetric light, motion blur, mainly cold deep space colors, restrained warm color energy, and original styling.
 ```
 
 </details>
 
 ### tpl-sd25-04
 
-**Generated video:** [tpl-sd25-04-src.mp4](./videos/generated/tpl-sd25-04-src.mp4)
+**Result video:** [tpl-sd25-04-src.mp4](./videos/generated/tpl-sd25-04-src.mp4)
 
 **Reference images:** [tpl-sd25-04-image-1.png](./assets/reference-images/tpl-sd25-04-image-1.png) · [tpl-sd25-04-image-2.png](./assets/reference-images/tpl-sd25-04-image-2.png) · [tpl-sd25-04-image-3.png](./assets/reference-images/tpl-sd25-04-image-3.png) · [tpl-sd25-04-image-4.png](./assets/reference-images/tpl-sd25-04-image-4.png) · [tpl-sd25-04-image-5.png](./assets/reference-images/tpl-sd25-04-image-5.png) · [tpl-sd25-04-image-6.png](./assets/reference-images/tpl-sd25-04-image-6.png) · [tpl-sd25-04-image-7.png](./assets/reference-images/tpl-sd25-04-image-7.png) · [tpl-sd25-04-image-8.png](./assets/reference-images/tpl-sd25-04-image-8.png) · [tpl-sd25-04-image-9.png](./assets/reference-images/tpl-sd25-04-image-9.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-真人实拍风格，快速剪辑，电影感，4K，24fps，温暖自然光，真实人物表演，自然口型同步，无字幕。以一朵鲜花的传递作为整支视频的核心视觉线索，花从一个国家快速传到下一个国家，串联全球不同地域与人群。每到一个场景，都有一个人物接过花、露出真诚微笑，并用当地语言说 “谢谢”。整体节奏轻快流畅，镜头富有动感，强调真实街头 / 生活气息、跨文化温暖连接、人与人之间的善意传递。转场方式：以前一个人物把花递出画面，下一镜头由另一个人物在新场景中接住花
-或使用快速甩镜、运动模糊、前景遮挡完成无缝转场
-保持花在画面中的视觉连续性，形成 “一镜传全球” 的感觉镜头风格：手持跟拍、轻微镜头晃动、快速推拉、近景与中景结合、真实环境音氛围、电影级街拍质感。背景音乐温馨、轻快、有世界旅行感，结尾温柔淡出。场景 1 <<<image_1_1>>>中国花店内，真实生活化场景。女孩接过一枝玫瑰，看向镜头微笑，自然地说：“谢谢！”镜头跟随花从画面右侧递入，女孩接花后轻轻扬起花束。场景 2<<<image_2_2>>>英格兰街头，微凉天气，街景自然。男士接过一枝康乃馨，微笑点头，说：“Thank you!”通过甩镜转场，花从上一场景甩入这一场景。场景 3 <<<image_3_3>>>墨西哥市场，色彩丰富，充满烟火气。阿姨接过一束万寿菊，双手合十，温暖地说：“¡Gracias!”镜头快速掠过摊位与人群，定格在接花瞬间。场景 4 <<<image_4_4>>>印尼乡村，自然阳光洒落。孩子接过一朵鸡蛋花，开心微笑，微微鞠躬，说：“Terima kasih!”镜头带一点奔跑感，氛围纯真自然。场景 5 <<<image_5_5>>>泰国街头，热闹市井。摊贩接过一串茉莉花环，双手合十，亲切地说：“ขอบคุณค่ะ!”镜头轻快推进，花环在阳光下微微摆动。场景 6 <<<image_6_6>>>阿拉伯庭院，光影柔和，环境雅致。女士接过一枝沙漠玫瑰，抚胸微笑，说：“شكراً!”画面安静而温暖，人物神情真挚。场景 7 <<<image_7_7>>>巴西社区，氛围热情鲜活。男孩接过一朵非洲菊，十分开心，说：“Obrigado!”镜头富有节奏感，充满生命力。场景 8 <<<image_8_8>>>日本街道，上班族接过便当上的一朵小花，礼貌鞠躬，说：“ありがとう！”镜头短促利落，保留都市节奏感。场景 9 <<<image_9_9>>>韩国街头，现代都市感。女青年接过一枝杜鹃花，双手自然合拢，微笑说：“감사합니다!”镜头在她微笑的瞬间稍作停留，随后画面柔和淡出。
-```
-
-</details>
-
-### tpl-sd25-05
-
-**Generated video:** [tpl-sd25-05-src.mp4](./videos/generated/tpl-sd25-05-src.mp4)
-
-**Reference images:** [tpl-sd25-05-image-1.png](./assets/reference-images/tpl-sd25-05-image-1.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-一部配合动感电子节拍的快节奏、电影级无缝转场（Match-cut）短片。画面正中始终固定一颗完美无瑕的水晶球，内部刻有发光的‘seedance’标志。水晶球保持极致对焦，随着强劲的音乐鼓点，背景高速无缝切换：场景1： 微距特写，电影质感的水花在水晶球周围飞溅，折射复杂光影。场景2： 晨间复古咖啡馆，水晶球置于原木桌面，背景是升腾的咖啡热气与窗外模糊的通勤人流。场景3： 傍晚黄金时刻，滑板青年单手抛握水晶球，背景为极速倒退的街景与绝美的夕阳逆光。场景4： 狂热音乐节现场，人手高举水晶球，折射出背景绚丽的舞台激光。场景5： 热闹的家庭派对餐桌，水晶球静置中央，背景是欢聚干杯、拿取食物的模糊人影。场景6： 昏暗电影院中，双手捧着水晶球，巨大银幕的微光在其表面流转。场景7： 水晶球置于强烈震动的音响振膜上，随音乐高潮无缝切换至旋转的DJ打碟机中央。场景8： 户外露营之夜，背景化作温暖的篝火与摇曳的灯串光斑（Bokeh）。抛起落幕： 随音乐最终重音，水晶球被高高抛出画面上方；瞬间切至纯黑背景，画面正中浮现极简的黑底白字“seedance”，参考<<<image_1_1>>>
-紧贴动感BGM律动剪辑（卡点转场），顶级电影感调色（Cinematic Color Grading）。逼真的玻璃折射与透射材质，复杂光线追踪（Ray tracing），全局照明。主体极致清晰，背景带有强烈的动态模糊，视觉冲击力极强。
-```
-
-</details>
-
-### tpl-sd25-08
-
-**Generated video:** [tpl-sd25-08-src.mp4](./videos/generated/tpl-sd25-08-src.mp4)
-
-**Reference images:** [tpl-sd25-08-image-1.png](./assets/reference-images/tpl-sd25-08-image-1.png) · [tpl-sd25-08-image-2.png](./assets/reference-images/tpl-sd25-08-image-2.png) · [tpl-sd25-08-image-3.png](./assets/reference-images/tpl-sd25-08-image-3.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-制作一支关于足球三千年演变史的 30 秒科普短视频，全片用同一个球作为视觉主线，球从古代一路滚动、穿越、变形，串联不同文明与时代。整体节奏紧凑，画面高级，历史科普短片与艺术化转场结合，突出一个球跨越三千年的感觉，口播简洁有力。
-开场，一颗古老的球从黑色背景中缓缓出现，表面带有岁月纹理，随后滚入中国战国时期的蹴鞠场景，画面转为水墨风，参考<<<image_1_1>>>的风格，古人穿古装在庭院中蹴鞠，动作优雅，球在脚下弹起。口播：足球故事，从蹴鞠开始。
-接着，这颗球继续向前滚动，画面自然过渡到古希腊球类游戏场景，画面为古典油画风格，风格参考<<<image_2_2>>>，广场与石柱背景明显，人们穿着古希腊长袍踢球，画面厚重、有历史感。口播：希腊人也热爱球类运动。
-然后球滚入中世纪欧洲，画面仍保持油画风格，村庄、泥地、普通民众追逐皮球，气氛热烈而粗粝，像民间古足球延续火种。口播：欧洲民间把球赛延续下来。
-接着球被一脚踢出，画面切换为黑白纪录片风格，参考<<<image_3_3>>>，来到1863 年的英国，绅士、俱乐部、草地球场逐渐出现，象征现代足球正式诞生，这颗球第一次呈现出现代足球的标准外观。口播：1863 年，现代足球定型。
-随后画面快速进入现代，球在空中旋转，依次带出关键发展节点，灯光、球场、观众、奖杯、全球不同场景交织，表现足球从地方运动走向全球。
-结尾，这颗球在现代球场中央，世界各地的人群、欢呼声在背景中融合，形成 “一个球连接世界” 的感觉，画面大气、有史诗感。口播：现在，足球连接了全世界。
-```
-
-</details>
-
-### tpl-sd25-10-bp
-
-**Generated video:** [tpl-sd25-10-src-bp.mp4](./videos/generated/tpl-sd25-10-src-bp.mp4)
-
-**Reference images:** [tpl-sd25-10-image-1.png](./assets/reference-images/tpl-sd25-10-image-1.png) · [tpl-sd25-10-image-2.png](./assets/reference-images/tpl-sd25-10-image-2.png) · [tpl-sd25-10-image-3.png](./assets/reference-images/tpl-sd25-10-image-3.png) · [tpl-sd25-10-image-4.png](./assets/reference-images/tpl-sd25-10-image-4.png) · [tpl-sd25-10-image-5.png](./assets/reference-images/tpl-sd25-10-image-5.png) · [tpl-sd25-10-image-6.png](./assets/reference-images/tpl-sd25-10-image-6.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-一段 30 秒的胶囊咖啡机安装使用教程视频。
-0-2秒，开头大标题文字为：seedance 胶囊咖啡机安装使用教程
-2-5秒，步骤 1：安装水箱，参考<<<image_1_1>>>
-镜头： 中景，微俯视角位置： 机身背面动作： 将水箱对准机身背部卡槽，垂直向下推入，听到 "咔" 声卡紧，要求： 清晰展示水箱底部卡扣与机身卡槽的对位关系，水箱透明部分可见水位线
-旁白： "首先，安装水箱。"
-5-9秒，步骤 2：安装滴水盘，参考<<<image_2_2>>>
-镜头： 近景，正视角，位置： 机身底部前方，动作： 将滴水盘平行推入机身底部导轨，推至底部完全贴合，要求： 展示导轨对齐过程，突出滑入动作的顺畅感
-旁白： "接下来将托盘对准底部导轨。"
-9-13秒，步骤 3：安装废弃胶囊收集盒，参考<<<image_3_3>>>
-镜头： 近景，微仰视角，位置： 滴水盘下方空腔，动作： 将收集盒对准凹槽推入，与滴水盘齐平，要求： 展示收集盒与机身的嵌合关系，确认安装到位
-13-18秒，步骤 4：首次注水，参考<<<image_4_4>>>
-镜头： 特写，侧视角，位置： 机身顶部 / 背部水箱，动作： 打开水箱盖，倒入清水至 MAX 水位线，合上水箱盖，要求： 突出水位线标识，水流倒入清晰可见
-旁白： "打开水箱盖，倒入清水。注意不要超过最大水位线。"
-画面高亮最大水位线。
-18-25秒，步骤 5：通电开机，参考<<<image_5_5>>>
-镜头： 中景，正视角，位置： 机身正面，动作： 插入电源线，按下电源键，指示灯由闪烁变为常亮（预热完成），要求： 特写电源按键与指示灯状态变化，体现等待到就绪的过程
-旁白： "接通电源，按下电源键。"
-25-30秒，步骤 6：首次冲洗（不放胶囊），参考<<<image_6_6>>>
-镜头： 中景转特写，正侧视角，位置： 机身正面，杯子在出水口下方，动作： 不放入胶囊，直接按萃取键，热水流出冲洗管路，水流入杯中，要求： 强调 "无需放胶囊" 的提示标注，展示冲洗水流出全过程
-旁白： "最后一步，首次冲洗。不需要放入胶囊，直接按下萃取键。您的咖啡机可以正式使用了。"
-```
-
-</details>
-
-### tpl-sd25-10-cn
-
-**Generated video:** [tpl-sd25-10-src-cn.mov](./videos/generated/tpl-sd25-10-src-cn.mov)
-
-**Reference images:** [tpl-sd25-10-image-1.png](./assets/reference-images/tpl-sd25-10-image-1.png) · [tpl-sd25-10-image-2.png](./assets/reference-images/tpl-sd25-10-image-2.png) · [tpl-sd25-10-image-3.png](./assets/reference-images/tpl-sd25-10-image-3.png) · [tpl-sd25-10-image-4.png](./assets/reference-images/tpl-sd25-10-image-4.png) · [tpl-sd25-10-image-5.png](./assets/reference-images/tpl-sd25-10-image-5.png) · [tpl-sd25-10-image-6.png](./assets/reference-images/tpl-sd25-10-image-6.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-一段 30 秒的胶囊咖啡机安装使用教程视频。
-0-2秒，开头大标题文字为：seedance 胶囊咖啡机安装使用教程
-2-5秒，步骤 1：安装水箱，参考<<<image_1_1>>>
-镜头： 中景，微俯视角位置： 机身背面动作： 将水箱对准机身背部卡槽，垂直向下推入，听到 "咔" 声卡紧，要求： 清晰展示水箱底部卡扣与机身卡槽的对位关系，水箱透明部分可见水位线
-旁白： "首先，安装水箱。"
-5-9秒，步骤 2：安装滴水盘，参考<<<image_2_2>>>
-镜头： 近景，正视角，位置： 机身底部前方，动作： 将滴水盘平行推入机身底部导轨，推至底部完全贴合，要求： 展示导轨对齐过程，突出滑入动作的顺畅感
-旁白： "接下来将托盘对准底部导轨。"
-9-13秒，步骤 3：安装废弃胶囊收集盒，参考<<<image_3_3>>>
-镜头： 近景，微仰视角，位置： 滴水盘下方空腔，动作： 将收集盒对准凹槽推入，与滴水盘齐平，要求： 展示收集盒与机身的嵌合关系，确认安装到位
-13-18秒，步骤 4：首次注水，参考<<<image_4_4>>>
-镜头： 特写，侧视角，位置： 机身顶部 / 背部水箱，动作： 打开水箱盖，倒入清水至 MAX 水位线，合上水箱盖，要求： 突出水位线标识，水流倒入清晰可见
-旁白： "打开水箱盖，倒入清水。注意不要超过最大水位线。"
-画面高亮最大水位线。
-18-25秒，步骤 5：通电开机，参考<<<image_5_5>>>
-镜头： 中景，正视角，位置： 机身正面，动作： 插入电源线，按下电源键，指示灯由闪烁变为常亮（预热完成），要求： 特写电源按键与指示灯状态变化，体现等待到就绪的过程
-旁白： "接通电源，按下电源键。"
-25-30秒，步骤 6：首次冲洗（不放胶囊），参考<<<image_6_6>>>
-镜头： 中景转特写，正侧视角，位置： 机身正面，杯子在出水口下方，动作： 不放入胶囊，直接按萃取键，热水流出冲洗管路，水流入杯中，要求： 强调 "无需放胶囊" 的提示标注，展示冲洗水流出全过程
-旁白： "最后一步，首次冲洗。不需要放入胶囊，直接按下萃取键。您的咖啡机可以正式使用了。"
+Live-action style, fast editing, cinematic feel, 4K, 24fps, warm natural light, real character performances, natural lip sync, no subtitles. Taking the delivery of a flower as the core visual clue of the entire video, the flower quickly spreads from one country to the next, connecting different regions and people around the world. In every scene, a character takes the flowers, smiles sincerely, and says "thank you" in the local language. The overall rhythm is brisk and smooth, and the shots are dynamic, emphasizing the real street/life atmosphere, warm cross-cultural connections, and the transmission of goodwill between people. Transition method: In the previous shot, a character handed the flower out of the screen, and in the next shot, another character caught the flower in the new scene.
+Or use fast panning, motion blur, or foreground occlusion to complete seamless transitions
+Maintain the visual continuity of the flowers in the picture and form a lens style that feels like "one shot can reach the whole world": hand-held follow-up shooting, slight camera shake, quick push-and-pull, close-up and mid-shot combination, real ambient sound atmosphere, and movie-level street shooting texture. The background music is warm, brisk, and has a sense of world travel, and the ending fades out gently. Scene 1 <<<image_1_1>>>>A real-life scene in a Chinese flower shop. The girl took a rose, looked at the camera, smiled, and said naturally: "Thank you!" The camera followed the flowers from the right side of the screen, and the girl gently raised the bouquet after receiving the flowers. Scene 2<<<image_2_2>>>>Street in England, cool weather, natural street scene. The man took a carnation, smiled, nodded, and said, "Thank you!" Through the transition, the flower was thrown from the previous scene into this scene. Scene 3 <<<image_3_3>>>>Mexican market, rich in color and full of fireworks. The aunt took the bouquet of marigolds, clasped her hands together, and said warmly: "¡Gracias!" The camera quickly passed over the stall and the crowd, and the moment of receiving the flowers was frozen. Scene 4 <<<image_4_4>>> Indonesian countryside, natural sunlight shines. The child took a plumeria, smiled happily, bowed slightly, and said: "Terima kasih!" The camera had a sense of running, and the atmosphere was pure and natural. Scene 5 <<<image_5_5>>>>The streets of Thailand are bustling with people. The vendor took a bunch of jasmine garlands, clasped his hands together, and said kindly: "ขอบคุณค่ะ!" The camera moved forward briskly, and the garlands swayed slightly in the sunlight. Scene 6 <<<image_6_6>>>Arabic courtyard, soft light and shadow, elegant environment. The lady took a desert rose, caressed her chest, smiled, and said, "شكراً!" The picture was quiet and warm, and the character's expression was sincere. Scene 7 <<<image_7_7>>>>Brazilian community, the atmosphere is warm and lively. The boy took the gerbera and was very happy and said: "Obrigado!" The shot is rhythmic and full of vitality. Scene 8 <<<image_8_8>>> Japanese street, an office worker took a small flower from the lunch box, bowed politely, and said: "ありがとう! "The shot is short and neat, retaining the sense of urban rhythm. Scene 9 <<<image_9_9>>> Korean streets, modern urban feel. The young woman took a branch of azalea, naturally closed her hands, smiled and said: "감사합니다!" The camera paused for a moment at her smile, and then the scene softly faded out.
 ```
 
 </details>
 
 ### tpl-sd25-12
 
-**Generated video:** [tpl-sd25-12-src.mp4](./videos/generated/tpl-sd25-12-src.mp4)
+**Result video:** [tpl-sd25-12-src.mp4](./videos/generated/tpl-sd25-12-src.mp4)
 
 **Input video:** [tpl-sd25-12-video-1.mp4](./videos/reference/tpl-sd25-12-video-1.mp4) · [tpl-sd25-12-video-2.mp4](./videos/reference/tpl-sd25-12-video-2.mp4) · [tpl-sd25-12-video-3.mp4](./videos/reference/tpl-sd25-12-video-3.mp4)
 
 **Reference images:** [tpl-sd25-12-image-1.png](./assets/reference-images/tpl-sd25-12-image-1.png) · [tpl-sd25-12-image-2.png](./assets/reference-images/tpl-sd25-12-image-2.png) · [tpl-sd25-12-image-3.png](./assets/reference-images/tpl-sd25-12-image-3.png) · [tpl-sd25-12-image-4.png](./assets/reference-images/tpl-sd25-12-image-4.png) · [tpl-sd25-12-image-5.png](./assets/reference-images/tpl-sd25-12-image-5.png) · [tpl-sd25-12-image-6.jpeg](./assets/reference-images/tpl-sd25-12-image-6.jpeg) · [tpl-sd25-12-image-7.png](./assets/reference-images/tpl-sd25-12-image-7.png) · [tpl-sd25-12-image-8.png](./assets/reference-images/tpl-sd25-12-image-8.png) · [tpl-sd25-12-image-9.png](./assets/reference-images/tpl-sd25-12-image-9.png) · [tpl-sd25-12-image-10.png](./assets/reference-images/tpl-sd25-12-image-10.png) · [tpl-sd25-12-image-11.png](./assets/reference-images/tpl-sd25-12-image-11.png) · [tpl-sd25-12-image-12.png](./assets/reference-images/tpl-sd25-12-image-12.png) · [tpl-sd25-12-image-13.png](./assets/reference-images/tpl-sd25-12-image-13.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-核心指令： 全程 26 秒一镜到底（One-Shot）叙事短片，稳定跟拍，参考<<<video_1_1>>>与平滑环绕运镜，参考<<<video_2_2>>>交织。平滑行进感。镜头内实现昼夜交替与四季流转。主角是一位欧洲女人<<<image_1_3>>>，置身充满烟火气的人海，凸显极致的孤独感与电影摄影质感。
-分段运镜与场景描述：
-0-3 秒（平稳背跟）： 老旧木门<<<image_2_4>>>“吱呀”推开，镜头紧随欧洲女人穿着<<<image_3_5>>>的背影步出。他在门槛处微停，前方街巷光影斑驳，叫卖与人潮声扑面而来。她神情疏离，缓缓迈步融入街道。
-3-6 秒（背侧方跟拍）： 镜头保持平滑跟进，她步入拥挤的早市，氛围参考<<<video_3_6>>>。两侧挤满色泽浓郁的水果摊与香料铺，一队街头杂耍艺人正喷吐火龙，参考<<<image_4_7>>>，火光照亮人群，但她目不斜视，步伐匀速穿过。
-6-9 秒（侧面平滑环绕）： 镜头开始向侧前方平滑环绕，捕捉主角的侧脸。她走过喧闹的肉铺<<<image_5_8>>>，一位年轻母亲抱着婴儿<<<image_6_9>>>与他擦肩，婴儿好奇地紧盯她，她却只是微微垂下眼眸避开视线，没有丝毫停留。
-9-12 秒（正前方倒退跟拍）： 镜头继续绕至主角正前方，进行倒退跟拍。前方人群突然如摩西分海般自然退至两侧，一只披着华丽红布的巨大大象<<<image_7_10>>>迈着沉稳的步伐，从画面右侧出现，占据了大半个画面。
-12-15 秒（缝隙穿透与绕回）： 女人与大象即将相撞的瞬间，镜头巧妙地贴着大象与女人之间的狭窄缝隙滑过，重新绕回她的背影。大象庞大而安静地掠过，顽童们欢呼追逐。象铃声、笑声鼎沸，她却连脚步都未曾放缓。
-15-18 秒（环境光影渐变）： 伴随她的行走，长镜头内的光影奇幻变幻——盛夏的刺眼阳光瞬间柔和，一阵微风卷起漫天金黄的落叶<<<image_8_11>>>，季节在同一个长镜头中无缝过渡至深秋。落叶拂过她的肩膀。
-18-21 秒（360度沉浸环绕）： 前方骤然陷入一场盛大的街头庆典<<<image_9_12>>>。空中喷吐出漫天彩带与碎纸，摊贩探出身子欢呼。镜头在此刻展开一段连贯的 360 度环绕运镜，将安静孤寂的主角与狂热的周遭形成极其强烈的视觉撕裂。
-21-24 秒（绕回侧后方）： 当镜头环绕一周结束回到她侧后方时，飘落的彩带已悄然化作漫天飞雪——瞬间入冬<<<image_10_13>>>。行人们纷纷撑起伞或戴上兜帽，女人微微瑟缩，竖起大衣衣领，服装变成<<<image_11_14>>>，在雪地中继续孤身前行。
-24-26 秒（慢推跟拍）： 随着她走向长街尽头，天色在行进中以肉眼可见的速度暗下，白昼无缝沉入黑夜。两侧昏黄的路灯与小摊的灯泡次第亮起<<<image_12_15>>>，小贩收拾货物，喧闹声仿佛被大雪慢慢吸收、拉远，她的脚步逐渐放缓。夜空骤然绽放盛大的烟花<<<image_13_16>>>，烟花绽放声音参考<<<voice_1_17>>>五彩光斑在楼墙与她的眼眸中闪烁跳跃。世界热闹依旧，而她安静仰望，镜头缓缓拉远，在此温柔收束。
-```
-
-</details>
-
-### tpl-sd25-13
-
-**Generated video:** [tpl-sd25-13-src.mp4](./videos/generated/tpl-sd25-13-src.mp4)
-
-**Input video:** [tpl-sd25-13-video-1.mp4](./videos/reference/tpl-sd25-13-video-1.mp4) · [tpl-sd25-13-video-2.mp4](./videos/reference/tpl-sd25-13-video-2.mp4) · [tpl-sd25-13-video-3.mp4](./videos/reference/tpl-sd25-13-video-3.mp4) · [tpl-sd25-13-video-4.mp4](./videos/reference/tpl-sd25-13-video-4.mp4) · [tpl-sd25-13-video-5.mp4](./videos/reference/tpl-sd25-13-video-5.mp4) · [tpl-sd25-13-video-6.mp4](./videos/reference/tpl-sd25-13-video-6.mp4)
-
-**Reference images:** [tpl-sd25-13-image-1.png](./assets/reference-images/tpl-sd25-13-image-1.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-明亮多彩的广告片风格，果味饼干为主角，包含草莓、苹果、葡萄、橙子四种口味，草莓味参考<<<image_1_1>>>，饼干与对应水果以强秩序感的几何阵列排布，整体画面干净、高级、节奏强。开场水果快速建立视觉聚焦，参考<<<video_1_2>>>的构图，音乐重拍切入。随后不同口味饼干整齐排列，切特写，参考<<<video_2_3>>>的动态和运镜。高潮段一块饼干被折断，瞬间进入慢动作，果味夹心爆开，碎屑飞溅，果汁感与颗粒冲击被放大展示，参考<<<video_3_4>>>的冲击感。横向阵列，形成节奏抛物感，参考<<<video_4_5>>>的运动，突出秩序美感与产品丰富度。随后迅速回到快节奏剪辑。结尾英文文字 One bite of crispness, a heart full of delight 快速分词切换入画，配合强节奏文字运动与产品定格，参考<<<video_5_6>>>，最终品牌感收束，饼干和水果向四周发散，参考<<<video_6_7>>>画面充满年轻、活力、好吃、想分享的广告氛围。
-```
-
-</details>
-
-### tpl-sd25-14-bp
-
-**Generated video:** [tpl-sd25-14-src-bp.mov](./videos/generated/tpl-sd25-14-src-bp.mov)
-
-**Reference images:** [tpl-sd25-14-image-1.png](./assets/reference-images/tpl-sd25-14-image-1.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-3D 动画广告风，色彩明亮通透，果肉和汁水要有强烈的清爽感与冲击力。整体气质像高质量商业动画短片，带一点夸张幽默。沙漠角蜥角色可爱、灵动，表情丰富，参考<<<image_1_1>>>。画面质感参考图中那种柔和自然光、细腻绒毛 / 表皮质感、梦幻微距景深、真实中带一点童趣 的感觉。
-0-3 秒：画面一片被烈日暴晒的沙漠。空气热得扭曲，沙地发烫，远处像在冒烟。一只沙漠角蜥 趴在滚烫的沙子上，舌头微微吐着，眼神涣散，快被晒干了。它走两步就晃一下，整只沙漠角蜥像快要 “蒸发” 了。
-音效热浪呼呼声，轻微夸张的干裂声。
-3-6 秒：画面沙漠角蜥突然停住，鼻子动了动。它低头一看，沙子里竟然埋着一颗 冰凉饱满、带着水珠的葡萄柚。葡萄柚在阳光下晶莹发亮，表皮细腻，像沙漠里突然出现的奇迹。
-表演蜥蜴眼睛瞬间瞪大，像看到救命稻草。
-音效“叮” 一下的发现音效。
-6-8 秒：画面沙漠角蜥一个飞扑冲过去，双手死死抱住葡萄柚，整张脸贴在果皮上。它露出 “终于活过来了” 的幸福表情。画面定住 1 秒，形成一个夸张又好笑的广告记忆点。
-音效扑通一声，随后安静半秒。
-8-11 秒：画面沙漠角蜥抓住葡萄柚。葡萄柚果皮裂开，里面饱满的果肉闪着透亮光泽。下一瞬间，汁水不是流出来，而是像海啸一样喷涌而出。
-音效“咔嚓” 咬开声，接一声夸张的果汁爆开声。
-11-16 秒：画面橙粉色、清透发亮的葡萄柚汁水疯狂涌出，顺着沙丘倾泻，迅速淹没整片沙漠。干燥的黄沙瞬间变成一片 清凉、闪光、带着果香感的夏日海洋。沙漠里的仙人掌、石头、小沙丘纷纷被果汁海浪吞没，画面夸张又梦幻。
-表演沙漠角蜥刚开始还很兴奋，下一秒发现不对，表情从惊喜变成惊恐。
-16-20 秒：画面沙漠角蜥差点被 “葡萄柚海” 淹没，慌忙死死抱住半颗葡萄柚，像抱着救生圈一样漂浮在海面上。它湿漉漉地探出头，表情一脸懵。海面波光粼粼，颜色像被阳光照亮的果汁。
-音效夸张扑腾声，海浪声，带一点喜剧感。
-20-23 秒：画面突然切白屏。屏幕正中出现品牌字样和 slogan：“Seedance 葡萄柚，咬开的是果肉，涌出来的是夏天。”
-旁白念出整句：“Seedance 葡萄柚，咬开的是果肉，涌出来的是夏天。”
-音效干净清爽的品牌提示音。
-23-29 秒：画面白屏切回。沙漠角蜥已经悠闲地坐在漂浮的葡萄柚上，戴着一副小墨镜，抱着吸管杯，慢悠悠漂在 “果汁海面” 上度假。周围漂着橙色果肉、小冰块、清凉水花，天空变得湛蓝，气氛一下子从 “求生” 变成 “度假”。最后沙漠角蜥满足地靠在葡萄柚上，镜头拉远，定格在清爽、明亮、好玩的夏日画面里。
-音效轻松夏日音乐，海浪轻拍声。
-字幕可只保留品牌名，不必加太多字。
-```
-
-</details>
-
-### tpl-sd25-14-cn
-
-**Generated video:** [tpl-sd25-14-src-cn.mp4](./videos/generated/tpl-sd25-14-src-cn.mp4)
-
-**Reference images:** [tpl-sd25-14-image-1.png](./assets/reference-images/tpl-sd25-14-image-1.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-3D 动画广告风，色彩明亮通透，果肉和汁水要有强烈的清爽感与冲击力。整体气质像高质量商业动画短片，带一点夸张幽默。沙漠角蜥角色可爱、灵动，表情丰富，参考<<<image_1_1>>>。画面质感参考图中那种柔和自然光、细腻绒毛 / 表皮质感、梦幻微距景深、真实中带一点童趣 的感觉。
-0-3 秒：画面一片被烈日暴晒的沙漠。空气热得扭曲，沙地发烫，远处像在冒烟。一只沙漠角蜥 趴在滚烫的沙子上，舌头微微吐着，眼神涣散，快被晒干了。它走两步就晃一下，整只沙漠角蜥像快要 “蒸发” 了。
-音效热浪呼呼声，轻微夸张的干裂声。
-3-6 秒：画面沙漠角蜥突然停住，鼻子动了动。它低头一看，沙子里竟然埋着一颗 冰凉饱满、带着水珠的葡萄柚。葡萄柚在阳光下晶莹发亮，表皮细腻，像沙漠里突然出现的奇迹。
-表演蜥蜴眼睛瞬间瞪大，像看到救命稻草。
-音效“叮” 一下的发现音效。
-6-8 秒：画面沙漠角蜥一个飞扑冲过去，双手死死抱住葡萄柚，整张脸贴在果皮上。它露出 “终于活过来了” 的幸福表情。画面定住 1 秒，形成一个夸张又好笑的广告记忆点。
-音效扑通一声，随后安静半秒。
-8-11 秒：画面沙漠角蜥抓住葡萄柚。葡萄柚果皮裂开，里面饱满的果肉闪着透亮光泽。下一瞬间，汁水不是流出来，而是像海啸一样喷涌而出。
-音效“咔嚓” 咬开声，接一声夸张的果汁爆开声。
-11-16 秒：画面橙粉色、清透发亮的葡萄柚汁水疯狂涌出，顺着沙丘倾泻，迅速淹没整片沙漠。干燥的黄沙瞬间变成一片 清凉、闪光、带着果香感的夏日海洋。沙漠里的仙人掌、石头、小沙丘纷纷被果汁海浪吞没，画面夸张又梦幻。
-表演沙漠角蜥刚开始还很兴奋，下一秒发现不对，表情从惊喜变成惊恐。
-16-20 秒：画面沙漠角蜥差点被 “葡萄柚海” 淹没，慌忙死死抱住半颗葡萄柚，像抱着救生圈一样漂浮在海面上。它湿漉漉地探出头，表情一脸懵。海面波光粼粼，颜色像被阳光照亮的果汁。
-音效夸张扑腾声，海浪声，带一点喜剧感。
-20-23 秒：画面突然切白屏。屏幕正中出现品牌字样和 slogan：“Seedance 葡萄柚，咬开的是果肉，涌出来的是夏天。”
-旁白念出整句：“Seedance 葡萄柚，咬开的是果肉，涌出来的是夏天。”
-音效干净清爽的品牌提示音。
-23-29 秒：画面白屏切回。沙漠角蜥已经悠闲地坐在漂浮的葡萄柚上，戴着一副小墨镜，抱着吸管杯，慢悠悠漂在 “果汁海面” 上度假。周围漂着橙色果肉、小冰块、清凉水花，天空变得湛蓝，气氛一下子从 “求生” 变成 “度假”。最后沙漠角蜥满足地靠在葡萄柚上，镜头拉远，定格在清爽、明亮、好玩的夏日画面里。
-音效轻松夏日音乐，海浪轻拍声。
-字幕可只保留品牌名，不必加太多字。
+Core instructions: A 26-second one-shot narrative short film, with stable tracking, refer to <<<video_1_1>>> and smooth surround movement, refer to <<<video_2_2>>>. Smooth travel feeling. The alternation of day and night and the flow of the four seasons are realized within the lens. The protagonist is a European woman <<<image_1_3>>>, placed in a sea of ​​people full of fireworks, highlighting the ultimate sense of loneliness and the quality of cinematography.
+Segmented camera movement and scene description:
+0-3 seconds (smooth back): The old wooden door <<<image_2_4>>> opens with a "squeak", and the camera follows the figure of a European woman wearing <<<image_3_5>>> stepping out. He paused slightly at the threshold. The streets ahead were mottled with light and shadow, and the sounds of hawking and crowds were approaching. She looked distant and slowly walked into the street.
+3-6 seconds (back and side tracking shot): The camera keeps a smooth follow-up, she walks into the crowded morning market, the atmosphere refers to <<<video_3_6>>>. The two sides were crowded with colorful fruit stalls and spice shops, and a group of street jugglers were breathing fire dragons. Reference <<<image_4_7>>>. The firelight illuminated the crowd, but she didn't look away and walked through at a steady pace.
+6-9 seconds (Smooth Surround from the Side): The camera begins to smoothly wrap around to the side and front, capturing the protagonist’s side face. She walked past the noisy butcher's shop <<<image_5_8>>>, and a young mother passed by him holding a baby <<<image_6_9>>>. The baby stared at her curiously, but she just lowered her eyes slightly to avoid looking, without stopping at all.
+9-12 seconds (forward and backward follow-up shooting): The camera continues to circle directly in front of the protagonist and performs backward and follow-up shooting. The crowd in front suddenly retreated to both sides naturally like Moses parting the sea. A huge elephant <<<image_7_10>>> covered in gorgeous red cloth appeared from the right side of the screen with a steady pace, occupying most of the screen.
+12-15 seconds (gap penetration and rewinding): At the moment when the woman and the elephant are about to collide, the camera cleverly slides through the narrow gap between the elephant and the woman, recirculating back to her back. The elephants passed by hugely and silently, and the urchins chased them with joy. Like bells and laughter, she didn't even slow down.
+15-18 seconds (ambient light and shadow gradient): As she walks, the light and shadow in the long shot change magically - the dazzling sunlight in midsummer softens instantly, a breeze rolls up the golden leaves in the sky <<<image_8_11>>>, and the season seamlessly transitions to late autumn in the same long shot. Fallen leaves brushed her shoulders.18-21 seconds (360-degree immersive surround): The front suddenly fell into a grand street celebration <<<image_9_12>>>. Colorful ribbons and shredded paper burst into the air, and vendors leaned out to cheer. At this moment, the camera unfolds a continuous 360-degree panning movement, creating an extremely strong visual tear between the quiet and lonely protagonist and the frenzied surroundings.
+21-24 seconds (circling back to the side and back): When the camera circled around and returned to her side and back, the falling ribbons had quietly turned into snow all over the sky - it was winter in an instant <<<image_10_13>>>. Pedestrians held up umbrellas or put on hoods, and women shrank slightly, turned up their coat collars, changed their clothes into <<<image_11_14>>>, and continued to walk alone in the snow.
+24-26 seconds (slow push and beat): As she walked towards the end of the long street, the sky darkened at a speed visible to the naked eye, and the day sank seamlessly into the night. The dim street lights on both sides and the light bulbs of the stalls were turned on one after another <<<image_12_15>>>. The vendors were packing up their goods. The noise seemed to be slowly absorbed and distant by the heavy snow, and her steps gradually slowed down. Grand fireworks suddenly bloomed in the night sky <<<image_13_16>>>, and the sound reference of the fireworks bursting <<<voice_1_17>>> was reflected in the colorful light spots flickering on the building walls and in her eyes. The world is still lively, but she looks up quietly, the camera slowly zooms out, and ends here gently.
 ```
 
 </details>
 
 ### tpl-sd25-15
 
-**Generated video:** [tpl-sd25-15-src.mp4](./videos/generated/tpl-sd25-15-src.mp4)
+**Result video:** [tpl-sd25-15-src.mp4](./videos/generated/tpl-sd25-15-src.mp4)
 
 **Reference images:** [tpl-sd25-15-image-1.png](./assets/reference-images/tpl-sd25-15-image-1.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-30 秒电影级青春竞速剧情短片，2d 动画风格。主角是一位少年车手，驾驶机车参加高规格比赛。整体风格热血、青春、情感强烈、电影感强，具有完整起承转合和清晰情绪弧线。全片仅使用两种运镜：高速跟拍、慢动作环绕。台词极少，自然像记忆碎片一样出现，语气真挚、温柔、克制，不喊口号，不过度煽情。不要灾难感、不要负向表达、不要夸张科幻。重点突出青春竞速中的爱、支撑、反击与成长。
-0 秒到 5 秒
-黄昏赛道，高速激烈竞速开场。镜头紧贴地面高速跟拍少年机车，轮胎掠过赛道边线，机车轰鸣，风声凌厉，气氛紧张炽热。少年全神贯注，夕阳在车身金属外壳上拉出锋利高光。
-5 秒到 9 秒
-进入关键弯道后，少年被对手突然超越。高速跟拍继续推进，画面表现出排名下滑和节奏被打乱的压迫感。头盔内近景出现短暂失神、呼吸发紧、轻微动摇。少年低声说：“Can I still catch up...”
-9 秒到 14 秒
-少年落在后方，呼吸加重，情绪跌入低谷。比赛没有停止，机车仍在高速前进。画面开始在高速骑行中闪回温暖记忆碎片：童年学车时，有人从身后扶住他；父亲替他整理头盔，动作细致而安静；终点前，一个温柔注视他的笑容；黄昏坡道上，并肩走过的背影。这些记忆都用金色逆光、柔和慢动作、碎片化感受呈现。
-14 秒到 18 秒
-音乐从压抑逐渐转向昂扬。记忆中传来克制而温柔的声音：“Don't be afraid — I'm always here.”“Stay steady.And look forward.”少年眼神重新聚焦，呼吸慢慢稳定，情绪从动摇转为坚定。
-18 秒到 23 秒
-少年重新找回信念，全力提速，精准切线反击。高速跟拍表现机车压弯、出弯、逼近前车的力量感与控制力。少年低声而坚定地说：“I won't stop here.”
-23 秒到 27 秒
-前方出现一段上扬赛道，少年迎着夕阳全速冲刺。画面只保留呼吸声、引擎声和持续抬升的音乐，不再加入多余台词。机车借助惯性腾空而起，进入震撼慢动作。记忆深处最后传来一句带笑的温柔声音：“Go on.”
-27 秒到 30 秒
-摄影机围绕半空中的机车进行慢动作环绕特写。将热血、温柔、自由、向上飞跃的情绪推向高潮。身后开出繁花特效，随后出现seedance，参考<<<image_1_1>>>
-```
-
-</details>
-
-### tpl-sd25-16
-
-**Generated video:** [tpl-sd25-16-src.mp4](./videos/generated/tpl-sd25-16-src.mp4)
-
-**Reference images:** [tpl-sd25-16-image-1.png](./assets/reference-images/tpl-sd25-16-image-1.png) · [tpl-sd25-16-image-2.png](./assets/reference-images/tpl-sd25-16-image-2.png) · [tpl-sd25-16-image-3.png](./assets/reference-images/tpl-sd25-16-image-3.png) · [tpl-sd25-16-image-4.png](./assets/reference-images/tpl-sd25-16-image-4.png) · [tpl-sd25-16-image-5.png](./assets/reference-images/tpl-sd25-16-image-5.png) · [tpl-sd25-16-image-6.png](./assets/reference-images/tpl-sd25-16-image-6.png) · [tpl-sd25-16-image-7.png](./assets/reference-images/tpl-sd25-16-image-7.png) · [tpl-sd25-16-image-8.png](./assets/reference-images/tpl-sd25-16-image-8.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-一镜到底，镜头平稳跟随一个穿黑色大衣的人（参考<<<image_1_1>>>）从左向右穿过六个相连的不同色调、不同氛围的房间。每个房间结构相同：白墙、人字拼浅色木地板、法式双开落地窗、白纱帘，参考<<<image_2_2>>>但窗外风景和室内氛围完全不同。主角全程匀速走动，穿过墙壁上敞开的每一扇门。
-0-5秒，第一个房间，主题为美漫打斗，主角进入屋内与人物（<<<image_3_3>>>）打斗，人物落败；
-5-10秒，第二个房间，主题为温暖，毛毡风格，窗外场景为向日葵田（<<<image_4_4>>>），室内光线暖橙柔光，有一个画家正在画向日葵（<<<image_5_5>>>）。主角进入后也变成毛毡风格；
-10-15秒，第三个房间，主题为悲伤，整个画面为黑白漫画定格动画风格，窗外阴雨，室内光线冷灰低沉，一个人独自坐在空房间中央地板上，低头抱膝，身旁一只手机亮着无人接听的通话界面。主角进入房间后关上房间的灯，马上开灯，房间内变为彩色，瞬间生长出满屋鲜花；
-15-20秒，第四个房间，主题为欢乐，整个场景为浸泡在海里的房间，参考<<<image_6_6>>>，主角游进房间，身旁有美丽的珊瑚礁和鱼群；
-20-25秒，第五个房间，主题为惊喜，窗外场景漫天烟花夜空，参考<<<image_7_7>>>，室内光线彩色闪烁映射，主角被卷入欢呼气氛。
-25-30秒，最后主角来到一个空白房间，站在中央打了个响指，同时音效为响指声，画面整体黑屏，中间出现“seedance”字样，参考<<<image_8_8>>>。
-整体电影质感，高级时装广告风格，光线完全由窗外场景决定形成强烈情绪反差，画面无文字。
+30 seconds cinematic youth racing short film, 2d animation style. The protagonist is a young driver who drives a motorcycle to participate in high-profile competitions. The overall style is passionate, youthful, emotionally intense, and cinematic, with a complete beginning, transition, and clear emotional arc. Only two types of camera movements are used in the entire film: high-speed tracking and slow-motion surround. There are very few lines, and they appear naturally like memory fragments. The tone is sincere, gentle, and restrained, without shouting slogans or overly sensationalizing. Don’t feel disaster, don’t express negatively, and don’t exaggerate science fiction. It focuses on love, support, counterattack and growth in the race of youth.
+0 seconds to 5 seconds
+The track begins at dusk with high-speed and intense racing. The camera follows the young man's motorcycle closely to the ground at high speed. The tires skim the edge of the track. The motorcycle roars, the wind blows fiercely, and the atmosphere is tense and fiery. The young man was concentrating, and the setting sun drew sharp highlights on the metal shell of the car.
+5 seconds to 9 seconds
+After entering a key corner, the boy was suddenly overtaken by his opponent. The high-speed tracking continued, and the picture showed the oppressive feeling of the ranking declining and the rhythm being disrupted. In the close-up view of the helmet, there is temporary loss of concentration, tightness of breathing, and slight shaking. The boy whispered: "Can I still catch up..."
+9 seconds to 14 seconds
+The boy fell behind, his breathing became heavier, and his mood hit a low point. The race did not stop and the locomotive was still moving forward at high speed. The scene began to flash back warm memory fragments during high-speed riding: when he was learning to drive as a child, someone supported him from behind; his father arranged his helmet for him, his movements were meticulous and quiet; before the finish line, a gentle smile looked at him; and the back figures walking side by side on the slope at dusk. These memories are presented with golden backlighting, soft slow motion, and fragmented feelings.
+14 seconds to 18 seconds
+The music gradually turns from depressive to uplifting. A restrained and gentle voice came from the memory: "Don't be afraid — I'm always here." "Stay steady. And look forward." The young man's eyes refocused, his breathing slowly stabilized, and his mood changed from wavering to firm.
+18 seconds to 23 seconds
+The young man regained his confidence, accelerated with all his strength, and counterattacked accurately. The high-speed tracking shots show the motorcycle's power and control when cornering, exiting corners, and approaching the car in front. The boy said quietly but firmly: "I won't stop here."
+23 seconds to 27 seconds
+An ascending track appeared ahead, and the boy sprinted at full speed against the setting sun. The picture only retains the sound of breathing, engine sounds and continuously rising music, without adding unnecessary lines. The locomotive soared into the air with the help of inertia and entered shocking slow motion. A gentle voice with a smile came from deep in my memory: "Go on."
+27 seconds to 30 secondsThe camera circles the locomotive in mid-air for a slow-motion panoramic close-up. Push the emotions of passion, tenderness, freedom and upward leap to the climax. Flowers bloom behind you with special effects, and then seedance appears, refer to <<<image_1_1>>>
 ```
 
 </details>
 
 ### tpl-sd25-17
 
-**Generated video:** [tpl-sd25-17-src.mp4](./videos/generated/tpl-sd25-17-src.mp4)
+**Result video:** [tpl-sd25-17-src.mp4](./videos/generated/tpl-sd25-17-src.mp4)
 
 **Reference images:** [tpl-sd25-17-image-1.png](./assets/reference-images/tpl-sd25-17-image-1.png) · [tpl-sd25-17-image-2.png](./assets/reference-images/tpl-sd25-17-image-2.png) · [tpl-sd25-17-image-3.png](./assets/reference-images/tpl-sd25-17-image-3.png) · [tpl-sd25-17-image-4.png](./assets/reference-images/tpl-sd25-17-image-4.png) · [tpl-sd25-17-image-5.png](./assets/reference-images/tpl-sd25-17-image-5.png) · [tpl-sd25-17-image-6.png](./assets/reference-images/tpl-sd25-17-image-6.png) · [tpl-sd25-17-image-7.png](./assets/reference-images/tpl-sd25-17-image-7.png) · [tpl-sd25-17-image-8.png](./assets/reference-images/tpl-sd25-17-image-8.png) · [tpl-sd25-17-image-9.png](./assets/reference-images/tpl-sd25-17-image-9.png) · [tpl-sd25-17-image-10.png](./assets/reference-images/tpl-sd25-17-image-10.png) · [tpl-sd25-17-image-11.png](./assets/reference-images/tpl-sd25-17-image-11.png) · [tpl-sd25-17-image-12.png](./assets/reference-images/tpl-sd25-17-image-12.png) · [tpl-sd25-17-image-13.png](./assets/reference-images/tpl-sd25-17-image-13.png) · [tpl-sd25-17-image-14.png](./assets/reference-images/tpl-sd25-17-image-14.png) · [tpl-sd25-17-image-15.png](./assets/reference-images/tpl-sd25-17-image-15.png) · [tpl-sd25-17-image-16.png](./assets/reference-images/tpl-sd25-17-image-16.png) · [tpl-sd25-17-image-17.png](./assets/reference-images/tpl-sd25-17-image-17.png) · [tpl-sd25-17-image-18.png](./assets/reference-images/tpl-sd25-17-image-18.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-电影级品牌概念短片。<<<image_1_1>>>为首帧，画面微微晃动，镜头逐渐推近，来到窗外快速后退的树影，树影后退速度越来愈快，突然切到<<<image_2_2>>>，速度突然放缓，镜头顺着溪流缓缓前进，鸟语花香。
-镜头下移，来到水下，音效有水中气泡的声音，一群橙色的水母从镜头前优美地游过<<<image_3_3>>>，镜头缓缓后拉，有一群小鱼晃过镜头后从水里穿到窗内<<<image_4_4>>>，少女左看右看，在观赏小鱼
-镜头缓缓后拉，画面虚焦，随后又重新对焦画面变清晰，跟随音乐节奏切换：中式园林花窗<<<image_5_5>>>光线转圈、教堂玻璃彩窗<<<image_6_6>>>、飞机舷窗<<<image_7_7>>>、穹顶天窗<<<image_8_8>>>、云层和日光<<<image_9_9>>>、屋顶窗<<<image_10_10>>>、飘窗<<<image_11_11>>>、百叶窗<<<image_12_12>>>、教堂景窗<<<image_13_13>>>、欧洲老虎窗<<<image_14_14>>><<<image_15_15>>>、门上猫眼<<<image_16_16>>>、鸟类眼睛<<<image_17_17>>>、人类眼睛特写<<<image_18_18>>>。
-画面停留在人类眼睛特写，随后眼睛闭上，画面黑屏，再突然一睁眼，眼睛中央出现“seedance”带重音
+Cinematic brand concept short film. <<<image_1_1>>> is the first frame, the screen shakes slightly, the camera gradually zooms in, and comes to the rapidly retreating tree shadow outside the window. The tree shadow retreats faster and faster, and suddenly cuts to <<<image_2_2>>>, the speed suddenly slows down, the camera slowly moves along the stream, with the birds singing and the flowers fragrant.
+The camera moved down to the water. The sound effect included the sound of bubbles in the water. A group of orange jellyfish swam gracefully in front of the camera <<<image_3_3>>>. The camera slowly pulled back. A group of small fish swayed past the camera and then passed through the water and into the window <<<image_4_4>>>. The girl looked left and right, admiring the small fish.
+The camera slowly pulls back and the picture is out of focus. Then it refocuses and the picture becomes clear. It follows the rhythm of the music and switches: Chinese garden window <<<image_5_5>>> light circles, church stained glass window <<<image_6_6>>>, flying Port windows<<<image_7_7>>>, dome skylight<<<image_8_8>>>, clouds and sunlight<<<image_9_9>>>, roof window<<<image_10_10>>>, bay window< <<image_11_11>>>, shutters<<<image_12_12>>>, church view windows<<<image_13_13>>>, European dormer windows<<<image_14_14>>><< <image_15_15>>>, cat eyes on the door<<<image_16_16>>>, bird eyes<<<image_17_17>>>, close-up of human eyes<<<image_18_18>>>.
+The screen stays on a close-up of human eyes, then the eyes are closed, and the screen goes black. Then suddenly the eyes are opened, and the word "seedance" with an accent appears in the center of the eyes.
 ```
 
 </details>
 
 ### tpl-sd25-18
 
-**Generated video:** [tpl-sd25-18-src.mp4](./videos/generated/tpl-sd25-18-src.mp4)
+**Result video:** [tpl-sd25-18-src.mp4](./videos/generated/tpl-sd25-18-src.mp4)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-【醉汉天台惊魂 — 失足坠楼 — 抓绳破窗 — 倒头就睡 | 黑色幽默短片 | 约 30 秒】
-【一句话梗概】 一个略带黑色幽默的影视片段：一个胖胖可爱的醉酒中年男人在大楼天台吃汉堡、喝啤酒，起身伸懒腰时不慎失足坠落，慌乱中抓住一根救命绳子，随即破窗跌进室内，愣愣地惊讶了一秒钟，然后索性就地躺下、呼呼睡着。参考图<<<image_1_1>>>—— 一名胖胖的、可爱的、喝醉了的中年男人。体型圆润敦实、挺着一个圆滚滚的啤酒肚，身材不高，动作因醉酒而松垮迟缓、摇摇晃晃。圆脸、双下巴、因醉酒而红扑扑的脸颊和鼻头, 眼睛眯成一条缝、眼神迷离涣散、带着憨厚又滑稽的醉态，留着一圈没怎么打理的短络腮胡，头发乱蓬蓬的短发。表情憨傻可爱、一副没心没肺的样子。着装非常随意邋遢: 一件沾着汉堡酱渍 / 番茄酱污点的白色汗衫 (背心), 松垮地套在圆肚子上、下摆有点卷边，配一条旧牛仔裤, 趿拉着的样子；手里始终攥着一个咬了几口的汉堡。全片只有一个角色。憨厚、迷糊、醉醺醺、慢半拍 —— 一个倒霉又乐天的可爱大叔。100% 匹配参考图。整体画面 —— 夜晚的赛博朋克巨型都市：玻璃钢铁摩天大楼森林，密集的霓虹招牌 (青色 / 品红 / 电蓝), 全息广告牌，湿滑反光的地面，被城市光晕照亮的体积雾，远处飞行车的光轨，穿梭的无人机。雨水浸润的楼面倒映着霓虹。天台上散落着几个空啤酒罐、一个汉堡纸袋、一张塑料椅。配色 —— 深蓝黑色夜空 + 湿润钢铁玻璃 (60)/ 青与品红霓虹光晕 + 广告牌光 (30)/ 汗衫的白 + 汉堡包装的暖黄 + 招牌高光炫光 (10)。真实实拍质感，物理电影镜头，真实材质，无 3D 渲染 / 游戏引擎 / 动漫感。超高细节 —— 汗衫布料抖动、油渍、汗珠、汉堡碎屑、水珠、玻璃碎片皆锐利清晰。镜头 & 变速 —— 混合手持与摇臂 / 无人机，按分镜切换视角与景别；失足后摄影机随他一同下坠，楼体外墙与霓虹向画面上方飞速掠过以体现速度。物理广角变形宽银幕电影镜头质感 (24–35mm),180° 快门运动模糊，真实手持重量感，镜头上有细微雨珠。变速：大部分为实时；仅抓绳受力瞬间 (S5)、破窗瞬间 (S6) 各做一次短暂慢动作，其余实时。声音设计是本片黑色幽默的关键：按分镜在 "巨响" 与 "完全无声" 之间反复硬切。
-物理 (极致真实) —— 全程真实重力，圆胖的醉汉体型带来十足的重量感。伸懒腰重心不稳→踉跄→失足是自然连贯的醉态动作；自由落体时圆润的身躯与四肢笨拙地随气流翻扑，汗衫被风灌得鼓起，汉堡还攥在手里。绳索 = 一根绷紧、架设在两楼之间的缆索 / 滑索；他在下坠中手忙脚乱、侥幸一把抓住, 缆索在他厚实体重下猛地绷直、大幅下弯储能，随后将他以钟摆弧线甩向下方一扇亮灯的窗户。窗户 = 以荡出的速度背部 / 侧身先入 —— 玻璃向内爆裂，碎片沿真实轨迹放射状飞散，窗棂炸开，他连人带汉堡跌进室内。落地 = 圆胖身躯重重砸在室内地面 / 沙发上，碎玻璃如雨洒落身周。分镜 (约 30 秒 —— 严格按此节奏与声音切换)
-S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸充满整个屏幕的大特写:<<<image_1_1>>>正大口咀嚼着汉堡, 腮帮子鼓动，红扑扑的脸颊、眯缝的醉眼、迷离的神情，嘴角沾着酱，一副心满意足的醉态。听得见咀嚼声、含糊的满足哼哼、远处霓虹城市环境声。实时。S2 (4–9 秒)・拉全景：伸懒腰 → 失足跌落 (有声) —— 摄影机平稳拉镜头拉到全景: 醉汉站在天台边缘附近，身旁散落空啤酒罐与汉堡袋。他晃晃悠悠地站起身，惬意地伸了个大懒腰, 身子后仰 ——没站稳、脚下一滑，一个踉跄直接向后翻出天台边缘跌落。动作笨拙而真实，汉堡还没撒手。城市环境声 + 一声惊慌的短促 "欸 ——!"。实时。S3 (9–12 秒)・切：惊讶面部特写 (大喊，巨响) —— 硬切到他坠落中的面部大特写: 醉眼瞬间瞪圆、双下巴挤成一团、满脸惊恐，张大嘴发出极大的惊叫"啊 ——!!"。喊声很大、很炸，风声在耳边呼啸。实时。S4 (12–16 秒)・切：远景平视视角 (完全无声) —— 硬切到远景、平视视角: 从对面楼或街道远远望去，渺小的白色身影正从高楼笔直下坠，霓虹都市巨大而冷漠地矗立着。画面此刻完全无声—— 只有绝对的寂静，与前一秒的巨响形成强烈的黑色幽默反差，凸显个体的渺小与荒诞。实时。S5 (16–21 秒)・切：面部特写 (大喊)→ 抓住绳子 —— 硬切回面部大特写, 声音猛地回来：他继续大声惊叫"啊啊啊 ——!!", 手在空中乱抓 ——猛地一把抓住了那根救命的缆索！ 缆索在他体重下瞬间绷直下弯、发出崩响，他的惊叫戛然卡住，整个人被拽住、荡了出去。变速：抓绳受力瞬间短暂慢动作 (可见缆索深深下沉、汗衫剧烈抖动)→ 随即回到实时被甩向窗户。S6 (21–26 秒)・切：室内视角 (安静)→ 玻璃爆裂 → 跌入 —— 硬切到室内视角: 镜头在昏暗安静的室内，透过亮灯的窗户向外 ——先是一片安静, 只有室内轻微的空调嗡鸣。下一秒，玻璃轰然向内爆裂 (短暂慢动作子弹时间), 醉汉连人带汉堡撞破窗户、碎片放射状飞散、霓虹光透过碎玻璃洒进来，他重重跌进室内，砸在地板 / 沙发上，碎玻璃叮当洒落。骤回实时。S7 (26–30 秒)・结尾：惊讶一秒 → 倒头睡着 (黑色幽默收尾) —— 男人四仰八叉地摊在室内地上, 满身碎玻璃，汉堡奇迹般还攥在手里 (或掉在胸口)。他缓缓睁开眼，愣愣地、茫然地惊讶了整整一秒—— 环顾四周，仿佛在想 "我这是…… 到哪了？"。然后，醉意彻底占了上风，他满不在乎地咂咂嘴、把汉堡往怀里一搂、翻个身、就地舒服地躺下，呼呼睡着了, 还打起了轻鼾。镜头缓缓拉开或定格在这荒诞而安详的一幕上。硬切黑场。音频 (黑色幽默的声音设计) —— 仅现场同期声，无音乐 / 字幕。核心是 **"巨响 ↔ 无声" 的反复硬切 **:S1 咀嚼与满足哼哼 (有声)→ S2 伸懒腰失足 + 短促惊呼 (有声)→ S3 面部特写的超大惊叫(炸响)→ S4 远景完全无声(死寂反差)→ S5 面部特写再次超大惊叫 + 缆索崩响 + 抓住后叫声戛然而止 → S6 室内先安静、再接玻璃巨大爆裂轰响 → S7 跌落闷响 + 碎玻璃叮当 + 一秒静默 + 满足的咂嘴声与轻鼾，归于平静。背景垫赛博朋克城市环境声 (车流、霓虹电流、无人机、雨、风啸随下坠增强)。无对白 (除本能的惊呼)。正向约束 —— 约 30 秒，黑色幽默影视片段，多镜头硬切，严格遵循上述分镜的景别切换 (咀嚼大特写 → 全景 → 惊讶特写 → 远景平视 → 面部特写 → 室内视角)与声音切换 (有声 / 无声反复对撞)。全片只有一个角色：一个胖胖可爱、喝醉、穿沾酱白汗衫和牛仔裤、手拿汉堡的中年男人, 无其他人物，身份 / 长相 / 体型 / 醉态 / 着装 / 汉堡 100% 匹配参考图，全程一致不漂移。全程真实物理 (全重量、每次冲击分明、无漂浮感), 圆胖醉汉体型使坠落与冲击更具重量感与滑稽感。醉态自始至终 (动作松垮、迟缓、迷糊)。故事闭环：吃汉堡喝酒 → 伸懒腰失足 → 惊叫坠落 → 抓绳 → 破窗跌入 → 惊讶一秒 → 倒头睡着。真实实拍质感，夜晚赛博朋克霓虹风格，无 3D 渲染 / 游戏 / 动漫感。仅环境音效与角色本能声，无音乐 / 字幕 / 画面文字。
+[Drunk man's horror on the rooftop - he slipped and fell - he grabbed the rope and broke the window - fell asleep | Black humorous short film | About 30 seconds]
+[Summary of one sentence] A film and television clip with a bit of black humor: A fat and cute drunk middle-aged man was eating burgers and drinking beer on the rooftop of a building. When he stood up and stretched, he accidentally lost his footing and fell. In a panic, he grabbed a life-saving rope, then broke the window and fell into the room. He was stunned for a second, and then simply lay down on the spot and fell asleep. Reference picture <<<image_1_1>>>——A fat, cute, drunk middle-aged man. He has a round and stocky body with a round beer belly. He is not tall and his movements are sluggish and swaying due to drunkenness. He has a round face, a double chin, cheeks and nose that are rosy due to drunkenness, his eyes are narrowed into slits, his eyes are blurred, and he has a simple and funny drunken attitude. He has a short, unkempt beard and short, messy hair. His expression is silly, cute and heartless. The attire is very casual and sloppy: a white sweatshirt (vest) stained with burger sauce/ketchup, which is loosely put on the round belly, and the hem is a bit rolled, and paired with an old pair of jeans, which looks like it is pulled down; he always holds a burger with a few bites in his hand. There is only one character in the entire film. Honest, confused, drunk, slow-paced - a cute uncle who is unlucky and happy-go-lucky. 100% match reference image. The overall picture - a cyberpunk megacity at night: a forest of glass and steel skyscrapers, dense neon signs (cyan/magenta/electric blue), holographic billboards, slippery reflective ground, volumetric fog illuminated by the city halo, light tracks of flying cars in the distance, and shuttle drones. The rain-soaked floors reflected neon lights. There were several empty beer cans, a hamburger paper bag, and a plastic chair scattered on the rooftop. Color matching - deep blue and black night sky + wet steel glass (60) / cyan and magenta neon halo + billboard light (30) / white of sweatshirt + warm yellow of burger packaging + signature high-gloss glare (10). Real-life texture, physical movie lenses, real materials, no 3D rendering/game engine/animation feel. Ultra-high detail - the shaking of the undershirt fabric, oil stains, sweat beads, burger crumbs, water droplets, and glass shards are all sharp and clear. Lens & Variable Speed ​​- A mixture of handheld and crane/drone, switching perspectives and scenes according to the storyboard; after he lost his footing, the camera fell with him, and the exterior walls of the building and neon lights flew across the screen to reflect speed. Physical wide-angle anamorphic cinema lens texture (24–35mm), 180° shutter motion blur, real hand-held weight, and subtle raindrops on the lens. Speed ​​change: mostly real-time; only the moment when the rope is stressed (S5), The moment of broken window (S6) each performs a short slow motion, and the rest are in real time. Sound design is the key to the film's black humor: it cuts repeatedly between "loud noise" and "complete silence" according to the storyboard.
+Physics (extremely realistic) - real gravity throughout, and the chubby drunkard body brings a full sense of weight. Stretching, losing center of gravity → staggering → losing footing are natural and coherent drunken actions; during free fall, the rounded body and limbs flutter awkwardly with the airflow, the sweatshirt is bulging with the wind, and the hamburger is still clutched in the hand. Rope = a taut cable/sliding line set up between two floors; he was in a hurry during the fall and was lucky enough to catch it. The cable suddenly straightened under his thick body weight, curved sharply to store energy, and then threw him in a pendulum arc toward a lighted window below. Window = back/sideways entry at the speed of swinging out - the glass burst inward, the fragments flew radially along the real trajectory, the window frame exploded, and he fell into the room with his hamburger. Landing = The chubby body hit the indoor floor/sofa hard, and broken glass rained down around him. Storyboard (about 30 seconds - strictly follow this rhythm and sound switching)
+S1 (0–4 seconds)・Opening: Close-up of chewing (audio) - The opening is a close-up of the man's face filling the entire screen: <<<image_1_1>>> is chewing a burger, his cheeks fluttering, his cheeks flushed, his drunken eyes narrowed, his expression blurred, and the corners of his mouth were stained with sauce, showing a contented drunken state. There are audible chewing sounds, vague grunts of contentment, and the distant sounds of the neon city environment. real time. S2 (4–9 seconds)・Panorama: Stretching → Slip and Fall (sound) - The camera smoothly pans to the panorama: the drunk man stands near the edge of the rooftop, with empty beer cans and hamburger bags scattered around him. He stood up unsteadily, stretched out comfortably, and leaned back - before he could stand firmly, his feet slipped, and he stumbled backwards over the edge of the rooftop and fell. The movements are clumsy and realistic, and the burger hasn't let go yet. Urban ambient sounds + a short panicked "Eh--!" real time. S3 (9–12 seconds)・Cut: Close-up of surprised face (yelling, loud noise) - Hard cut to a close-up of his falling face: his drunken eyes suddenly widened, his double chin was squeezed into a ball, his face was full of horror, his mouth opened wide and he screamed "Ah——!!". The shouting was loud and explosive, and the wind roared in my ears. real time. S4 (12–16 seconds)・Cut: long shot and head-up perspective (completely silent) - Hard cut to distant shot and head-up perspective: Looking from a distance from the opposite building or street, a tiny white figure is falling straight down from a tall building, and the neon city stands huge and indifferent. The scene is completely silent at this moment - only absolute silence, contrasting with the huge scene just a second ago.The effect forms a strong black humor contrast, highlighting the insignificance and absurdity of the individual. real time. S5 (16–21 seconds)・Cut: Close-up of face (yelling) → Grabbing the rope - Hard cut back to close-up of face, the voice suddenly returns: He continues to scream "Ahhhhhhhhhhhhhhhhhhhhhhhhhhh!", grabbing the rope in the air - and suddenly grabs the life-saving rope! The cable instantly tensed and bent under his weight, making a crashing sound. His scream was suddenly stopped, and his whole body was dragged and swung out. Speed ​​change: The moment when the force of the grab rope is applied, there is a brief slow motion (it can be seen that the cable sinks deeply and the sweatshirt shakes violently) → then returns to real time and is thrown towards the window. S6 (21–26 seconds)・Cut: Indoor perspective (quiet) → Glass bursts → Falling in - Hard cut to indoor perspective: The camera is in a dark and quiet room, looking out through a bright window - it is quiet at first, with only the slight hum of the air conditioner in the room. The next second, the glass exploded inward (short slow-motion bullet time), and the drunkard smashed the window with his hamburger. The fragments flew radially, and neon light spilled in through the broken glass. He fell heavily into the room and hit the floor/sofa, and the broken glass jingled. Snap back to real time. S7 (26–30 seconds)・End: Surprised for a second → falling asleep (black humor ending) - The man is sprawled on the floor indoors, covered with broken glass, and miraculously the burger is still in his hand (or dropped on his chest). He slowly opened his eyes and was stunned for a full second - looking around, as if thinking, "Where am I...?". Then, drunkenness completely took over. He smacked his lips nonchalantly, put the burger in his arms, turned over, lay down comfortably on the spot, and fell asleep, snoring lightly. The camera slowly opens or freezes on this absurd yet peaceful scene. Hard cut to black scene. Audio (Dark Humor Sound Design) – Live sound only, no music/subtitles. The core is the repeated hard cuts of "loud noise ↔ silent" **: S1 chewing and grunting of satisfaction (sound) → S2 stretching and losing a foot + short exclamation (sound) → S3 close-up of the face and a huge scream (explosion) → S4 distant view is completely silent (contrast with silence) → S5 close-up of the face and another huge scream + cable collapse + the scream stopped abruptly after being caught → S6 The room was quiet at first, then there was a huge explosion of glass → the muffled sound of S7 falling + the jingle of broken glass + a second of silence + satisfied smacking of lips and light snoring, and everything returned to calm. Background mat cyberpunk urban environment sounds (traffic, neon current, drones, rain, wind roar enhanced with falling). No dialogue (except for visceral exclamations). Positive Constraint - about 30 seconds, black humor film and televisionThe clips are cut with multiple lenses and strictly follow the scene switching (chewing close-up → panorama → surprised close-up → long shot and flat view → facial close-up → indoor perspective) and sound switching (repeated collision of sound/silence) mentioned above. There is only one character in the whole film: a fat, cute, drunk middle-aged man wearing a white sweatshirt and jeans with a sauce, and holding a burger in his hand. There are no other characters. The identity/appearance/body shape/drunk state/dress/burger 100% matches the reference picture, and is consistent throughout the whole process. Real physics throughout (full weight, distinct impacts, no floating feeling), and the chubby drunk body shape makes falls and impacts more weighty and comical. Drunken state from beginning to end (loose, slow, confused movements). The closed loop of the story: eating burgers and drinking wine → stretching and losing a foot → falling with a scream → grabbing the rope → falling through a broken window → being surprised for a second → falling asleep. Real shot texture, night cyberpunk neon style, no 3D rendering/game/anime feel. Only environmental sound effects and character voices, no music/subtitles/screen text.
 ```
 
 </details>
 
-### tpl-sd25-20
+## Advertising, Brand & Product
+### tpl-sd25-10-bp
 
-**Generated video:** [tpl-sd25-20-src.mp4](./videos/generated/tpl-sd25-20-src.mp4)
+**Result video:** [tpl-sd25-10-src-bp.mp4](./videos/generated/tpl-sd25-10-src-bp.mp4)
 
-**Reference images:** [tpl-sd25-20-image-1.png](./assets/reference-images/tpl-sd25-20-image-1.png)
+**Reference images:** [tpl-sd25-10-image-1.png](./assets/reference-images/tpl-sd25-10-image-1.png) · [tpl-sd25-10-image-2.png](./assets/reference-images/tpl-sd25-10-image-2.png) · [tpl-sd25-10-image-3.png](./assets/reference-images/tpl-sd25-10-image-3.png) · [tpl-sd25-10-image-4.png](./assets/reference-images/tpl-sd25-10-image-4.png) · [tpl-sd25-10-image-5.png](./assets/reference-images/tpl-sd25-10-image-5.png) · [tpl-sd25-10-image-6.png](./assets/reference-images/tpl-sd25-10-image-6.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-电影级 hip-hop / 说唱音乐视频，真实照片级质感，高端调性，海边场景。以<<<image_1_1>>>构建画面：一支乐队在金色沙滩、海浪拍岸的岸边表演 —— 一名主唱手握麦克风、麦架立于湿沙上激情演唱，一名吉他手立于画面左侧，一名吉他手立于画面右侧，一名鼓手坐在后方的架子鼓后敲击；辽阔的海岸线在身后展开，滚滚海浪层层涌来，巨大而温暖的黄金时刻夕阳斜掠过沙滩、在水面上粼粼闪耀，空气中漂浮着海雾与咸湿水汽。
-红色运动服的主唱对着镜头充满节奏感地 RAP 演唱 —— 口型与下颌随每一个字精准对位，头随节拍用力点动，带动整段 flow。乐手们随节奏摇摆律动，身后海浪层层拍岸。这是一首明快带劲的说唱曲 —— 语速快、自信、节拍强劲。踩着节拍硬切（HARD CUT），每次切换双重反差（景别与镜头类型同时改变）。
-歌词（主唱依次演唱以下每种语言的「你好」，精准对口型）：
-英语："Hello"
-中文："你好"
-日语："こんにちは"
-韩语："안녕하세요"
-葡萄牙语："Olá"
-泰语："สวัสดี"
-西班牙语："Hola"
-阿拉伯语："مرحبا"
-镜头 1 [0:00–0:03] —— 低角度大远景定场，斯坦尼康在黄金夕照与海雾中缓缓推进，海浪在乐队身后翻涌。歌词第 1 句（英语「Hello」）。硬切。镜头 2 [0:03–0:05] —— 红运动服主唱对镜头 RAP 的特写，手持甩镜切入，身后海面虚焦粼粼波光。歌词第 2 句（中文「你好」）。硬切。镜头 3 [0:05–0:08] —— 微距插入镜头，固定机位，吉他手的手指在弦上快速拨动，沙粒与咸湿水雾从画面前掠过。歌词第 3 句（日语「こんにちは」）。硬切。镜头 4 [0:08–0:10] —— 对某位乐手的 3/4 侧中景，缓慢潜行环绕，乐器金属件与湿润高光映着海面低斜的夕阳。歌词第 4 句（韩语「안녕하세요」）。硬切。镜头 5 [0:10–0:13] —— 岸边一名乐手，快速横移轨道掠过他，他转向镜头，身后一道浪花破碎。歌词第 5 句（葡萄牙语「Olá」）。硬切。镜头 6 [0:13–0:15] —— 水边的鼓手，手持快速上摇，海风与水花吹动他的头发，他随节拍律动敲击。歌词第 6 句（泰语「สวัสดี」）。硬切。镜头 7 [0:15–0:18] —— 对红运动服主唱 flow 正酣时的紧凑猛推，富攻击性的手持，身后暮色海面衬着乐队剪影。歌词第 7 句（西班牙语「Hola」）。硬切。镜头 8 [0:18–0:20] —— 全乐队英雄式大远景，富攻击性的手持推进，主唱与乐手踩着节拍向镜头迈步，海浪拍碎、金色夕光在整支乐队身后炸开光晕。歌词第 8 句（阿拉伯语「مرحبا」）。
-白平衡 4000K，青橙（teal-and-amber）调色，35mm，浅景深，胶片颗粒，弥漫的海雾，黄金时刻光晕。质感扎实、高级、高端。节奏感说唱表演，精准对口型，头随节拍点动。无字幕、无文字叠加、无叠化转场、无重复人物，仅用硬切。总时长 20 秒。
+A 30-second tutorial video on how to install and use a capsule coffee machine.
+0-2 seconds, the title text at the beginning is: seedance capsule coffee machine installation and use tutorial
+2-5 seconds, Step 1: Install the water tank, refer to <<<image_1_1>>>
+Lens: Medium shot, slightly overhead view Position: Action on the back of the fuselage: Align the water tank with the slot on the back of the fuselage, push it vertically downwards, and hear a "click" sound to lock it in place. Requirements: Clearly display the alignment relationship between the buckle at the bottom of the water tank and the slot on the fuselage, and the water level line can be seen in the transparent part of the water tank.
+Narrator: "First, install the water tank."
+5-9 seconds, step 2: Install the drip tray, refer to <<<image_2_2>>>
+Lens: Close-up, front view, Position: In front of the bottom of the fuselage, Action: Push the drip tray into the guide rail at the bottom of the fuselage in parallel, push it until the bottom is completely fitted, Requirements: Show the guide rail alignment process, highlight the smoothness of the sliding action
+Narrator: "Next align the pallet with the bottom rails."
+9-13 seconds, step 3: Install the waste capsule collection box, refer to <<<image_3_3>>>
+Lens: Close-up, slightly elevated angle of view, Position: Cavity below the drip tray, Action: Align the collection box with the groove and push it in, flush with the drip tray. Requirements: Show the fitting relationship between the collection box and the fuselage, and confirm that it is installed in place
+13-18 seconds, step 4: first water injection, refer to <<<image_4_4>>>
+Lens: Close-up, side view, position: water tank on the top/back of the fuselage, action: open the water tank cover, pour water to the MAX water level, close the water tank cover, requirements: highlight the water level mark, and the water pouring is clearly visible
+Narrator: "Open the water tank cover and pour in clean water. Be careful not to exceed the maximum water level."
+The screen highlights the maximum water level.
+18-25 seconds, step 5: power on, refer to <<<image_5_5>>>
+Shot: Medium shot, front view, Position: Front of the fuselage, Action: Plug in the power cord, press the power button, the indicator light changes from flashing to solid (preheating completed), Requirements: Close-up of the status changes of the power button and indicator light, reflecting the process of waiting until ready
+Narrator: "Plug in the power and press the power button."
+25-30 seconds, step 6: first rinse (without placing capsule), refer to <<<image_6_6>>>
+Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.Narrator: "The last step is to rinse for the first time. No need to put in the capsule, just press the extraction button. Your coffee machine is ready for official use."
 ```
 
 </details>
 
-### tpl-sd25-21
+### tpl-sd25-10-cn
 
-**Generated video:** [tpl-sd25-21-src.mov](./videos/generated/tpl-sd25-21-src.mov)
+**Result video:** [tpl-sd25-10-src-cn.mov](./videos/generated/tpl-sd25-10-src-cn.mov)
 
-**Reference images:** [tpl-sd25-21-image-1.png](./assets/reference-images/tpl-sd25-21-image-1.png)
+**Reference images:** [tpl-sd25-10-image-1.png](./assets/reference-images/tpl-sd25-10-image-1.png) · [tpl-sd25-10-image-2.png](./assets/reference-images/tpl-sd25-10-image-2.png) · [tpl-sd25-10-image-3.png](./assets/reference-images/tpl-sd25-10-image-3.png) · [tpl-sd25-10-image-4.png](./assets/reference-images/tpl-sd25-10-image-4.png) · [tpl-sd25-10-image-5.png](./assets/reference-images/tpl-sd25-10-image-5.png) · [tpl-sd25-10-image-6.png](./assets/reference-images/tpl-sd25-10-image-6.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-【剪辑感电影片名预告 —— "WILD PAIR" | 16:9 横屏 | 20 秒】格式： 16:9 横向 / 横屏，20 秒。快节奏、卡点的动态排版片名序列，风格取自现代谍战惊悚片片头（快速甩切、干脆利落的猛推变焦、双色调海报画面、成双出现的双人镜头)。风格引擎（正向）： 米白色纸质版面（#F4F4F2）搭配强烈的金黄色块（#F2C21E）。严整的网格、Neue Haas Grotesk / Helvetica Bold 字体、超大号标题、紧凑字距。双色调处理，在明黄（#FFD400）与深紫（#6A1B9A）之间交替，并配以锐利的琥珀色高光闪现（#FFA400）。高对比、清晰的印刷质感、微妙的纸张颗粒、精准的套准标记。自信、时尚、光泽感十足的 "杂志感撞谍战海报" 的气质。风格引擎（负向）： 不要杂乱，不要柔焦模糊，不要 3D 渲染感，不要偏离网格，不要弄脏双色调，不要镜头污渍，不要水印。角色绑定（每张图 = 一个角色，100% 匹配参考图）参考<<<image_1_1>>>：
-猞猁 / 薮猫女性 —— 精瘦的拟人猞猁 / 薮猫女性：茶橙色毛发，大而尖、耳尖发黑的耳朵，蓝色眼睛，白色尾尖的环纹尾巴；黑色战术紧身衣、胸口带徽章，露指手套，战术腰带，护膝，系带高帮黑靴。100% 匹配参考图。美洲豹 / 花豹男性 —— 高大健硕的拟人美洲豹 / 花豹男性：金色带斑毛发，自信的坏笑；敞开的墨绿 / 黑色夹克内是裸露的带斑胸膛，斜挎战术带 + 胸前挂具，深色修身长裤，大腿枪套，白色爪子。100% 匹配参考图。横屏构图准则： 充分利用宽画幅 —— 优先采用 猞猁 / 薮猫女性（画面左三分之一) 与 美洲豹 / 花豹男性（画面右三分之一) 并排的双人镜头，中央用一根竖向文字栏或金黄色块分隔。利用充裕的横向留白，把超大号文字横贯整个画幅甩出。分屏对半（左黄 / 右紫）。斜向擦除沿长轴左右横向移动。海报画面为宽横幅锁定构图，而非上下堆叠。主线： 两位精英间谍其实暗中是一对搭档 —— 一连串快速揭示：面具、眼神、身份逐一拼合，汇成一对组合。节拍 / 时间轴（20 秒，每个节拍上硬切，—— 快节奏）：
-0.0–4s —— 黑场。琥珀色套准刻度快速弹入。硬切至处于黄色双色调半幅（左）的 猞猁 / 薮猫女性, 一个快速甩镜揭示紫色半幅（右) 的 美洲豹 / 花豹男性。词 1（英）:"TWO SPIES" 横贯整幅砸入。4–6s —— 猛推变焦推进 猞猁 / 薮猫女性 的蓝眼睛；金黄色块擦入。词 2（中）:"伪装"。6–8s —— 分屏:美洲豹 / 花豹男性 坏笑（右）, 干脆的斜向擦除。词 3（日）:"二人の顔"。8–11s —— 快速移动镜头，居中的背靠背双人镜头。词 4（韩）:"비밀"。11–12s —— 双色调海报锁定构图，两人皆宽幅呈现，巨大字体弹入。词 5（葡）:"DOIS AGENTES"。12–16s —— 琥珀色闪帧，网格硬性归位。词 7（西）:"DOBLE JUEGO"。16–20s —— 两位角色在宽幅英雄双人镜头中朝镜头大步走来，金黄色块在中央落定，片尾字标锁定:"WILD PAIR"。排版规则： 每拍仅一到两个词。使用原生文字、正确字形；阿拉伯文按从右到左（RTL）排布。每个词都在节拍上以快速猛推 + 轻微过冲的方式弹入，在硬切时瞬间退出。文字贴合网格、超大号，有时溢出宽画幅边缘。镜头准则： 锁定的海报画面与凌厉的快速猛推变焦、快速横向甩镜、短促干脆的推进镜头交替出现。一切都随节拍剪得极紧、极快，高速、不拖沓。运动沿宽画幅横轴移动。声音： 快速、明快节奏的打击乐谍战惊悚节拍，紧凑的军鼓击点与每一次快速的词语砸入同步，片尾字标处以深沉的超低音收束。无对白。
+A 30-second tutorial video on how to install and use a capsule coffee machine.
+0-2 seconds, the title text at the beginning is: seedance capsule coffee machine installation and use tutorial
+2-5 seconds, Step 1: Install the water tank, refer to <<<image_1_1>>>
+Lens: Medium shot, slightly overhead view Position: Action on the back of the fuselage: Align the water tank with the slot on the back of the fuselage, push it vertically downwards, and hear a "click" sound to lock it in place. Requirements: Clearly display the alignment relationship between the buckle at the bottom of the water tank and the slot on the fuselage, and the water level line can be seen in the transparent part of the water tank.
+Narrator: "First, install the water tank."
+5-9 seconds, step 2: Install the drip tray, refer to <<<image_2_2>>>
+Lens: Close-up, front view, Position: In front of the bottom of the fuselage, Action: Push the drip tray into the guide rail at the bottom of the fuselage in parallel, push it until the bottom is completely fitted, Requirements: Show the guide rail alignment process, highlight the smoothness of the sliding action
+Narrator: "Next align the pallet with the bottom rails."
+9-13 seconds, step 3: Install the waste capsule collection box, refer to <<<image_3_3>>>
+Lens: Close-up, slightly elevated angle of view, Position: Cavity below the drip tray, Action: Align the collection box with the groove and push it in, flush with the drip tray. Requirements: Show the fitting relationship between the collection box and the fuselage, and confirm that it is installed in place
+13-18 seconds, step 4: first water injection, refer to <<<image_4_4>>>
+Lens: Close-up, side view, position: water tank on the top/back of the fuselage, action: open the water tank cover, pour water to the MAX water level, close the water tank cover, requirements: highlight the water level mark, and the water pouring is clearly visible
+Narrator: "Open the water tank cover and pour in clean water. Be careful not to exceed the maximum water level."
+The screen highlights the maximum water level.
+18-25 seconds, step 5: power on, refer to <<<image_5_5>>>
+Shot: Medium shot, front view, Position: Front of the fuselage, Action: Plug in the power cord, press the power button, the indicator light changes from flashing to solid (preheating completed), Requirements: Close-up of the status changes of the power button and indicator light, reflecting the process of waiting until ready
+Narrator: "Plug in the power and press the power button."
+25-30 seconds, step 6: first rinse (without placing capsule), refer to <<<image_6_6>>>
+Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.Narrator: "The last step is to rinse for the first time. No need to put in the capsule, just press the extraction button. Your coffee machine is ready for official use."
+```
+
+</details>
+
+### tpl-sd25-13
+
+**Result video:** [tpl-sd25-13-src.mp4](./videos/generated/tpl-sd25-13-src.mp4)
+
+**Input video:** [tpl-sd25-13-video-1.mp4](./videos/reference/tpl-sd25-13-video-1.mp4) · [tpl-sd25-13-video-2.mp4](./videos/reference/tpl-sd25-13-video-2.mp4) · [tpl-sd25-13-video-3.mp4](./videos/reference/tpl-sd25-13-video-3.mp4) · [tpl-sd25-13-video-4.mp4](./videos/reference/tpl-sd25-13-video-4.mp4) · [tpl-sd25-13-video-5.mp4](./videos/reference/tpl-sd25-13-video-5.mp4) · [tpl-sd25-13-video-6.mp4](./videos/reference/tpl-sd25-13-video-6.mp4)
+
+**Reference images:** [tpl-sd25-13-image-1.png](./assets/reference-images/tpl-sd25-13-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+The style of the commercial is bright and colorful, with fruity biscuits as the protagonist, including four flavors: strawberry, apple, grape, and orange. The strawberry flavor refers to <<<image_1_1>>>. The biscuits and corresponding fruits are arranged in a geometric array with a strong sense of order. The overall picture is clean, advanced, and rhythmic. The opening fruit quickly establishes visual focus, referring to the composition of <<<video_1_2>>>, and the music is re-recorded. Then the biscuits of different flavors were arranged neatly and cut into close-ups, referring to the dynamics and camera movements of <<<video_2_3>>>. During the climax, a biscuit is broken and instantly enters slow motion. The fruity sandwich explodes and the crumbs fly. The juice and particle impact are magnified and displayed. Please refer to the impact of <<<video_3_4>>>. The horizontal array forms a rhythmic parabola, referencing the movement of <<<video_4_5>>>, highlighting the beauty of order and product richness. Then quickly back to fast-paced editing. The ending English text One bite of crispness, a heart full of delight quickly switches to the picture, combined with the strong rhythm text movement and product freeze-frame, refer to <<<video_5_6>>>, and finally the brand sense is wrapped up, and the biscuits and fruits spread out around, refer to <<<video_6_7>>>. The picture is full of young, energetic, delicious, and want to share advertising atmosphere.
+```
+
+</details>
+
+### tpl-sd25-14-bp
+
+**Result video:** [tpl-sd25-14-src-bp.mov](./videos/generated/tpl-sd25-14-src-bp.mov)
+
+**Reference images:** [tpl-sd25-14-image-1.png](./assets/reference-images/tpl-sd25-14-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+3D animation advertising style, bright and transparent colors, and the pulp and juice should have a strong sense of refreshing and impact. The overall temperament is like a high-quality commercial animation short film with a bit of exaggerated humor. The desert horned lizard character is cute, smart and expressive, please refer to <<<image_1_1>>>. The texture of the picture refers to the soft natural light, fine fluff/skin texture, dreamy macro depth of field, and a real childlike feeling in the picture.
+0-3 seconds: The picture shows a desert exposed to the scorching sun. The air was distorted by heat, the sand was hot, and smoke seemed to be rising in the distance. A desert horned lizard lay on the hot sand, its tongue hanging out slightly, its eyes unfocused, almost drying out in the sun. It took two steps and swayed, and the entire desert horned lizard was about to "evaporate".
+Sound effects include the whirring sound of heat waves and a slightly exaggerated dry crackling sound.
+3-6 seconds: The desert horned lizard suddenly stops and moves its nose. It looked down and saw a cold, plump grapefruit with water drops buried in the sand. The grapefruit shines brightly in the sun, with delicate skin, like a miracle that suddenly appeared in the desert.
+The performing lizard's eyes widened instantly, as if seeing a life-saving straw.
+The sound effect "ding" is a discovery sound effect.
+6-8 seconds: The desert horned lizard swoops over, hugs the grapefruit with both hands, and presses its entire face against the peel. It has a happy expression of "finally alive". The image freezes for 1 second, forming an exaggerated and funny advertising memory point.
+The sound effect plopped, then went silent for half a second.
+Seconds 8-11: Screenshot of a desert horned lizard grabbing a grapefruit. The grapefruit peel is split open, and the plump flesh inside shines translucently. The next moment, the juice didn't flow out, but spewed out like a tsunami.
+The sound effect is a "click" sound of biting open, followed by an exaggerated sound of juice popping.
+11-16 seconds: The screen shows orange-pink, clear and shiny grapefruit juice pouring out crazily, pouring down the sand dunes, and quickly flooding the entire desert. The dry yellow sand instantly transforms into a cool, sparkling, fruity summer ocean. The cacti, stones, and small sand dunes in the desert are engulfed by the waves of juice, and the picture is exaggerated and dreamy.
+The performance of the Desert Horned Lizard was very exciting at first, but the next second I realized something was wrong, and my expression changed from surprise to horror.
+16-20 seconds: The desert horned lizard is almost submerged in the "grapefruit sea". It hurriedly hugs half of the grapefruit and floats on the sea like a lifebuoy. It stuck its head out wetly, with a confused expression. The sea surface is sparkling, the color is like juice illuminated by the sun.
+The sound effects exaggerate the sound of flapping and waves, with a sense of comedy.
+20-23 seconds: The screen suddenly cuts to white screen. The brand name and slogan appeared in the center of the screen: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."The narrator reads the entire sentence: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."
+Brand tone with clean and refreshing sound.
+23-29 seconds: The screen switches back to white screen. The desert horned lizard is already sitting leisurely on a floating grapefruit, wearing a pair of small sunglasses, holding a sippy cup, and slowly floating on the "juice sea" for vacation. Orange pulp, small ice cubes, and cool water splashes floated around, the sky turned blue, and the atmosphere suddenly changed from "survival" to "vacation." In the end, the desert horned lizard rested on the grapefruit contentedly, and the camera zoomed out, freezing in a refreshing, bright, and fun summer scene.
+Sound effects relaxing summer music, the sound of lapping waves.
+The subtitles can only keep the brand name, without adding too many words.
+```
+
+</details>
+
+### tpl-sd25-14-cn
+
+**Result video:** [tpl-sd25-14-src-cn.mp4](./videos/generated/tpl-sd25-14-src-cn.mp4)
+
+**Reference images:** [tpl-sd25-14-image-1.png](./assets/reference-images/tpl-sd25-14-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+3D animation advertising style, bright and transparent colors, and the pulp and juice should have a strong sense of refreshing and impact. The overall temperament is like a high-quality commercial animation short film with a bit of exaggerated humor. The desert horned lizard character is cute, smart and expressive, please refer to <<<image_1_1>>>. The texture of the picture refers to the soft natural light, fine fluff/skin texture, dreamy macro depth of field, and a real childlike feeling in the picture.
+0-3 seconds: The picture shows a desert exposed to the scorching sun. The air was distorted by heat, the sand was hot, and smoke seemed to be rising in the distance. A desert horned lizard lay on the hot sand, its tongue hanging out slightly, its eyes unfocused, almost drying out in the sun. It took two steps and swayed, and the entire desert horned lizard was about to "evaporate".
+Sound effects include the whirring sound of heat waves and a slightly exaggerated dry crackling sound.
+3-6 seconds: The desert horned lizard suddenly stops and moves its nose. It looked down and saw a cold, plump grapefruit with water drops buried in the sand. The grapefruit shines brightly in the sun, with delicate skin, like a miracle that suddenly appeared in the desert.
+The performing lizard's eyes widened instantly, as if seeing a life-saving straw.
+The sound effect "ding" is a discovery sound effect.
+6-8 seconds: The desert horned lizard swoops over, hugs the grapefruit with both hands, and presses its entire face against the peel. It has a happy expression of "finally alive". The image freezes for 1 second, forming an exaggerated and funny advertising memory point.
+The sound effect plopped, then went silent for half a second.
+Seconds 8-11: Screenshot of a desert horned lizard grabbing a grapefruit. The grapefruit peel is split open, and the plump flesh inside shines translucently. The next moment, the juice didn't flow out, but spewed out like a tsunami.
+The sound effect is a "click" sound of biting open, followed by an exaggerated sound of juice popping.
+11-16 seconds: The screen shows orange-pink, clear and shiny grapefruit juice pouring out crazily, pouring down the sand dunes, and quickly flooding the entire desert. The dry yellow sand instantly transforms into a cool, sparkling, fruity summer ocean. The cacti, stones, and small sand dunes in the desert are engulfed by the waves of juice, and the picture is exaggerated and dreamy.
+The performance of the Desert Horned Lizard was very exciting at first, but the next second I realized something was wrong, and my expression changed from surprise to horror.
+16-20 seconds: The desert horned lizard is almost submerged in the "grapefruit sea". It hurriedly hugs half of the grapefruit and floats on the sea like a lifebuoy. It stuck its head out wetly, with a confused expression. The sea surface is sparkling, the color is like juice illuminated by the sun.
+The sound effects exaggerate the sound of flapping and waves, with a sense of comedy.
+20-23 seconds: The screen suddenly cuts to white screen. The brand name and slogan appeared in the center of the screen: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."The narrator reads the entire sentence: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."
+Brand tone with clean and refreshing sound.
+23-29 seconds: The screen switches back to white screen. The desert horned lizard is already sitting leisurely on a floating grapefruit, wearing a pair of small sunglasses, holding a sippy cup, and slowly floating on the "juice sea" for vacation. Orange pulp, small ice cubes, and cool water splashes floated around, the sky turned blue, and the atmosphere suddenly changed from "survival" to "vacation." In the end, the desert horned lizard rested on the grapefruit contentedly, and the camera zoomed out, freezing in a refreshing, bright, and fun summer scene.
+Sound effects relaxing summer music, the sound of lapping waves.
+The subtitles can only keep the brand name, without adding too many words.
 ```
 
 </details>
 
 ### tpl-sd25-23-bp
 
-**Generated video:** [tpl-sd25-23-src-bp.mov](./videos/generated/tpl-sd25-23-src-bp.mov)
+**Result video:** [tpl-sd25-23-src-bp.mov](./videos/generated/tpl-sd25-23-src-bp.mov)
 
 **Reference images:** [tpl-sd25-23-image-1.png](./assets/reference-images/tpl-sd25-23-image-1.png) · [tpl-sd25-23-image-2.png](./assets/reference-images/tpl-sd25-23-image-2.png) · [tpl-sd25-23-image-3.png](./assets/reference-images/tpl-sd25-23-image-3.png) · [tpl-sd25-23-image-4.png](./assets/reference-images/tpl-sd25-23-image-4.png) · [tpl-sd25-23-image-5.png](./assets/reference-images/tpl-sd25-23-image-5.png) · [tpl-sd25-23-image-6.png](./assets/reference-images/tpl-sd25-23-image-6.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-一段 30 秒的胶囊咖啡机安装使用教程视频。
-0-2秒，开头大标题文字为：seedance 胶囊咖啡机安装使用教程
-2-5秒，步骤 1：安装水箱，参考<<<image_1_1>>>
-镜头： 中景，微俯视角位置： 机身背面动作： 将水箱对准机身背部卡槽，垂直向下推入，听到 "咔" 声卡紧，要求： 清晰展示水箱底部卡扣与机身卡槽的对位关系，水箱透明部分可见水位线
-旁白： "首先，安装水箱。"
-5-9秒，步骤 2：安装滴水盘，参考<<<image_2_2>>>
-镜头： 近景，正视角，位置： 机身底部前方，动作： 将滴水盘平行推入机身底部导轨，推至底部完全贴合，要求： 展示导轨对齐过程，突出滑入动作的顺畅感
-旁白： "接下来将托盘对准底部导轨。"
-9-13秒，步骤 3：安装废弃胶囊收集盒，参考<<<image_3_3>>>
-镜头： 近景，微仰视角，位置： 滴水盘下方空腔，动作： 将收集盒对准凹槽推入，与滴水盘齐平，要求： 展示收集盒与机身的嵌合关系，确认安装到位
-13-18秒，步骤 4：首次注水，参考<<<image_4_4>>>
-镜头： 特写，侧视角，位置： 机身顶部 / 背部水箱，动作： 打开水箱盖，倒入清水至 MAX 水位线，合上水箱盖，要求： 突出水位线标识，水流倒入清晰可见
-旁白： "打开水箱盖，倒入清水。注意不要超过最大水位线。"
-画面高亮最大水位线。
-18-25秒，步骤 5：通电开机，参考<<<image_5_5>>>
-镜头： 中景，正视角，位置： 机身正面，动作： 插入电源线，按下电源键，指示灯由闪烁变为常亮（预热完成），要求： 特写电源按键与指示灯状态变化，体现等待到就绪的过程
-旁白： "接通电源，按下电源键。"
-25-30秒，步骤 6：首次冲洗（不放胶囊），参考<<<image_6_6>>>
-镜头： 中景转特写，正侧视角，位置： 机身正面，杯子在出水口下方，动作： 不放入胶囊，直接按萃取键，热水流出冲洗管路，水流入杯中，要求： 强调 "无需放胶囊" 的提示标注，展示冲洗水流出全过程
-旁白： "最后一步，首次冲洗。直接按下萃取键。您的咖啡机可以正式使用了。"
+A 30-second tutorial video on how to install and use a capsule coffee machine.
+0-2 seconds, the title text at the beginning is: seedance capsule coffee machine installation and use tutorial
+2-5 seconds, Step 1: Install the water tank, refer to <<<image_1_1>>>
+Lens: Medium shot, slightly overhead view Position: Action on the back of the fuselage: Align the water tank with the slot on the back of the fuselage, push it vertically downwards, and hear a "click" sound to lock it in place. Requirements: Clearly display the alignment relationship between the buckle at the bottom of the water tank and the slot on the fuselage, and the water level line can be seen in the transparent part of the water tank.
+Narrator: "First, install the water tank."
+5-9 seconds, step 2: Install the drip tray, refer to <<<image_2_2>>>
+Lens: Close-up, front view, Position: In front of the bottom of the fuselage, Action: Push the drip tray into the guide rail at the bottom of the fuselage in parallel, push it until the bottom is completely fitted, Requirements: Show the guide rail alignment process, highlight the smoothness of the sliding action
+Narrator: "Next align the pallet with the bottom rails."
+9-13 seconds, step 3: Install the waste capsule collection box, refer to <<<image_3_3>>>
+Lens: Close-up, slightly elevated angle of view, Position: Cavity below the drip tray, Action: Align the collection box with the groove and push it in, flush with the drip tray. Requirements: Show the fitting relationship between the collection box and the fuselage, and confirm that it is installed in place
+13-18 seconds, step 4: first water injection, refer to <<<image_4_4>>>
+Lens: Close-up, side view, position: water tank on the top/back of the fuselage, action: open the water tank cover, pour water to the MAX water level, close the water tank cover, requirements: highlight the water level mark, and the water pouring is clearly visible
+Narrator: "Open the water tank cover and pour in clean water. Be careful not to exceed the maximum water level."
+The screen highlights the maximum water level.
+18-25 seconds, step 5: power on, refer to <<<image_5_5>>>
+Shot: Medium shot, front view, Position: Front of the fuselage, Action: Plug in the power cord, press the power button, the indicator light changes from flashing to solid (preheating completed), Requirements: Close-up of the status changes of the power button and indicator light, reflecting the process of waiting until ready
+Narrator: "Plug in the power and press the power button."
+25-30 seconds, step 6: first rinse (without placing capsule), refer to <<<image_6_6>>>
+Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.
+Narrator: "The last step, the first rinse. Just press the extraction button. Your coffee machine is ready for use."
 ```
 
 </details>
 
 ### tpl-sd25-23-cn
 
-**Generated video:** [tpl-sd25-23-src-cn.mov](./videos/generated/tpl-sd25-23-src-cn.mov)
+**Result video:** [tpl-sd25-23-src-cn.mov](./videos/generated/tpl-sd25-23-src-cn.mov)
 
 **Reference images:** [tpl-sd25-23-image-1.png](./assets/reference-images/tpl-sd25-23-image-1.png) · [tpl-sd25-23-image-2.png](./assets/reference-images/tpl-sd25-23-image-2.png) · [tpl-sd25-23-image-3.png](./assets/reference-images/tpl-sd25-23-image-3.png) · [tpl-sd25-23-image-4.png](./assets/reference-images/tpl-sd25-23-image-4.png) · [tpl-sd25-23-image-5.png](./assets/reference-images/tpl-sd25-23-image-5.png) · [tpl-sd25-23-image-6.png](./assets/reference-images/tpl-sd25-23-image-6.png)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-一段 30 秒的胶囊咖啡机安装使用教程视频。
-0-2秒，开头大标题文字为：seedance 胶囊咖啡机安装使用教程
-2-5秒，步骤 1：安装水箱，参考<<<image_1_1>>>
-镜头： 中景，微俯视角位置： 机身背面动作： 将水箱对准机身背部卡槽，垂直向下推入，听到 "咔" 声卡紧，要求： 清晰展示水箱底部卡扣与机身卡槽的对位关系，水箱透明部分可见水位线
-旁白： "首先，安装水箱。"
-5-9秒，步骤 2：安装滴水盘，参考<<<image_2_2>>>
-镜头： 近景，正视角，位置： 机身底部前方，动作： 将滴水盘平行推入机身底部导轨，推至底部完全贴合，要求： 展示导轨对齐过程，突出滑入动作的顺畅感
-旁白： "接下来将托盘对准底部导轨。"
-9-13秒，步骤 3：安装废弃胶囊收集盒，参考<<<image_3_3>>>
-镜头： 近景，微仰视角，位置： 滴水盘下方空腔，动作： 将收集盒对准凹槽推入，与滴水盘齐平，要求： 展示收集盒与机身的嵌合关系，确认安装到位
-13-18秒，步骤 4：首次注水，参考<<<image_4_4>>>
-镜头： 特写，侧视角，位置： 机身顶部 / 背部水箱，动作： 打开水箱盖，倒入清水至 MAX 水位线，合上水箱盖，要求： 突出水位线标识，水流倒入清晰可见
-旁白： "打开水箱盖，倒入清水。注意不要超过最大水位线。"
-画面高亮最大水位线。
-18-25秒，步骤 5：通电开机，参考<<<image_5_5>>>
-镜头： 中景，正视角，位置： 机身正面，动作： 插入电源线，按下电源键，指示灯由闪烁变为常亮（预热完成），要求： 特写电源按键与指示灯状态变化，体现等待到就绪的过程
-旁白： "接通电源，按下电源键。"
-25-30秒，步骤 6：首次冲洗（不放胶囊），参考<<<image_6_6>>>
-镜头： 中景转特写，正侧视角，位置： 机身正面，杯子在出水口下方，动作： 不放入胶囊，直接按萃取键，热水流出冲洗管路，水流入杯中，要求： 强调 "无需放胶囊" 的提示标注，展示冲洗水流出全过程
-旁白： "最后一步，首次冲洗。直接按下萃取键。您的咖啡机可以正式使用了。"
+A 30-second tutorial video on how to install and use a capsule coffee machine.
+0-2 seconds, the title text at the beginning is: seedance capsule coffee machine installation and use tutorial
+2-5 seconds, Step 1: Install the water tank, refer to <<<image_1_1>>>
+Lens: Medium shot, slightly overhead view Position: Action on the back of the fuselage: Align the water tank with the slot on the back of the fuselage, push it vertically downwards, and hear a "click" sound to lock it in place. Requirements: Clearly display the alignment relationship between the buckle at the bottom of the water tank and the slot on the fuselage, and the water level line can be seen in the transparent part of the water tank.
+Narrator: "First, install the water tank."
+5-9 seconds, step 2: Install the drip tray, refer to <<<image_2_2>>>
+Lens: Close-up, front view, Position: In front of the bottom of the fuselage, Action: Push the drip tray into the guide rail at the bottom of the fuselage in parallel, push it until the bottom is completely fitted, Requirements: Show the guide rail alignment process, highlight the smoothness of the sliding action
+Narrator: "Next align the pallet with the bottom rails."
+9-13 seconds, step 3: Install the waste capsule collection box, refer to <<<image_3_3>>>
+Lens: Close-up, slightly elevated angle of view, Position: Cavity below the drip tray, Action: Align the collection box with the groove and push it in, flush with the drip tray. Requirements: Show the fitting relationship between the collection box and the fuselage, and confirm that it is installed in place
+13-18 seconds, step 4: first water injection, refer to <<<image_4_4>>>
+Lens: Close-up, side view, position: water tank on the top/back of the fuselage, action: open the water tank cover, pour water to the MAX water level, close the water tank cover, requirements: highlight the water level mark, and the water pouring is clearly visible
+Narrator: "Open the water tank cover and pour in clean water. Be careful not to exceed the maximum water level."
+The screen highlights the maximum water level.
+18-25 seconds, step 5: power on, refer to <<<image_5_5>>>
+Shot: Medium shot, front view, Position: Front of the fuselage, Action: Plug in the power cord, press the power button, the indicator light changes from flashing to solid (preheating completed), Requirements: Close-up of the status changes of the power button and indicator light, reflecting the process of waiting until ready
+Narrator: "Plug in the power and press the power button."
+25-30 seconds, step 6: first rinse (without placing capsule), refer to <<<image_6_6>>>
+Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.
+Narrator: "The last step, the first rinse. Just press the extraction button. Your coffee machine is ready for use."
 ```
 
 </details>
 
-## Video Editing
-### tpl-sd25-07
-
-**Generated video:** [tpl-sd25-07-src.mp4](./videos/generated/tpl-sd25-07-src.mp4)
-
-**Input video:** [tpl-sd25-07-video-1.mp4](./videos/reference/tpl-sd25-07-video-1.mp4)
-
-**Reference images:** [tpl-sd25-07-image-1.png](./assets/reference-images/tpl-sd25-07-image-1.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-保持<<<video_1_1>>>中的人物、丛林环境、镜头运动、构图、动作节奏和时长不变。
-人物手中缓缓出现蓝白色能量弓与一支发光箭矢<<<image_1_2>>>，弓身由微弱电弧和粒子逐渐聚合成形，带细腻流动的电流纹理、轻微体积光和稳定的能量轮廓。拉弓过程中，箭矢在弓弦中央凝聚成高亮能量箭，人物松手瞬间，箭矢高速射出，留下一道明亮细长、连续锐利的能量轨迹
-```
-
-</details>
-
+## Video Editing & Restoration
 ### tpl-sd25-09
 
-**Generated video:** [tpl-sd25-09-src.mp4](./videos/generated/tpl-sd25-09-src.mp4)
+**Result video:** [tpl-sd25-09-src.mp4](./videos/generated/tpl-sd25-09-src.mp4)
 
 **Input video:** [tpl-sd25-09-video-1.mp4](./videos/reference/tpl-sd25-09-video-1.mp4)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-删除<<<video_1_1>>>画面中的无人机以及左下角前景轨道 / 车体边缘，对删除区域进行自然补全。
-保持长颈鹿群、树木枝干、远处草原、金色夕阳逆光、空气透视和镜头构图完全不变。补全后的背景应与周围环境一致，生成自然的天空、树枝间隙和草地细节，不要出现涂抹感、闪烁、形变、重影或跳动。确保视频前后帧时序一致、运动连续，边缘过渡自然，整体像原始实拍画面。
-```
-
-</details>
-
-### tpl-sd25-11
-
-**Generated video:** [tpl-sd25-11-src.mp4](./videos/generated/tpl-sd25-11-src.mp4)
-
-**Input video:** [tpl-sd25-11-video-1.mp4](./videos/reference/tpl-sd25-11-video-1.mp4)
-
-**Reference images:** [tpl-sd25-11-image-1.png](./assets/reference-images/tpl-sd25-11-image-1.png) · [tpl-sd25-11-image-2.png](./assets/reference-images/tpl-sd25-11-image-2.png) · [tpl-sd25-11-image-3.png](./assets/reference-images/tpl-sd25-11-image-3.png)
-
-<details>
-<summary>Prompt (Chinese)</summary>
-
-```text
-将两人武打素版视频<<<video_1_1>>>替换为冷兵器对决前的空手试探风。
-场景替换为中世纪石堡平台、古老庭院平地、山间堡垒外平台或简洁石砖决斗场，背景为古堡墙体、风、雾、远处山线，地面平整石质<<<image_1_2>>>。
-视频中深色衣服的男子的服饰替换为<<<image_2_3>>>，视频中浅色衣服的男子替换为<<<image_3_4>>>。动作仍然保持不变，不改变原始节奏。
-AI 特效仅做环境和质感强化：风吹衣摆、轻雾、接触点少量尘土、金属冷色反光质感、轻微颗粒和史诗感调色。整体风格为克制、真实、古典硬派决斗氛围。背景音乐卡点
+Delete the drone in the <<<video_1_1>>> screen and the foreground track/car body edge in the lower left corner, and naturally complete the deleted area.
+Keep the giraffe group, tree branches, distant grassland, golden sunset backlight, aerial perspective and shot composition completely unchanged. The completed background should be consistent with the surrounding environment, generating natural sky, tree branch gaps, and grass details without smearing, flickering, deformation, ghosting, or beating. Ensure that the timing of the front and back frames of the video is consistent, the motion is continuous, the edge transitions are natural, and the overall image is like the original real-shot picture.
 ```
 
 </details>
 
 ### tpl-sd25-19
 
-**Generated video:** [tpl-sd25-19-src.mov](./videos/generated/tpl-sd25-19-src.mov)
+**Result video:** [tpl-sd25-19-src.mov](./videos/generated/tpl-sd25-19-src.mov)
 
 **Input video:** [tpl-sd25-19-video-1.mp4](./videos/reference/tpl-sd25-19-video-1.mp4)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-视频编辑：删除<<<video_1_1>>>中的所有人，除了主角。
+Video editing: Delete everyone in <<<video_1_1>>> except the protagonist.
+```
+
+</details>
+
+## Educational & Explainer Videos
+### tpl-sd25-03
+
+**Result video:** [tpl-sd25-03-src.mp4](./videos/generated/tpl-sd25-03-src.mp4)
+
+**Reference images:** [tpl-sd25-03-image-1.png](./assets/reference-images/tpl-sd25-03-image-1.png) · [tpl-sd25-03-image-2.png](./assets/reference-images/tpl-sd25-03-image-2.png) · [tpl-sd25-03-image-3.png](./assets/reference-images/tpl-sd25-03-image-3.png) · [tpl-sd25-03-image-4.png](./assets/reference-images/tpl-sd25-03-image-4.png) · [tpl-sd25-03-image-5.png](./assets/reference-images/tpl-sd25-03-image-5.png) · [tpl-sd25-03-image-6.png](./assets/reference-images/tpl-sd25-03-image-6.png) · [tpl-sd25-03-image-7.png](./assets/reference-images/tpl-sd25-03-image-7.png) · [tpl-sd25-03-image-8.png](./assets/reference-images/tpl-sd25-03-image-8.png) · [tpl-sd25-03-image-9.png](./assets/reference-images/tpl-sd25-03-image-9.png) · [tpl-sd25-03-image-10.png](./assets/reference-images/tpl-sd25-03-image-10.png) · [tpl-sd25-03-image-11.png](./assets/reference-images/tpl-sd25-03-image-11.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+One-shot FPV drone first-person video, 33 seconds of continuous long shot, no editing, no jump cuts, no transitions. The camera starts from inside the high-altitude clouds and forms a continuous descending flight line along the clouds, fog, light and shadow, valleys, waterfalls, lakes, flower fields, urban buildings and near-ground squares. 11 clear and independent language display blocks appear in sequence throughout the process. Each block only displays the text corresponding to a single language. There is no mixing, overlapping, or adding other languages.
+0–3 seconds, <<<image_1_1>>> clouds naturally form the Chinese word "Hello";
+3–6 seconds, <<<image_2_2>>>Mist and volumetric light form English “Hello”;
+6–9 seconds, <<<image_3_3>>>High-altitude water vapor and sunlight projection form the Spanish (Mexico) "Hola";
+9–12 seconds, <<<image_4_4>>>>Aerial ribbons forming the Indonesian word “Halo”;
+12–15 seconds, <<<image_5_5>>>>Kite formation forms the Malay word “Hai”;
+15–18 seconds, <<<image_6_6>>> Morning fog in the valley forms the Thai word "สวัสดี";
+18–21 seconds, <<<image_7_7>>>Water mist from waterfall forming Arabic مرحبا
+21-24 seconds, <<<image_8_8>>>The reflection on the lake and the ripples form the Portuguese word "Olá";
+24–27 seconds, <<<image_9_9>>>Flowers and grass fields are naturally arranged into the Vietnamese "Xin chào";
+27–30 seconds, <<<image_10_10>>>The city’s glass buildings reflect light and shadow to form the Japanese word “こんにちは”;
+30–33 seconds, <<<image_11_11>>> Near the ground square fountain water mist, floor paving and light strips form the Korean word "안녕하세요".
+The overall atmosphere is an early morning sunrise, with golden backlight, soft volumetric light, real clouds and fog, natural motion blur, and movie-level realism. The camera speed starts slowly from 3–5 m/s, gradually accelerates to 14–16 m/s across the natural landscape, and then slows down to 2–3 m/s to hover stably in the near-Earth square. Lens parameters: wide-angle lens, 24fps, smooth FPV drone movement, pitch gradually transitions from -5° to -18°, and finally returns to 0°; slight yaw ±10°, roll controlled at 0–10°, ensuring a continuous, stable, and realistic sense of flight from shot to shot.
+```
+
+</details>
+
+### tpl-sd25-06
+
+**Result video:** [tpl-sd25-06-src.mp4](./videos/generated/tpl-sd25-06-src.mp4)
+
+**Reference images:** [tpl-sd25-06-image-1.png](./assets/reference-images/tpl-sd25-06-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+A high-end, cinematic 30-second 3D motion graphics sequence, using exquisite steampunk and retro miniature landscape styles, with continuous and smooth surrounding and penetrating camera movements.
+[0-10 seconds]: Macro close-up of an antique brass clock face, miraculously unfolding into intermeshing rotating gear rings and volumetric fog. The camera penetrates downward through the gears, and a mechanical ornithopter is hovering into the sky from a miniature canyon made of stacks of old ancient books.
+[10-20 seconds]: The camera follows the trajectory of the ornithopter as it glides forward, seamlessly penetrating into a high-speed rotating ornate brass phantom box (Zoetrope), which projects dynamic light and shadow of a galloping mechanical horse. The light and shadow jumped out of the box, and the scene instantly transformed into a brass-textured suspended cable car, which was traveling through the forest of mechanical gears along the shimmering copper rails, bathed in movie-level golden hour light.
+[20-30 seconds]: The camera pans gracefully downward, and a beautiful clockwork wooden mechanical sailboat appears below the cable car, cutting through the undulating waves made of dark blue glass. The end of the waves seamlessly evolved into a giant glowing moon, and silhouettes of a group of explorers holding swaying lanterns were trekking along the ridge of the crystal mine under the stars. The camera zooms out in a smooth spiral, through ethereal clouds, and back to the grand, ticking brass clock face. The logo appears at the last second, refer to <<<image_1_1>>>.
+Technical specifications: Hyper-realistic mechanical textures, rich brass and gold tones, and cinematic shallow depth of field. Smooth and coherent seamless shuttle movement, a strong sense of epic and fantasy adventure atmosphere.
+```
+
+</details>
+
+### tpl-sd25-08
+
+**Result video:** [tpl-sd25-08-src.mp4](./videos/generated/tpl-sd25-08-src.mp4)
+
+**Reference images:** [tpl-sd25-08-image-1.png](./assets/reference-images/tpl-sd25-08-image-1.png) · [tpl-sd25-08-image-2.png](./assets/reference-images/tpl-sd25-08-image-2.png) · [tpl-sd25-08-image-3.png](./assets/reference-images/tpl-sd25-08-image-3.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+Produce a 30-second short popular science video about the three thousand years of evolution of football. The entire film uses the same ball as the main visual line. The ball rolls, travels, and deforms from ancient times, connecting different civilizations and eras. The overall rhythm is compact, the graphics are high-end, the historical science short film is combined with artistic transitions to highlight the feeling of a ball spanning three thousand years, and the oral broadcast is simple and powerful.
+At the beginning, an ancient ball slowly appeared from a black background with a texture of time on the surface, and then rolled into a Cuju scene from the Warring States Period in China. The picture turned into an ink style, referencing the style of <<<image_1_1>>>. Ancient people dressed in ancient costumes played Cuju in the courtyard, with elegant movements and the ball bouncing under their feet. Oral broadcast: Football story, starting with Cuju.
+Then, the ball continues to roll forward, and the picture naturally transitions to an ancient Greek ball game scene. The picture is in the style of a classical oil painting, and the style refers to <<<image_2_2>>>. The background of the square and stone pillars is obvious, and people wearing ancient Greek robes play football. The picture is thick and has a sense of history. Word of mouth: Greeks also love ball games.
+Then the ball rolled into medieval Europe, and the picture still maintained the style of oil painting. Villages, mud fields, and ordinary people chased the ball. The atmosphere was warm and rough, just like ancient folk football continuing the fire. Oral Broadcast: European folk continue the football game.
+Then the ball was kicked out, and the screen switched to a black and white documentary style. Refer to <<<image_3_3>>>. In the UK in 1863, gentlemen, clubs, and grass pitches gradually appeared, symbolizing the official birth of modern football. For the first time, this ball showed the standard appearance of modern football. Spoken: 1863, modern football takes shape.
+Then the scene quickly enters the modern era, with the ball spinning in the air, bringing out key development nodes in turn. The lights, stadium, spectators, trophies, and different scenes around the world are intertwined, showing that football has evolved from a local sport to a global one.
+At the end, the ball is in the center of a modern stadium, and crowds and cheers from all over the world merge in the background, forming the feeling of "a ball connecting the world". The picture is grand and epic. Oral broadcast: Now, football connects the whole world.
+```
+
+</details>
+
+## Music, Social & Title Sequences
+### tpl-sd25-20
+
+**Result video:** [tpl-sd25-20-src.mp4](./videos/generated/tpl-sd25-20-src.mp4)
+
+**Reference images:** [tpl-sd25-20-image-1.png](./assets/reference-images/tpl-sd25-20-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+Movie-level hip-hop/rap music video, real photo-quality texture, high-end tonality, seaside scene. Use <<<image_1_1>>> to construct the picture: a band performs on the golden beach, with the waves crashing on the shore—— A lead singer holds a microphone and stands on the wet sand to sing passionately, a guitarist stands on the left side of the screen, a guitarist stands on the right side of the screen, and a drummer sits behind the drum set and plays; the vast coastline unfolds behind him, with rolling waves rolling in. The huge and warm golden hour sunset slants across the beach, sparkling on the water, and sea fog and salty water vapor float in the air.
+The lead singer in red sportswear raps rhythmically to the camera - his mouth shape and jaw are accurately aligned with each word, and his head moves vigorously with the beat, driving the entire flow. The musicians swayed to the rhythm, with waves crashing on the shore behind them. This is a bright and exciting rap song - fast, confident and with a strong beat. Hard cut (HARD CUT) to the beat, switching to double contrast each time (the scene and lens type change at the same time).
+Lyrics (the lead singer sings "Hello" in each of the following languages in turn, with precise lip sync):
+English: "Hello"
+Chinese: "Hello"
+Japanese: "こんにちは"
+Korean: "안녕하세요"
+Portuguese: "Olá"
+Thai: "สวัสดี"
+Spanish: "Hola"
+Arabic: "مرحبا"Shot 1 [0:00–0:03] - A low-angle long shot establishes the scene, the Steadicam slowly advances in the golden sunset and sea fog, and the waves roll behind the band. Lyrics line 1 (English "Hello"). Hard cut. Shot 2 [0:03–0:05] - A close-up of the lead singer in Red Sportswear rapping the camera, holding a swinging lens, and the sea behind him is blurry and shimmering. Lyrics line 2 ("Hello" in Chinese). Hard cut. Shot 3 [0:05–0:08] —— Macro insertion lens, fixed camera position, the guitarist’s fingers are playing quickly on the strings, and grains of sand and salty water mist pass in front of the screen. Lyrics 3rd line (Japanese 「こんにちは」). Hard cut. Shot 4 [0:08–0:10] - 3/4 side medium shot of a musician, slowly sneaking around, the metal parts of the instrument and wet highlights reflect the low slanting sun on the sea. Lyrics line 4 (Korean "안녕하세요"). Hard cut. Shot 5 [0:10–0:13] - A musician on the shore, a fast traversing track passes him, he turns to the camera, and a wave breaks behind him. Lyrics 5 (Portuguese "Olá"). Hard cut. Shot 6 [0:13–0:15] - A drummer by the water, shaking his hands rapidly, the sea breeze and water splash blowing his hair, and he plays in time with the beat. Lyrics line 6 (Thai "สวัสดี"). Hard cut. Shot 7 [0:15–0:18] - The lead singer in red sportswear is in full swing of flow, making tight thrusts, aggressive hand-holding, and the silhouette of the band against the twilight sea behind him. Lyric line 7 ("Hola" in Spanish). Hard cut. Shot 8 [0:18–0:20] - A heroic long shot of the whole band, aggressive hand-held propulsion, the lead singer and musicians step towards the camera to the beat, the waves break, and the golden sunset explodes with halo behind the whole band. Lyrics 8 (Arabic "مرحبا").
+White balance 4000K, teal-and-amber color grading, 35mm, shallow depth of field, film grain, diffuse sea fog, golden hour halo. The texture is solid, high-end and high-end. Rhythmic rap performance, precise lip-syncing, and head movements to the beat. No subtitles, no text overlays, no dissolve transitions, no repeated characters, just hard cuts. Total duration 20 seconds.
+```
+
+</details>
+
+### tpl-sd25-21
+
+**Result video:** [tpl-sd25-21-src.mov](./videos/generated/tpl-sd25-21-src.mov)
+
+**Reference images:** [tpl-sd25-21-image-1.png](./assets/reference-images/tpl-sd25-21-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+[Editing movie title trailer - "WILD PAIR" | 16:9 landscape | 20 seconds] Format: 16:9 landscape / landscape, 20 seconds. The fast-paced, cluttered, dynamically typed title sequence takes its style from modern spy thriller titles (rapid cuts, crisp zooms, two-tone poster images, double shots of two people). Style Engine (forward): Off-white paper layout (#F4F4F2) paired with strong golden blocks (#F2C21E). Strict grid, Neue Haas Grotesk / Helvetica Bold font, oversized titles, tight kerning. A two-tone treatment that alternates between a bright yellow (#FFD400) and a deep purple (#6A1B9A), accented by a sharp flash of amber highlight (#FFA400). High contrast, clear printing texture, subtle paper grain, and precise registration marks. Confident, fashionable and glossy, with a "magazine-like espionage poster" temperament. Style Engine (negative): No clutter, no soft focus blur, no 3D rendering feel, no off-grid, no smudged duotones, no lens smudges, no watermarks. Character binding (each picture = one character, 100% match the reference picture) Reference <<<image_1_1>>>:
+Lynx/Serval Female - Lean anthropomorphic lynx/Serval female: dark orange hair, large pointed ears with black tips, blue eyes, ringed tail with white tip; black tactical tights, badge on chest, fingerless gloves, tactical belt, kneepads, lace-up high black boots. 100% match reference image. Jaguar/Leopard Male - Tall and muscular anthropomorphic Jaguar/Leopard male: Golden spotted hair, confident smirk; open dark green/black jacket with exposed spotted chest, cross-body tactical belt + chest harness, dark slim trousers, thigh holster, white claws. 100% match reference image. Horizontal screen composition guidelines: Make full use of the wide frame - give priority to the double shot of the lynx / serval female (left third of the screen) and the jaguar / leopard male (right third of the screen), separated by a vertical text bar or golden block in the center. Make use of ample horizontal white space to throw oversized text across the entire frame. Split the screen in half (left yellow/right purple). Diagonal erase moves sideways to the left and right along the long axis. The poster image is a wide banner locked composition, rather than stacked one on top of the other. Main plot: Two elite spies are secretly a partner - a series of rapid revelations: masks, eyes, and identities are pieced together one by one to form a pair. Beat/Timeline (20 seconds, hard cuts on each beat, —— fast paced):
+0.0–4s - black field. The amber register scale snaps in quickly. A hard cut to the lynx/serval female in the yellow two-tone half (left), a quick pan to reveal the jaguar/leopard male in the purple half (right). Word 1 (English): "TWO SPIES" smashed across the entire page. 4–6s – Push zoom to advance lynx/serval female’s blue eyes; golden block rubs in. Word 2 (center): "disguise". 6–8s - Split screen: Leopard/leopard male evil smile (right), crisp diagonal wipe. Word 3 (Japanese): "The beauty of two people". 8–11s – Fast moving camera, centered shot of two people back to back. Word 4 (Korean): "비밀". 11–12s – The two-tone poster locks the composition, both characters are presented in wide format, and huge fonts pop in. Word 5 (Portuguese): "DOIS AGENTES". 12–16s – Amber flash frame, grid hard reset. Word 7 (West): "DOBLE JUEGO". 16–20s - The two characters stride towards the camera in a wide heroic double shot, the golden block settles in the center, and the ending wordmark is locked: "WILD PAIR". Layout rules: Only one or two words per beat. Use native text and correct glyphs; Arabic text is arranged from right to left (RTL). Each word pops in with a quick push + slight overshoot on the beat, dropping out instantly on the hard cut. The text fits neatly into the grid, is oversized, and sometimes spills over the edge of the wide frame. Lens guidelines: Locked poster images alternate with sharp and rapid zooming, rapid sideways panning, and short and crisp camera advances. Everything is cut extremely tight and fast to the beat, with high speed and no drag. Movement moves along the horizontal axis of the wide frame. Sound: Fast, bright-tempo percussion spy thriller beat, tight snare drum beats are synchronized with each rapid word smash, and the ending wordmark ends with a deep super bass. No dialogue.
+```
+
+</details>
+
+## Visual Effects & Creative Experiments
+### tpl-sd25-05
+
+**Result video:** [tpl-sd25-05-src.mp4](./videos/generated/tpl-sd25-05-src.mp4)
+
+**Reference images:** [tpl-sd25-05-image-1.png](./assets/reference-images/tpl-sd25-05-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+A fast-paced, cinematic seamless transition (match-cut) short film with dynamic electronic beats. A flawless crystal ball is always fixed in the center of the painting, with the luminous ‘seedance’ logo engraved inside. The crystal ball maintains extreme focus, and with the powerful music drumbeat, the background switches seamlessly at high speed: Scene 1: Macro close-up, film-like water splashes around the crystal ball, refracting complex light and shadow. Scene 2: A retro cafe in the morning. The crystal ball is placed on the wooden table. The background is the rising steam of coffee and the blurry flow of commuters outside the window. Scene 3: At the golden hour of the evening, a skateboarding young man throws a crystal ball with one hand. The background is the rapidly regressing street scene and the beautiful sunset backlight. Scene 4: At the Frenzy Music Festival, people hold up crystal balls, reflecting the stage laser with a gorgeous background. Scene 5: A lively family party table, with a crystal ball in the center and blurry figures in the background celebrating a toast and taking food. Scene 6: In a dark cinema, both hands hold a crystal ball, and the dim light of the huge screen flows on its surface. Scene 7: The crystal ball is placed on the strongly vibrating sound diaphragm, and seamlessly switches to the center of the rotating DJ player with the climax of the music. Scene 8: Outdoor camping night, the background changes to a warm bonfire and swaying light spots (Bokeh). Throwing and ending: With the final accent of the music, the crystal ball is thrown high above the screen; it instantly cuts to a pure black background, and the minimalist white text "seedance" on a black background appears in the center of the screen, refer to <<<image_1_1>>>
+Closely follow the dynamic BGM rhythm editing (stuck transition), top-notch cinematic color grading (Cinematic Color Grading). Realistic glass refraction and transmission materials, complex ray tracing, and global illumination. The subject is extremely clear, the background has strong dynamic blur, and the visual impact is extremely strong.
+```
+
+</details>
+
+### tpl-sd25-07
+
+**Result video:** [tpl-sd25-07-src.mp4](./videos/generated/tpl-sd25-07-src.mp4)
+
+**Input video:** [tpl-sd25-07-video-1.mp4](./videos/reference/tpl-sd25-07-video-1.mp4)
+
+**Reference images:** [tpl-sd25-07-image-1.png](./assets/reference-images/tpl-sd25-07-image-1.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+Keep the characters, jungle environment, camera movement, composition, action rhythm and duration in <<<video_1_1>>> unchanged.
+A blue-white energy bow and a luminous arrow <<<image_1_2>>> slowly appear in the character's hand. The bow body is gradually formed by the polymerization of weak arcs and particles, with a delicate flowing current texture, slight volumetric light and a stable energy outline. During the process of drawing the bow, the arrow condenses into a high-bright energy arrow in the center of the bow string. The moment the character lets go, the arrow shoots out at high speed, leaving a bright, slender, continuous and sharp energy trajectory.
+```
+
+</details>
+
+### tpl-sd25-11
+
+**Result video:** [tpl-sd25-11-src.mp4](./videos/generated/tpl-sd25-11-src.mp4)
+
+**Input video:** [tpl-sd25-11-video-1.mp4](./videos/reference/tpl-sd25-11-video-1.mp4)
+
+**Reference images:** [tpl-sd25-11-image-1.png](./assets/reference-images/tpl-sd25-11-image-1.png) · [tpl-sd25-11-image-2.png](./assets/reference-images/tpl-sd25-11-image-2.png) · [tpl-sd25-11-image-3.png](./assets/reference-images/tpl-sd25-11-image-3.png)
+
+<details>
+<summary>Prompt (English)</summary>
+
+```text
+Replaced the original version of the two-person martial arts video <<<video_1_1>>> with an empty-handed test of the wind before a cold weapon duel.
+The scene is replaced with a medieval stone castle platform, an ancient courtyard flat ground, a mountain fortress outer platform, or a simple stone brick duel field. The background is the ancient castle wall, wind, fog, and distant mountain lines, and the ground is flat and stone <<<image_1_2>>>.
+The clothing of the man in dark clothing in the video is replaced by <<<image_2_3>>>, and the clothing of the man in light clothing in the video is replaced by <<<image_3_4>>>. The action remains the same, without changing the original rhythm.
+AI special effects only enhance the environment and texture: wind blown clothes, light fog, a small amount of dust at contact points, metallic cold reflective texture, slight particles and epic color palette. The overall style is restrained, realistic, and a classic hardcore duel atmosphere. Background music stuck
 ```
 
 </details>
 
 ### tpl-sd25-22
 
-**Generated video:** [tpl-sd25-22-src.mov](./videos/generated/tpl-sd25-22-src.mov)
+**Result video:** [tpl-sd25-22-src.mov](./videos/generated/tpl-sd25-22-src.mov)
 
 **Input video:** [tpl-sd25-22-video-1.mov](./videos/reference/tpl-sd25-22-video-1.mov)
 
 <details>
-<summary>Prompt (Chinese)</summary>
+<summary>Prompt (English)</summary>
 
 ```text
-风格： 超真实电影感写实风格，照片级真实的实拍影像质感，强调冲出实体（蒸汽火车）的现实可信度；不要 CGI 光泽感，不要游戏引擎感，不要风格化 3D 外观。金属、蒸汽、木质与烟尘的细节要细腻真实，能对环境光做出可信的反应。严格遵循真实物理规律：有重量、有摩擦、有惯性、有接触阴影、有物体受压反馈，不能漂浮，不能卡通化夸张。保留<<<video_1_1>>>原本的构图、放映厅光线、手持镜头状态和自然瑕疵感。
-原视频锁定： 将<<<video_1_1>>>完整保留为基础画面。老式放映厅、成排背对镜头戴帽的观众、放映机投出的锥形光束、银幕位置、周围物体、环境光、反射、整体色调、手持镜头运动都保持不变。不要修改节奏、画幅、镜头特性、运动轨迹或调色。唯一新增的内容是：从银幕里冲出的实体（火车）、它带来的光影变化、银幕的破裂、以及冲击对放映厅空间与前排观众区域的轻微物理影响。画面转色规则（核心新增）： 影片开始时严格保持<<<video_1_1>>>原本的黑白老电影质感（颗粒、划痕、闪烁、单色调）。当火车车头真正突破银幕、冲入现实空间的那一瞬间，画面从黑白骤然转为饱满真实的彩色—— 转色以火车冲出点为中心、如冲击波般向整个画面扩散，火车的黑色钢铁车身、红铜色锅炉光泽、橙黄的蒸汽灯火、木质车厢的暖棕、白灰色蒸汽与放映厅的暖褐色调随之显色。转色干脆有力、与破幕的爆发瞬间精确同步；转色后维持照片级真实彩色直到结束。银幕上尚未冲出的残余投影区域可仍带一点黑白电影残影，强化 "从旧影像撕裂进现实" 的对比。银幕破裂锁定（核心新增）： 银幕表现为一块真实存在、有织物张力的白色投影幕布，而非普通平面。火车冲出时，幕布沿车头轮廓被强行撕裂、爆开—— 布面出现放射状裂口、边缘翻卷撕扯、碎布与纤维向外飞扬、幕布残片剧烈摆荡，破口处透出后方结构。破裂的张力感、撕扯方向与火车冲出的力量和方向一致，全程保留清晰可见的 "荧幕被撞破" 的破裂感。
-主体： 一列老式蒸汽火车车头正从银幕中强行冲出。黑色钢铁车身、圆筒锅炉、前置排障器、冒着白灰色蒸汽的烟囱、明亮的车头灯，金属表面有真实的磨损、油污、铆钉与湿润反光。它带着巨大的重量与惯性向前冲，符合可信的机械结构与真实火车的体量感。
-场景： 完全沿用<<<video_1_1>>>的现实放映厅环境。银幕表现为一层真实的、有厚度与阻力的投影幕布，在火车冲出时被撕裂、翻卷、飞散，并在银幕与放映厅空间的边界处产生明显的破裂张力、蒸汽扩散与光线扭曲。
-动作： 一列蒸汽火车从老电影银幕中突破，冲进现实的放映厅空间。
-镜头要求： 完全继承<<<video_1_1>>>原本的手持运动。不要平滑，不要重定时，不要重新构图。冲出的火车必须始终正确锁定在银幕与放映厅空间中，随着镜头移动保持正确视差和遮挡关系。任何进入放映厅前方空间的车体，都必须产生贴地阴影与合理的接触压迫感。
-视觉基调： 以真实性为第一优先。转色前忠实呈现黑白老电影质感（颗粒、闪烁、划痕）；破幕瞬间干脆转为真实彩色。放映厅原有的暖色实景光仍是主光源，放映机光束与车头灯作为强光源。金属与蒸汽表面应自然同时接收环境暖光与投影冷光。重点表现可信的阴影过渡、反射、蒸汽扩散、飞散碎布，以及与周围材质之间的细微互动。
-声音： 不要音乐。只保留真实现场音效。继承<<<video_1_1>>>原本的放映厅环境音（放映机哒哒声、观众轻微骚动），并新增幕布被撕裂爆开的布料撕扯声、蒸汽喷涌声、钢铁车轮与机械轰鸣声、冲击气浪声。整体听感必须近距离、物理化、可信。
-总时长与<<<video_1_1>>>完全一致。基础视频画面在转色前不得改变，除火车本身、其物理互动、银幕破裂与破幕瞬间的转色外不新增其他内容。银幕必须表现为具有厚度和阻力的真实幕布入口并被真实撕裂，而不是简单贴图或叠加特效。转色必须与破幕瞬间精确同步、干脆有力。不要慢动作，不要魔法感，不要风格化恐怖设计，不要过度夸张。最终效果应像是在一个老式放映厅里，被真实相机偶然拍到的一段极其诡异又异常真实的 "火车撞破银幕、黑白瞬间转为彩色" 的画面。
+Style: Super-realistic movie-like realistic style, photo-realistic real-shot image texture, emphasizing the credibility of reality that breaks out of the entity (steam train); no CGI gloss, no game engine feel, no stylized 3D appearance. Metal, steam, wood, and smoke details need to be detailed and realistic, and respond believably to ambient light. Strictly follow the laws of real physics: there is weight, friction, inertia, contact shadow, and object pressure feedback. It cannot float or be cartoonishly exaggerated. Retain <<<video_1_1>>>'s original composition, auditorium lighting, hand-held lens condition, and natural imperfections.
+Original video lock: Keep <<<video_1_1>>> completely as the base picture. The old-fashioned auditorium, the rows of hooded spectators with their backs to the camera, the cone of light cast by the projector, the position of the screen, surrounding objects, ambient light, reflections, overall tone, and handheld camera movement all remain unchanged. Don't modify the pacing, frame, shot characteristics, motion, or color palette. The only new content is: the entity (train) rushing out of the screen, the changes in light and shadow it brings, the cracking of the screen, and the slight physical impact of the impact on the auditorium space and the front row audience area. Screen color transfer rules (new to the core): At the beginning of the video, strictly maintain the original black and white old movie texture (grains, scratches, flickers, monotone) of <<<video_1_1>>>>. When the front of the train really breaks through the screen and rushes into the real space, the picture suddenly changes from black and white to full and real color - the color change is centered on the point where the train breaks out and spreads to the entire picture like a shock wave. The black steel body of the train, the luster of the red copper boiler, the orange and yellow steam lights, the warm brown and white gray steam of the wooden carriage and the warm brown tone of the screening hall appear. The color transfer is crisp and powerful, accurately synchronized with the burst of the curtain; after the color transfer, the photorealistic color is maintained until the end. The residual projection area on the screen that has not been washed out can still have a bit of black and white film afterimage, strengthening the contrast of "tearing from old images into reality". Screen Rupture Lock (Core New): The screen appears as a real, white projection screen with fabric tension, rather than an ordinary flat surface. When the train rushed out, the curtain was forcibly torn and exploded along the outline of the front of the car - radial cracks appeared on the cloth surface, the edges were rolled and torn, rags and fibers flew outward, the curtain fragments swayed violently, and the rear structure was revealed in the breach. The sense of tension and tearing direction of the rupture are consistent with the force and direction of the train rushing out. The whole process retains a clearly visible sense of "screen being smashed".Subject: The locomotive of an old steam train is forcibly rushing out of the screen. The black steel body, cylindrical boiler, front obstacle remover, chimney emitting white gray steam, bright headlights, the metal surface has real wear, oil stains, rivets and wet reflections. It rushes forward with huge weight and inertia, in line with the believable mechanical structure and the sense of volume of a real train.
+Scene: Completely follows the real-life screening room environment of <<<video_1_1>>>. The screen appears as a real projection screen with thickness and resistance. It is torn, rolled, and scattered when the train rushes out, and obvious rupture tension, steam diffusion, and light distortion are produced at the boundary between the screen and the auditorium space.
+Action: A steam train breaks through the old movie screen and rushes into the real auditorium space.
+Lens requirements: Completely inherit the original handheld movement of <<<video_1_1>>>. Don't smooth, don't retime, don't recompose. The outgoing train must always be correctly locked into the screen and auditorium space, maintaining correct parallax and occlusion relationships as the lens moves. Any vehicle that enters the space in front of the screening room must produce a shadow close to the ground and a reasonable sense of contact pressure.
+Visual tone: Put authenticity as the first priority. Before color transfer, the texture of old black and white movies (grains, flickers, scratches) is faithfully presented; the moment the screen breaks, it is simply converted to true color. The original warm-colored real-life light in the screening room is still the main light source, and the projector beam and car headlights are used as strong light sources. Metal and vapor surfaces should naturally receive both ambient warm light and projected cold light. Focus on believable shadow transitions, reflections, vapor diffusion, flying rags, and subtle interactions with surrounding materials.
+Sound: No music. Only real live sound effects are retained. Inheriting <<<video_1_1>>>>'s original screening room ambient sounds (the clatter of the projector, slight commotion from the audience), and adding the sounds of tearing and exploding fabrics, the sound of steam gushes, the roar of steel wheels and machinery, and the sound of impacting air waves. The overall listening experience must be close, physical, and believable.
+The total duration is exactly the same as <<<video_1_1>>>. The basic video image must not be changed before color transition, and no other content is added except the train itself, its physical interaction, and the color transition at the moment when the screen breaks and breaks. The screen must appear as a real curtain entrance with thickness and resistance and real tearing, rather than simply mapping or overlaying special effects. The color change must be precisely synchronized with the moment of curtain breaking, crisp and powerful. No slow motion, no sense of magic, no stylized horror design, no over-the-top exaggeration. The final effect should be like an extremely weird and extremely real scene of "a train crashing through the screen and black and white turning into color instantly" accidentally captured by a real camera in an old screening room.
 ```
 
 </details>
 
 ---
 
-## Notes
+## Source & Notes
 
-- The prompts and assets are archived from the official BytePlus Seedance 2.5 promotion page.
-- `<<<image_*>>>` and `<<<video_*>>>` placeholders in a prompt refer to the listed reference files, in their listed order.
-- Media filenames are preserved from the official source. Use the local file links above rather than an expiring remote URL.
-
-## License
-
-The repository structure and documentation are available under [CC BY 4.0](./LICENSE). Individual examples and media remain subject to their original BytePlus terms and applicable rights.
+- Prompts and media are archived from the [official BytePlus Seedance 2.5 showcase](https://ai.byteplus.com/ark/promotion?modelName=seedance-2-5).
+- `<<<image_*>>>` and `<<<video_*>>>` placeholders refer to the local input files listed in each example, in order.
+- The complete machine-readable source record is available at [`data/byteplus-seedance-2.5-cases.json`](./data/byteplus-seedance-2.5-cases.json).
