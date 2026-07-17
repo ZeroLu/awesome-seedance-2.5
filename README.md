@@ -24,7 +24,11 @@ Every example includes its original media files. The prompt below is an English 
 
 #### Result Video
 
-[tpl-sd25-16-src.mp4](./videos/generated/tpl-sd25-16-src.mp4)
+
+
+https://github.com/user-attachments/assets/b69a89bb-9533-477a-822c-b8fe76c640b6
+
+
 
 #### Reference Images
 
@@ -54,11 +58,20 @@ The overall film quality is high-end fashion advertising style. The light is com
 
 #### Result Video
 
-[tpl-sd25-01-src.mp4](./videos/generated/tpl-sd25-01-src.mp4)
+
+
+https://github.com/user-attachments/assets/dc64fe87-9279-40c8-9ad9-b3c751c0bfb5
+
+
 
 #### Input Video
 
-[tpl-sd25-01-video-1.mp4](./videos/reference/tpl-sd25-01-video-1.mp4)
+
+
+
+https://github.com/user-attachments/assets/332edec0-696c-424c-8216-298b8b06c8a7
+
+
 
 #### Reference Images
 
@@ -80,11 +93,19 @@ Epic fantasy 2.5D, natural hard light superimposed with energy glow, strong cont
 
 #### Result Video
 
-[tpl-sd25-02-src.mp4](./videos/generated/tpl-sd25-02-src.mp4)
+
+
+https://github.com/user-attachments/assets/afbe29b6-3ac6-4c66-9115-ec99d527a5fc
+
+
 
 #### Input Video
 
-[tpl-sd25-02-video-1.mp4](./videos/reference/tpl-sd25-02-video-1.mp4)
+
+https://github.com/user-attachments/assets/cb7fc5c8-3d09-4601-87bd-582f825eb179
+
+
+
 
 #### Reference Images
 
@@ -106,7 +127,12 @@ Really shot space science fiction blockbuster, with a tragic and heroic tone, br
 
 #### Result Video
 
-[tpl-sd25-04-src.mp4](./videos/generated/tpl-sd25-04-src.mp4)
+
+
+https://github.com/user-attachments/assets/5c1e2344-c7ae-4295-b681-6889132551b4
+
+
+
 
 #### Reference Images
 
@@ -130,9 +156,30 @@ Maintain the visual continuity of the flowers in the picture and form a lens sty
 
 #### Result Video
 
-[tpl-sd25-12-src.mp4](./videos/generated/tpl-sd25-12-src.mp4)
+
+
+
+https://github.com/user-attachments/assets/f265b9a0-d4e5-4df1-9399-d5283004bff8
+
+
 
 #### Input Video
+
+
+
+https://github.com/user-attachments/assets/72d7226b-2d1e-438b-9930-d56a0d3b27c0
+
+
+
+https://github.com/user-attachments/assets/9add7b0e-0b90-4371-9e53-90569dc44899
+
+
+
+https://github.com/user-attachments/assets/3ed0b6d3-ab9f-4136-a6a2-b0f5e480207a
+
+
+
+
 
 [tpl-sd25-12-video-1.mp4](./videos/reference/tpl-sd25-12-video-1.mp4) · [tpl-sd25-12-video-2.mp4](./videos/reference/tpl-sd25-12-video-2.mp4) · [tpl-sd25-12-video-3.mp4](./videos/reference/tpl-sd25-12-video-3.mp4)
 
@@ -169,6 +216,12 @@ Segmented camera movement and scene description:
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/8cc08351-16c0-4121-a09f-01e1333b3a7a
+
+
+
 [tpl-sd25-15-src.mp4](./videos/generated/tpl-sd25-15-src.mp4)
 
 #### Reference Images
@@ -200,6 +253,12 @@ An ascending track appeared ahead, and the boy sprinted at full speed against th
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/7f873f50-80ea-4602-af91-26bcf8d40dcf
+
+
+
 [tpl-sd25-17-src.mp4](./videos/generated/tpl-sd25-17-src.mp4)
 
 #### Reference Images
@@ -229,6 +288,12 @@ The screen stays on a close-up of human eyes, then the eyes are closed, and the 
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/67c88074-ff0b-49a0-a014-2d0eb002d301
+
+
+
 [tpl-sd25-18-src.mp4](./videos/generated/tpl-sd25-18-src.mp4)
 
 #### Prompt (English)
@@ -244,6 +309,12 @@ S1 (0–4 seconds)・Opening: Close-up of chewing (audio) - The opening is a clo
 ### Capsule Coffee Machine Setup (BytePlus)
 
 #### Result Video
+
+
+
+https://github.com/user-attachments/assets/76bba090-b1fb-4447-b639-3def47f0f7bb
+
+
 
 [tpl-sd25-10-src-bp.mp4](./videos/generated/tpl-sd25-10-src-bp.mp4)
 
@@ -281,6 +352,12 @@ Lens: medium shot to close-up, front view, position: front of the fuselage, cup 
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/ef059ffd-e998-45c9-a53d-1cbbfb56d00a
+
+
+
 [tpl-sd25-10-src-cn.mov](./videos/generated/tpl-sd25-10-src-cn.mov)
 
 #### Reference Images
@@ -317,9 +394,42 @@ Lens: medium shot to close-up, front view, position: front of the fuselage, cup 
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/207fd247-4df3-4e5c-9295-0576179ec123
+
+
+
 [tpl-sd25-13-src.mp4](./videos/generated/tpl-sd25-13-src.mp4)
 
 #### Input Video
+
+
+
+https://github.com/user-attachments/assets/8970adbb-2354-4d54-a586-3ab32e5feb2e
+
+
+
+https://github.com/user-attachments/assets/0e6de1e3-9040-45ae-9554-aea517d586ab
+
+
+
+https://github.com/user-attachments/assets/b8dcbbb7-e0c9-4b2b-ada6-99e6cc7a3274
+
+
+
+https://github.com/user-attachments/assets/6fa5036e-cc5a-4092-bd1a-51b608b2cae6
+
+
+
+https://github.com/user-attachments/assets/8f104015-c8d4-44a5-a299-388c36c2c652
+
+
+
+https://github.com/user-attachments/assets/5ff056e3-ab75-45f3-ae8f-4f4fb5d71f27
+
+
+
 
 [tpl-sd25-13-video-1.mp4](./videos/reference/tpl-sd25-13-video-1.mp4) · [tpl-sd25-13-video-2.mp4](./videos/reference/tpl-sd25-13-video-2.mp4) · [tpl-sd25-13-video-3.mp4](./videos/reference/tpl-sd25-13-video-3.mp4) · [tpl-sd25-13-video-4.mp4](./videos/reference/tpl-sd25-13-video-4.mp4) · [tpl-sd25-13-video-5.mp4](./videos/reference/tpl-sd25-13-video-5.mp4) · [tpl-sd25-13-video-6.mp4](./videos/reference/tpl-sd25-13-video-6.mp4)
 
@@ -338,6 +448,12 @@ The style of the commercial is bright and colorful, with fruity biscuits as the 
 ### Desert Horned Lizard Fruit Ad (BytePlus)
 
 #### Result Video
+
+
+
+https://github.com/user-attachments/assets/76d23d7c-cafc-4f0a-8bd2-b910e3305b65
+
+
 
 [tpl-sd25-14-src-bp.mov](./videos/generated/tpl-sd25-14-src-bp.mov)
 
@@ -375,6 +491,12 @@ The subtitles can only keep the brand name, without adding too many words.
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/c01c9b28-216a-4df2-a964-999dc7f96497
+
+
+
 [tpl-sd25-14-src-cn.mp4](./videos/generated/tpl-sd25-14-src-cn.mp4)
 
 #### Reference Images
@@ -410,6 +532,12 @@ The subtitles can only keep the brand name, without adding too many words.
 ### Capsule Coffee Machine User Guide (BytePlus)
 
 #### Result Video
+
+
+
+https://github.com/user-attachments/assets/668f0144-672d-45d1-bf73-d03be2f2e869
+
+
 
 [tpl-sd25-23-src-bp.mov](./videos/generated/tpl-sd25-23-src-bp.mov)
 
@@ -447,6 +575,10 @@ Narrator: "The last step, the first rinse. Just press the extraction button. You
 ### Capsule Coffee Machine User Guide (China)
 
 #### Result Video
+
+
+https://github.com/user-attachments/assets/8dc4dbae-fdbe-4964-807d-d2cacab33ea4
+
 
 [tpl-sd25-23-src-cn.mov](./videos/generated/tpl-sd25-23-src-cn.mov)
 
@@ -486,9 +618,17 @@ Narrator: "The last step, the first rinse. Just press the extraction button. You
 
 #### Result Video
 
+
+https://github.com/user-attachments/assets/0a6f2f86-6430-45f5-be86-cc66722ed48d
+
+
 [tpl-sd25-09-src.mp4](./videos/generated/tpl-sd25-09-src.mp4)
 
 #### Input Video
+
+
+https://github.com/user-attachments/assets/a11593b9-810d-41ae-b9f8-30ac91ce1bb5
+
 
 [tpl-sd25-09-video-1.mp4](./videos/reference/tpl-sd25-09-video-1.mp4)
 
@@ -503,9 +643,17 @@ Keep the giraffe group, tree branches, distant grassland, golden sunset backligh
 
 #### Result Video
 
+
+https://github.com/user-attachments/assets/df44a559-3c7e-435c-9bf4-dfed4950f169
+
+
 [tpl-sd25-19-src.mov](./videos/generated/tpl-sd25-19-src.mov)
 
 #### Input Video
+
+
+https://github.com/user-attachments/assets/4b688a2e-efad-43a3-9985-9e44c5b70afc
+
 
 [tpl-sd25-19-video-1.mp4](./videos/reference/tpl-sd25-19-video-1.mp4)
 
@@ -519,6 +667,10 @@ Video editing: Delete everyone in <<<video_1_1>>> except the protagonist.
 ### One-Shot Multilingual FPV Journey
 
 #### Result Video
+
+
+https://github.com/user-attachments/assets/92dcde4d-6f91-4e6b-a24b-a18e7489282a
+
 
 [tpl-sd25-03-src.mp4](./videos/generated/tpl-sd25-03-src.mp4)
 
@@ -554,6 +706,12 @@ The overall atmosphere is an early morning sunrise, with golden backlight, soft 
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/f52c7bf4-24c5-4799-b123-71f90b820f55
+
+
+
 [tpl-sd25-06-src.mp4](./videos/generated/tpl-sd25-06-src.mp4)
 
 #### Reference Images
@@ -575,6 +733,12 @@ Technical specifications: Hyper-realistic mechanical textures, rich brass and go
 ### Football Through Three Thousand Years
 
 #### Result Video
+
+
+
+https://github.com/user-attachments/assets/577ca156-95c0-4839-a082-412c0957e9f4
+
+
 
 [tpl-sd25-08-src.mp4](./videos/generated/tpl-sd25-08-src.mp4)
 
@@ -600,6 +764,12 @@ At the end, the ball is in the center of a modern stadium, and crowds and cheers
 ### Beachside Multilingual Rap
 
 #### Result Video
+
+
+
+
+https://github.com/user-attachments/assets/8a15b473-d8b7-4913-81b7-64e08e891ef6
+
 
 [tpl-sd25-20-src.mp4](./videos/generated/tpl-sd25-20-src.mp4)
 
@@ -630,6 +800,12 @@ White balance 4000K, teal-and-amber color grading, 35mm, shallow depth of field,
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/0d8f8020-63e4-46ee-9d8b-07ec73be16f3
+
+
+
 [tpl-sd25-21-src.mov](./videos/generated/tpl-sd25-21-src.mov)
 
 #### Reference Images
@@ -651,6 +827,12 @@ Lynx/Serval Female - Lean anthropomorphic lynx/Serval female: dark orange hair, 
 
 #### Result Video
 
+
+
+
+https://github.com/user-attachments/assets/36aa667d-b0e7-4cbc-95cb-fedb90952d9c
+
+
 [tpl-sd25-05-src.mp4](./videos/generated/tpl-sd25-05-src.mp4)
 
 #### Reference Images
@@ -670,9 +852,21 @@ Closely follow the dynamic BGM rhythm editing (stuck transition), top-notch cine
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/8e101957-6bc1-4975-a9f2-ed582f93684c
+
+
+
 [tpl-sd25-07-src.mp4](./videos/generated/tpl-sd25-07-src.mp4)
 
 #### Input Video
+
+
+https://github.com/user-attachments/assets/b141accc-9480-48c8-91fb-99bed261bd24
+
+
+
 
 [tpl-sd25-07-video-1.mp4](./videos/reference/tpl-sd25-07-video-1.mp4)
 
@@ -693,9 +887,21 @@ A blue-white energy bow and a luminous arrow <<<image_1_2>>> slowly appear in th
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/73c195b0-63f0-4566-bd07-4c725d9ceb14
+
+
+
 [tpl-sd25-11-src.mp4](./videos/generated/tpl-sd25-11-src.mp4)
 
 #### Input Video
+
+
+
+https://github.com/user-attachments/assets/36627768-487f-4448-964e-8ca88a4f6475
+
+
 
 [tpl-sd25-11-video-1.mp4](./videos/reference/tpl-sd25-11-video-1.mp4)
 
@@ -718,9 +924,21 @@ AI special effects only enhance the environment and texture: wind blown clothes,
 
 #### Result Video
 
+
+
+https://github.com/user-attachments/assets/0ef14138-8817-41b6-8966-543ab6cb32fb
+
+
+
 [tpl-sd25-22-src.mov](./videos/generated/tpl-sd25-22-src.mov)
 
 #### Input Video
+
+
+
+https://github.com/user-attachments/assets/36a8d5a3-0631-413c-9af2-0264c226fa3d
+
+
 
 [tpl-sd25-22-video-1.mov](./videos/reference/tpl-sd25-22-video-1.mov)
 
