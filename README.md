@@ -181,7 +181,6 @@ https://github.com/user-attachments/assets/3ed0b6d3-ab9f-4136-a6a2-b0f5e480207a
 
 
 
-[tpl-sd25-12-video-1.mp4](./videos/reference/tpl-sd25-12-video-1.mp4) · [tpl-sd25-12-video-2.mp4](./videos/reference/tpl-sd25-12-video-2.mp4) · [tpl-sd25-12-video-3.mp4](./videos/reference/tpl-sd25-12-video-3.mp4)
 
 #### Reference Images
 
@@ -222,7 +221,6 @@ https://github.com/user-attachments/assets/8cc08351-16c0-4121-a09f-01e1333b3a7a
 
 
 
-[tpl-sd25-15-src.mp4](./videos/generated/tpl-sd25-15-src.mp4)
 
 #### Reference Images
 
@@ -259,7 +257,6 @@ https://github.com/user-attachments/assets/7f873f50-80ea-4602-af91-26bcf8d40dcf
 
 
 
-[tpl-sd25-17-src.mp4](./videos/generated/tpl-sd25-17-src.mp4)
 
 #### Reference Images
 
@@ -294,7 +291,6 @@ https://github.com/user-attachments/assets/67c88074-ff0b-49a0-a014-2d0eb002d301
 
 
 
-[tpl-sd25-18-src.mp4](./videos/generated/tpl-sd25-18-src.mp4)
 
 #### Prompt (English)
 
@@ -316,7 +312,6 @@ https://github.com/user-attachments/assets/76bba090-b1fb-4447-b639-3def47f0f7bb
 
 
 
-[tpl-sd25-10-src-bp.mp4](./videos/generated/tpl-sd25-10-src-bp.mp4)
 
 #### Reference Images
 
@@ -358,7 +353,6 @@ https://github.com/user-attachments/assets/ef059ffd-e998-45c9-a53d-1cbbfb56d00a
 
 
 
-[tpl-sd25-10-src-cn.mov](./videos/generated/tpl-sd25-10-src-cn.mov)
 
 #### Reference Images
 
@@ -400,7 +394,6 @@ https://github.com/user-attachments/assets/207fd247-4df3-4e5c-9295-0576179ec123
 
 
 
-[tpl-sd25-13-src.mp4](./videos/generated/tpl-sd25-13-src.mp4)
 
 #### Input Video
 
@@ -431,7 +424,6 @@ https://github.com/user-attachments/assets/5ff056e3-ab75-45f3-ae8f-4f4fb5d71f27
 
 
 
-[tpl-sd25-13-video-1.mp4](./videos/reference/tpl-sd25-13-video-1.mp4) · [tpl-sd25-13-video-2.mp4](./videos/reference/tpl-sd25-13-video-2.mp4) · [tpl-sd25-13-video-3.mp4](./videos/reference/tpl-sd25-13-video-3.mp4) · [tpl-sd25-13-video-4.mp4](./videos/reference/tpl-sd25-13-video-4.mp4) · [tpl-sd25-13-video-5.mp4](./videos/reference/tpl-sd25-13-video-5.mp4) · [tpl-sd25-13-video-6.mp4](./videos/reference/tpl-sd25-13-video-6.mp4)
 
 #### Reference Images
 
@@ -455,7 +447,6 @@ https://github.com/user-attachments/assets/76d23d7c-cafc-4f0a-8bd2-b910e3305b65
 
 
 
-[tpl-sd25-14-src-bp.mov](./videos/generated/tpl-sd25-14-src-bp.mov)
 
 #### Reference Images
 
@@ -497,7 +488,6 @@ https://github.com/user-attachments/assets/c01c9b28-216a-4df2-a964-999dc7f96497
 
 
 
-[tpl-sd25-14-src-cn.mp4](./videos/generated/tpl-sd25-14-src-cn.mp4)
 
 #### Reference Images
 
@@ -539,7 +529,6 @@ https://github.com/user-attachments/assets/668f0144-672d-45d1-bf73-d03be2f2e869
 
 
 
-[tpl-sd25-23-src-bp.mov](./videos/generated/tpl-sd25-23-src-bp.mov)
 
 #### Reference Images
 
@@ -580,7 +569,6 @@ Narrator: "The last step, the first rinse. Just press the extraction button. You
 https://github.com/user-attachments/assets/8dc4dbae-fdbe-4964-807d-d2cacab33ea4
 
 
-[tpl-sd25-23-src-cn.mov](./videos/generated/tpl-sd25-23-src-cn.mov)
 
 #### Reference Images
 
@@ -622,7 +610,6 @@ Narrator: "The last step, the first rinse. Just press the extraction button. You
 https://github.com/user-attachments/assets/0a6f2f86-6430-45f5-be86-cc66722ed48d
 
 
-[tpl-sd25-09-src.mp4](./videos/generated/tpl-sd25-09-src.mp4)
 
 #### Input Video
 
@@ -630,7 +617,6 @@ https://github.com/user-attachments/assets/0a6f2f86-6430-45f5-be86-cc66722ed48d
 https://github.com/user-attachments/assets/a11593b9-810d-41ae-b9f8-30ac91ce1bb5
 
 
-[tpl-sd25-09-video-1.mp4](./videos/reference/tpl-sd25-09-video-1.mp4)
 
 #### Prompt (English)
 
@@ -647,7 +633,6 @@ Keep the giraffe group, tree branches, distant grassland, golden sunset backligh
 https://github.com/user-attachments/assets/df44a559-3c7e-435c-9bf4-dfed4950f169
 
 
-[tpl-sd25-19-src.mov](./videos/generated/tpl-sd25-19-src.mov)
 
 #### Input Video
 
@@ -655,7 +640,6 @@ https://github.com/user-attachments/assets/df44a559-3c7e-435c-9bf4-dfed4950f169
 https://github.com/user-attachments/assets/4b688a2e-efad-43a3-9985-9e44c5b70afc
 
 
-[tpl-sd25-19-video-1.mp4](./videos/reference/tpl-sd25-19-video-1.mp4)
 
 #### Prompt (English)
 
@@ -672,7 +656,6 @@ Video editing: Delete everyone in <<<video_1_1>>> except the protagonist.
 https://github.com/user-attachments/assets/92dcde4d-6f91-4e6b-a24b-a18e7489282a
 
 
-[tpl-sd25-03-src.mp4](./videos/generated/tpl-sd25-03-src.mp4)
 
 #### Reference Images
 
@@ -712,7 +695,6 @@ https://github.com/user-attachments/assets/f52c7bf4-24c5-4799-b123-71f90b820f55
 
 
 
-[tpl-sd25-06-src.mp4](./videos/generated/tpl-sd25-06-src.mp4)
 
 #### Reference Images
 
@@ -740,7 +722,6 @@ https://github.com/user-attachments/assets/577ca156-95c0-4839-a082-412c0957e9f4
 
 
 
-[tpl-sd25-08-src.mp4](./videos/generated/tpl-sd25-08-src.mp4)
 
 #### Reference Images
 
@@ -771,7 +752,6 @@ At the end, the ball is in the center of a modern stadium, and crowds and cheers
 https://github.com/user-attachments/assets/8a15b473-d8b7-4913-81b7-64e08e891ef6
 
 
-[tpl-sd25-20-src.mp4](./videos/generated/tpl-sd25-20-src.mp4)
 
 #### Reference Images
 
@@ -806,7 +786,6 @@ https://github.com/user-attachments/assets/0d8f8020-63e4-46ee-9d8b-07ec73be16f3
 
 
 
-[tpl-sd25-21-src.mov](./videos/generated/tpl-sd25-21-src.mov)
 
 #### Reference Images
 
@@ -833,7 +812,6 @@ Lynx/Serval Female - Lean anthropomorphic lynx/Serval female: dark orange hair, 
 https://github.com/user-attachments/assets/36aa667d-b0e7-4cbc-95cb-fedb90952d9c
 
 
-[tpl-sd25-05-src.mp4](./videos/generated/tpl-sd25-05-src.mp4)
 
 #### Reference Images
 
@@ -858,7 +836,6 @@ https://github.com/user-attachments/assets/8e101957-6bc1-4975-a9f2-ed582f93684c
 
 
 
-[tpl-sd25-07-src.mp4](./videos/generated/tpl-sd25-07-src.mp4)
 
 #### Input Video
 
@@ -868,7 +845,6 @@ https://github.com/user-attachments/assets/b141accc-9480-48c8-91fb-99bed261bd24
 
 
 
-[tpl-sd25-07-video-1.mp4](./videos/reference/tpl-sd25-07-video-1.mp4)
 
 #### Reference Images
 
@@ -893,7 +869,6 @@ https://github.com/user-attachments/assets/73c195b0-63f0-4566-bd07-4c725d9ceb14
 
 
 
-[tpl-sd25-11-src.mp4](./videos/generated/tpl-sd25-11-src.mp4)
 
 #### Input Video
 
@@ -903,7 +878,6 @@ https://github.com/user-attachments/assets/36627768-487f-4448-964e-8ca88a4f6475
 
 
 
-[tpl-sd25-11-video-1.mp4](./videos/reference/tpl-sd25-11-video-1.mp4)
 
 #### Reference Images
 
@@ -930,7 +904,6 @@ https://github.com/user-attachments/assets/0ef14138-8817-41b6-8966-543ab6cb32fb
 
 
 
-[tpl-sd25-22-src.mov](./videos/generated/tpl-sd25-22-src.mov)
 
 #### Input Video
 
@@ -940,7 +913,6 @@ https://github.com/user-attachments/assets/36a8d5a3-0631-413c-9af2-0264c226fa3d
 
 
 
-[tpl-sd25-22-video-1.mov](./videos/reference/tpl-sd25-22-video-1.mov)
 
 #### Prompt (English)
 
