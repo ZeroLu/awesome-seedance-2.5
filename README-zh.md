@@ -28,11 +28,13 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-16-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-16-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-16-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-16-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-16-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-16-image-6.webp) |
-| ![参考图 7](./assets/reference-images/tpl-sd25-16-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-16-image-8.webp) |  |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-16-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-16-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-16-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-16-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-16-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-16-image-6.webp) |
+
+| 参考图 7 | 参考图 8 |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 7](./assets/reference-images/tpl-sd25-16-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-16-image-8.webp) |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -60,9 +62,9 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-01-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-01-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -87,9 +89,9 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-02-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-02-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-02-image-3.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-02-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-02-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-02-image-3.webp) |  |  |  |
 
 #### 提示词（中文）
 
@@ -110,11 +112,13 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-04-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-04-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-04-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-04-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-04-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-04-image-6.webp) |
-| ![参考图 7](./assets/reference-images/tpl-sd25-04-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-04-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-04-image-9.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-04-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-04-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-04-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-04-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-04-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-04-image-6.webp) |
+
+| 参考图 7 | 参考图 8 | 参考图 9 |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 7](./assets/reference-images/tpl-sd25-04-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-04-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-04-image-9.webp) |  |  |  |
 
 #### 提示词（中文）
 
@@ -136,13 +140,17 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-12-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-12-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-12-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-12-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-12-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-12-image-6.webp) |
-| ![参考图 7](./assets/reference-images/tpl-sd25-12-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-12-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-12-image-9.webp) |
-| ![参考图 10](./assets/reference-images/tpl-sd25-12-image-10.webp) | ![参考图 11](./assets/reference-images/tpl-sd25-12-image-11.webp) | ![参考图 12](./assets/reference-images/tpl-sd25-12-image-12.webp) |
-| ![参考图 13](./assets/reference-images/tpl-sd25-12-image-13.webp) |  |  |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-12-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-12-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-12-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-12-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-12-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-12-image-6.webp) |
+
+| 参考图 7 | 参考图 8 | 参考图 9 | 参考图 10 | 参考图 11 | 参考图 12 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 7](./assets/reference-images/tpl-sd25-12-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-12-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-12-image-9.webp) | ![参考图 10](./assets/reference-images/tpl-sd25-12-image-10.webp) | ![参考图 11](./assets/reference-images/tpl-sd25-12-image-11.webp) | ![参考图 12](./assets/reference-images/tpl-sd25-12-image-12.webp) |
+
+| 参考图 13 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 13](./assets/reference-images/tpl-sd25-12-image-13.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -168,9 +176,9 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-15-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-15-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -200,14 +208,17 @@
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-17-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-17-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-17-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-17-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-17-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-17-image-6.webp) |
-| ![参考图 7](./assets/reference-images/tpl-sd25-17-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-17-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-17-image-9.webp) |
-| ![参考图 10](./assets/reference-images/tpl-sd25-17-image-10.webp) | ![参考图 11](./assets/reference-images/tpl-sd25-17-image-11.webp) | ![参考图 12](./assets/reference-images/tpl-sd25-17-image-12.webp) |
-| ![参考图 13](./assets/reference-images/tpl-sd25-17-image-13.webp) | ![参考图 14](./assets/reference-images/tpl-sd25-17-image-14.webp) | ![参考图 15](./assets/reference-images/tpl-sd25-17-image-15.webp) |
-| ![参考图 16](./assets/reference-images/tpl-sd25-17-image-16.webp) | ![参考图 17](./assets/reference-images/tpl-sd25-17-image-17.webp) | ![参考图 18](./assets/reference-images/tpl-sd25-17-image-18.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-17-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-17-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-17-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-17-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-17-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-17-image-6.webp) |
+
+| 参考图 7 | 参考图 8 | 参考图 9 | 参考图 10 | 参考图 11 | 参考图 12 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 7](./assets/reference-images/tpl-sd25-17-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-17-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-17-image-9.webp) | ![参考图 10](./assets/reference-images/tpl-sd25-17-image-10.webp) | ![参考图 11](./assets/reference-images/tpl-sd25-17-image-11.webp) | ![参考图 12](./assets/reference-images/tpl-sd25-17-image-12.webp) |
+
+| 参考图 13 | 参考图 14 | 参考图 15 | 参考图 16 | 参考图 17 | 参考图 18 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 13](./assets/reference-images/tpl-sd25-17-image-13.webp) | ![参考图 14](./assets/reference-images/tpl-sd25-17-image-14.webp) | ![参考图 15](./assets/reference-images/tpl-sd25-17-image-15.webp) | ![参考图 16](./assets/reference-images/tpl-sd25-17-image-16.webp) | ![参考图 17](./assets/reference-images/tpl-sd25-17-image-17.webp) | ![参考图 18](./assets/reference-images/tpl-sd25-17-image-18.webp) |
 
 #### 提示词（中文）
 
@@ -242,10 +253,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-10-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-10-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-10-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-10-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-10-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-10-image-6.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-10-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-10-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-10-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-10-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-10-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-10-image-6.webp) |
 
 #### 提示词（中文）
 
@@ -280,10 +290,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-10-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-10-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-10-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-10-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-10-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-10-image-6.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-10-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-10-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-10-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-10-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-10-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-10-image-6.webp) |
 
 #### 提示词（中文）
 
@@ -322,9 +331,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-13-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-13-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -340,9 +349,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -377,9 +386,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-14-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -414,10 +423,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-23-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-23-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-23-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-23-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-23-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-23-image-6.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-23-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-23-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-23-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-23-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-23-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-23-image-6.webp) |
 
 #### 提示词（中文）
 
@@ -452,10 +460,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-23-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-23-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-23-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-23-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-23-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-23-image-6.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-23-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-23-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-23-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-23-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-23-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-23-image-6.webp) |
 
 #### 提示词（中文）
 
@@ -525,12 +532,13 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-03-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-03-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-03-image-3.webp) |
-| ![参考图 4](./assets/reference-images/tpl-sd25-03-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-03-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-03-image-6.webp) |
-| ![参考图 7](./assets/reference-images/tpl-sd25-03-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-03-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-03-image-9.webp) |
-| ![参考图 10](./assets/reference-images/tpl-sd25-03-image-10.webp) | ![参考图 11](./assets/reference-images/tpl-sd25-03-image-11.webp) |  |
+| 参考图 1 | 参考图 2 | 参考图 3 | 参考图 4 | 参考图 5 | 参考图 6 |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-03-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-03-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-03-image-3.webp) | ![参考图 4](./assets/reference-images/tpl-sd25-03-image-4.webp) | ![参考图 5](./assets/reference-images/tpl-sd25-03-image-5.webp) | ![参考图 6](./assets/reference-images/tpl-sd25-03-image-6.webp) |
+
+| 参考图 7 | 参考图 8 | 参考图 9 | 参考图 10 | 参考图 11 |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 7](./assets/reference-images/tpl-sd25-03-image-7.webp) | ![参考图 8](./assets/reference-images/tpl-sd25-03-image-8.webp) | ![参考图 9](./assets/reference-images/tpl-sd25-03-image-9.webp) | ![参考图 10](./assets/reference-images/tpl-sd25-03-image-10.webp) | ![参考图 11](./assets/reference-images/tpl-sd25-03-image-11.webp) |  |
 
 #### 提示词（中文）
 
@@ -558,9 +566,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-06-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-06-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -580,9 +588,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-08-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-08-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-08-image-3.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-08-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-08-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-08-image-3.webp) |  |  |  |
 
 #### 提示词（中文）
 
@@ -605,9 +613,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-20-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-20-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -635,9 +643,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-21-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-21-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -656,9 +664,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-05-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-05-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -679,9 +687,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-07-image-1.webp) |  |  |
+| 参考图 1 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-07-image-1.webp) |  |  |  |  |  |
 
 #### 提示词（中文）
 
@@ -702,9 +710,9 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 参考图片
 
-| 参考图 1 | 参考图 2 | 参考图 3 |
-|---|---|---|
-| ![参考图 1](./assets/reference-images/tpl-sd25-11-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-11-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-11-image-3.webp) |
+| 参考图 1 | 参考图 2 | 参考图 3 |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| ![参考图 1](./assets/reference-images/tpl-sd25-11-image-1.webp) | ![参考图 2](./assets/reference-images/tpl-sd25-11-image-2.webp) | ![参考图 3](./assets/reference-images/tpl-sd25-11-image-3.webp) |  |  |  |
 
 #### 提示词（中文）
 

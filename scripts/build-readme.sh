@@ -106,17 +106,20 @@ render_cases() {
         else "Capsule Coffee Machine User Guide (China)"
         end
       end;
+    def image_header($image; $index):
+      if $image == null then "" else (if $language == "zh" then "参考图 " else "Reference " end) + ($index | tostring) end;
     def image_cell($image; $index):
-      if $image == null then "" else "![" + (if $language == "zh" then "参考图 " else "Reference " end) + ($index | tostring) + "](./assets/reference-images/" + ($image | file | sub("\\.(png|jpeg)$"; ".webp")) + ")" end;
+      if $image == null then "" else "![" + image_header($image; $index) + "](./assets/reference-images/" + ($image | file | sub("\\.(png|jpeg)$"; ".webp")) + ")" end;
     def image_table:
       (.media.images // []) as $images |
       if ($images | length) == 0 then ""
       else
         "#### " + (if $language == "zh" then "参考图片" else "Reference Images" end) + "\n\n" +
-        "| " + (if $language == "zh" then "参考图 1 | 参考图 2 | 参考图 3" else "Reference 1 | Reference 2 | Reference 3" end) + " |\n|---|---|---|\n" +
-        ([range(0; ($images | length); 3) as $i |
-          "| " + image_cell($images[$i]; $i + 1) + " | " + image_cell($images[$i + 1]; $i + 2) + " | " + image_cell($images[$i + 2]; $i + 3) + " |"
-        ] | join("\n")) + "\n\n"
+        ([range(0; ($images | length); 6) as $i |
+          "| " + ([range(0; 6) as $offset | image_header($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |\n" +
+          "| " + ([range(0; 6) | "---"] | join(" | ")) + " |\n" +
+          "| " + ([range(0; 6) as $offset | image_cell($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |"
+        ] | join("\n\n")) + "\n\n"
       end;
     sort_by((category | category_order), .id) | group_by(category)[] |
     "## \((.[0] | category) | category_title)\n" +
