@@ -24,7 +24,7 @@
 
 #### 结果视频
 
-[tpl-sd25-16-src.mp4](./videos/generated/tpl-sd25-16-src.mp4)
+https://github.com/user-attachments/assets/2edbd343-4d1a-4b62-9d7a-5bdf4ea1f964
 
 #### 参考图片
 
