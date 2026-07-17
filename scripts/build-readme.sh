@@ -48,18 +48,87 @@ render_cases() {
       elif . == "vfx" then 6
       else 7
       end;
+    def title:
+      if $language == "zh" then
+        if .id == "tpl-sd25-01" then "三勇士决战熔岩巨兽"
+        elif .id == "tpl-sd25-02" then "绝境突围：五机大战母舰"
+        elif .id == "tpl-sd25-03" then "一镜到底：多语言 FPV 环游"
+        elif .id == "tpl-sd25-04" then "一朵花的环球传递"
+        elif .id == "tpl-sd25-05" then "水晶球卡点无缝转场"
+        elif .id == "tpl-sd25-06" then "蒸汽朋克发条世界"
+        elif .id == "tpl-sd25-07" then "丛林能量弓"
+        elif .id == "tpl-sd25-08" then "三千年足球演变史"
+        elif .id == "tpl-sd25-09" then "清除草原无人机"
+        elif .id == "tpl-sd25-10-bp" then "胶囊咖啡机安装指南（BytePlus）"
+        elif .id == "tpl-sd25-10-cn" then "胶囊咖啡机安装指南（中国版）"
+        elif .id == "tpl-sd25-11" then "中世纪古堡徒手对决"
+        elif .id == "tpl-sd25-12" then "一镜穿越四季昼夜"
+        elif .id == "tpl-sd25-13" then "水果饼干风味秀"
+        elif .id == "tpl-sd25-14-bp" then "沙漠角蜥水果广告（BytePlus）"
+        elif .id == "tpl-sd25-14-cn" then "沙漠角蜥水果广告（中国版）"
+        elif .id == "tpl-sd25-15" then "少年车手的终局竞速"
+        elif .id == "tpl-sd25-16" then "穿行六间情绪房"
+        elif .id == "tpl-sd25-17" then "奇幻窗景穿梭"
+        elif .id == "tpl-sd25-18" then "醉汉天台惊魂"
+        elif .id == "tpl-sd25-19" then "一键清除路人"
+        elif .id == "tpl-sd25-20" then "海边多语种说唱"
+        elif .id == "tpl-sd25-21" then "《WILD PAIR》谍战片头"
+        elif .id == "tpl-sd25-22" then "蒸汽火车破幕而出"
+        elif .id == "tpl-sd25-23-bp" then "胶囊咖啡机使用教程（BytePlus）"
+        else "胶囊咖啡机使用教程（中国版）"
+        end
+      else
+        if .id == "tpl-sd25-01" then "Three Warriors vs. the Lava Behemoth"
+        elif .id == "tpl-sd25-02" then "Last Squadron: Five Fighters vs. the Mothership"
+        elif .id == "tpl-sd25-03" then "One-Shot Multilingual FPV Journey"
+        elif .id == "tpl-sd25-04" then "A Flower Travels the World"
+        elif .id == "tpl-sd25-05" then "Crystal Ball Match-Cut Transition"
+        elif .id == "tpl-sd25-06" then "Clockwork Worlds"
+        elif .id == "tpl-sd25-07" then "Energy Bow in the Jungle"
+        elif .id == "tpl-sd25-08" then "Football Through Three Thousand Years"
+        elif .id == "tpl-sd25-09" then "Remove the Safari Drone"
+        elif .id == "tpl-sd25-10-bp" then "Capsule Coffee Machine Setup (BytePlus)"
+        elif .id == "tpl-sd25-10-cn" then "Capsule Coffee Machine Setup (China)"
+        elif .id == "tpl-sd25-11" then "Medieval Unarmed Duel"
+        elif .id == "tpl-sd25-12" then "Seasons in One Shot"
+        elif .id == "tpl-sd25-13" then "Fruit Cookie Flavor Parade"
+        elif .id == "tpl-sd25-14-bp" then "Desert Horned Lizard Fruit Ad (BytePlus)"
+        elif .id == "tpl-sd25-14-cn" then "Desert Horned Lizard Fruit Ad (China)"
+        elif .id == "tpl-sd25-15" then "Youth Racing Finale"
+        elif .id == "tpl-sd25-16" then "Six Rooms, Six Moods"
+        elif .id == "tpl-sd25-17" then "Windows of Wonder"
+        elif .id == "tpl-sd25-18" then "Drunk Rooftop Fall"
+        elif .id == "tpl-sd25-19" then "Crowd Removal"
+        elif .id == "tpl-sd25-20" then "Beachside Multilingual Rap"
+        elif .id == "tpl-sd25-21" then "WILD PAIR Spy Title Sequence"
+        elif .id == "tpl-sd25-22" then "Steam Train Breaks the Screen"
+        elif .id == "tpl-sd25-23-bp" then "Capsule Coffee Machine User Guide (BytePlus)"
+        else "Capsule Coffee Machine User Guide (China)"
+        end
+      end;
+    def image_cell($image; $index):
+      if $image == null then "" else "![" + (if $language == "zh" then "参考图 " else "Reference " end) + ($index | tostring) + "](./assets/reference-images/" + ($image | file) + ")" end;
+    def image_table:
+      (.media.images // []) as $images |
+      if ($images | length) == 0 then ""
+      else
+        "#### " + (if $language == "zh" then "参考图片" else "Reference Images" end) + "\n\n" +
+        "| " + (if $language == "zh" then "参考图 1 | 参考图 2 | 参考图 3" else "Reference 1 | Reference 2 | Reference 3" end) + " |\n|---|---|---|\n" +
+        ([range(0; ($images | length); 3) as $i |
+          "| " + image_cell($images[$i]; $i + 1) + " | " + image_cell($images[$i + 1]; $i + 2) + " | " + image_cell($images[$i + 2]; $i + 3) + " |"
+        ] | join("\n")) + "\n\n"
+      end;
     sort_by((category | category_order), .id) | group_by(category)[] |
     "## \((.[0] | category) | category_title)\n" +
     (map(
-      "### \(.id)\n\n" +
-      (if $language == "zh" then "**结果视频：**" else "**Result video:**" end) + " [\(.src | file)](./videos/generated/\(.src | file))\n\n" +
+      "### \(title)\n\n" +
+      "#### " + (if $language == "zh" then "结果视频" else "Result Video" end) + "\n\n" +
+      (if .readmeVideoUrl then .readmeVideoUrl else "[" + (.src | file) + "](./videos/generated/" + (.src | file) + ")" end) + "\n\n" +
       (if ((.media.videos // []) | length) > 0 then
-        (if $language == "zh" then "**输入视频：** " else "**Input video:** " end) + ((.media.videos // []) | map("[" + (file) + "](./videos/reference/" + (file) + ")") | join(" · ")) + "\n\n"
+        "#### " + (if $language == "zh" then "输入视频" else "Input Video" end) + "\n\n" + ((.media.videos // []) | map("[" + (file) + "](./videos/reference/" + (file) + ")") | join(" · ")) + "\n\n"
        else "" end) +
-      (if ((.media.images // []) | length) > 0 then
-        (if $language == "zh" then "**参考图片：** " else "**Reference images:** " end) + ((.media.images // []) | map("[" + (file) + "](./assets/reference-images/" + (file) + ")") | join(" · ")) + "\n\n"
-       else "" end) +
-      "<details>\n<summary>" + (if $language == "zh" then "提示词（中文）" else "Prompt (English)" end) + "</summary>\n\n```text\n\(.prompt.fallback[$prompt_field])\n```\n\n</details>\n"
+      image_table +
+      "#### " + (if $language == "zh" then "提示词（中文）" else "Prompt (English)" end) + "\n\n```text\n\(.prompt.fallback[$prompt_field])\n```\n"
     ) | join("\n"))
   ' "$cases"
 }

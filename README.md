@@ -20,14 +20,21 @@ Every example includes its original media files. The prompt below is an English 
 
 ---
 ## Animation & Stylized Stories
-### tpl-sd25-16
+### Six Rooms, Six Moods
 
-**Result video:** [tpl-sd25-16-src.mp4](./videos/generated/tpl-sd25-16-src.mp4)
+#### Result Video
 
-**Reference images:** [tpl-sd25-16-image-1.png](./assets/reference-images/tpl-sd25-16-image-1.png) · [tpl-sd25-16-image-2.png](./assets/reference-images/tpl-sd25-16-image-2.png) · [tpl-sd25-16-image-3.png](./assets/reference-images/tpl-sd25-16-image-3.png) · [tpl-sd25-16-image-4.png](./assets/reference-images/tpl-sd25-16-image-4.png) · [tpl-sd25-16-image-5.png](./assets/reference-images/tpl-sd25-16-image-5.png) · [tpl-sd25-16-image-6.png](./assets/reference-images/tpl-sd25-16-image-6.png) · [tpl-sd25-16-image-7.png](./assets/reference-images/tpl-sd25-16-image-7.png) · [tpl-sd25-16-image-8.png](./assets/reference-images/tpl-sd25-16-image-8.png)
+[tpl-sd25-16-src.mp4](./videos/generated/tpl-sd25-16-src.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-16-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-16-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-16-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-16-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-16-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-16-image-6.png) |
+| ![Reference 7](./assets/reference-images/tpl-sd25-16-image-7.png) | ![Reference 8](./assets/reference-images/tpl-sd25-16-image-8.png) |  |
+
+#### Prompt (English)
 
 ```text
 From left to right, the camera steadily follows a man in a black coat (refer to <<<image_1_1>>>) through six connected rooms of different colors and atmospheres. The structure of each room is the same: white walls, herringbone light wooden floors, French double floor-to-ceiling windows, and white gauze curtains, refer to <<<image_2_2>>> but the scenery outside the window and the indoor atmosphere are completely different. The protagonist moves at a constant speed throughout the game, passing through every open door on the wall.
@@ -40,19 +47,24 @@ After 25-30 seconds, the protagonist finally comes to a blank room, stands in th
 The overall film quality is high-end fashion advertising style. The light is completely determined by the scene outside the window, creating a strong emotional contrast. There is no text in the picture.
 ```
 
-</details>
-
 ## Cinematic Storytelling & Short Drama
-### tpl-sd25-01
+### Three Warriors vs. the Lava Behemoth
 
-**Result video:** [tpl-sd25-01-src.mp4](./videos/generated/tpl-sd25-01-src.mp4)
+#### Result Video
 
-**Input video:** [tpl-sd25-01-video-1.mp4](./videos/reference/tpl-sd25-01-video-1.mp4)
+[tpl-sd25-01-src.mp4](./videos/generated/tpl-sd25-01-src.mp4)
 
-**Reference images:** [tpl-sd25-01-image-1.png](./assets/reference-images/tpl-sd25-01-image-1.png)
+#### Input Video
 
-<details>
-<summary>Prompt (English)</summary>
+[tpl-sd25-01-video-1.mp4](./videos/reference/tpl-sd25-01-video-1.mp4)
+
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-01-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 <<<video_1_1>>> Only provides frame-by-frame parabolic trajectories, large attack arcs, force contact points, action timing, and nine-lens hard-cut lenses of the three warriors and the behemoth. Its lowpoly volume and placeholder special effects are only for motion reference and do not enter the screen; <<<image_1_2>>> locks in the shape, material, and color of the original heavily armored warrior and the rock lava behemoth, and provides the architectural structure and light and shadow tone of the collapsed stone temple ruins.
@@ -62,18 +74,23 @@ Strong epic drum beats and brass music, accompanied by metal cracking and the ro
 Epic fantasy 2.5D, natural hard light superimposed with energy glow, strong contrast between cold and warm, air dust particles and volumetric light, movie-level clear picture quality, wide open and close movements and strict compliance with gravity and inertia.
 ```
 
-</details>
+### Last Squadron: Five Fighters vs. the Mothership
 
-### tpl-sd25-02
+#### Result Video
 
-**Result video:** [tpl-sd25-02-src.mp4](./videos/generated/tpl-sd25-02-src.mp4)
+[tpl-sd25-02-src.mp4](./videos/generated/tpl-sd25-02-src.mp4)
 
-**Input video:** [tpl-sd25-02-video-1.mp4](./videos/reference/tpl-sd25-02-video-1.mp4)
+#### Input Video
 
-**Reference images:** [tpl-sd25-02-image-1.png](./assets/reference-images/tpl-sd25-02-image-1.png) · [tpl-sd25-02-image-2.png](./assets/reference-images/tpl-sd25-02-image-2.png) · [tpl-sd25-02-image-3.png](./assets/reference-images/tpl-sd25-02-image-3.png)
+[tpl-sd25-02-video-1.mp4](./videos/reference/tpl-sd25-02-video-1.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-02-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-02-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-02-image-3.png) |
+
+#### Prompt (English)
 
 ```text
 <<<video_1_1>>> Only provides frame-by-frame continuous trajectories of the five aircraft and the mothership, separate and non-overlapping channels, tail biting and falling curves, force timing and telescope reference, and its volume and placeholder special effects do not enter the screen; <<<image_1_2>> Lock three falcon-shaped friendly aircraft, <<<image_2_3>>> two raptor-shaped enemy aircraft, <<<image_3_4>>> provide the appearance, material color, nebula deep space environment and light and shadow tone of the long wedge-shaped mothership.
@@ -83,16 +100,21 @@ Each aircraft is continuous frame by frame throughout the whole process, the lan
 Really shot space science fiction blockbuster, with a tragic and heroic tone, bright and transparent high exposure, long focus and shallow depth of field, high contrast hard light plus weak cold fill light, film grain, volumetric light, motion blur, mainly cold deep space colors, restrained warm color energy, and original styling.
 ```
 
-</details>
+### A Flower Travels the World
 
-### tpl-sd25-04
+#### Result Video
 
-**Result video:** [tpl-sd25-04-src.mp4](./videos/generated/tpl-sd25-04-src.mp4)
+[tpl-sd25-04-src.mp4](./videos/generated/tpl-sd25-04-src.mp4)
 
-**Reference images:** [tpl-sd25-04-image-1.png](./assets/reference-images/tpl-sd25-04-image-1.png) · [tpl-sd25-04-image-2.png](./assets/reference-images/tpl-sd25-04-image-2.png) · [tpl-sd25-04-image-3.png](./assets/reference-images/tpl-sd25-04-image-3.png) · [tpl-sd25-04-image-4.png](./assets/reference-images/tpl-sd25-04-image-4.png) · [tpl-sd25-04-image-5.png](./assets/reference-images/tpl-sd25-04-image-5.png) · [tpl-sd25-04-image-6.png](./assets/reference-images/tpl-sd25-04-image-6.png) · [tpl-sd25-04-image-7.png](./assets/reference-images/tpl-sd25-04-image-7.png) · [tpl-sd25-04-image-8.png](./assets/reference-images/tpl-sd25-04-image-8.png) · [tpl-sd25-04-image-9.png](./assets/reference-images/tpl-sd25-04-image-9.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-04-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-04-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-04-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-04-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-04-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-04-image-6.png) |
+| ![Reference 7](./assets/reference-images/tpl-sd25-04-image-7.png) | ![Reference 8](./assets/reference-images/tpl-sd25-04-image-8.png) | ![Reference 9](./assets/reference-images/tpl-sd25-04-image-9.png) |
+
+#### Prompt (English)
 
 ```text
 Live-action style, fast editing, cinematic feel, 4K, 24fps, warm natural light, real character performances, natural lip sync, no subtitles. Taking the delivery of a flower as the core visual clue of the entire video, the flower quickly spreads from one country to the next, connecting different regions and people around the world. In every scene, a character takes the flowers, smiles sincerely, and says "thank you" in the local language. The overall rhythm is brisk and smooth, and the shots are dynamic, emphasizing the real street/life atmosphere, warm cross-cultural connections, and the transmission of goodwill between people. Transition method: In the previous shot, a character handed the flower out of the screen, and in the next shot, another character caught the flower in the new scene.
@@ -100,18 +122,27 @@ Or use fast panning, motion blur, or foreground occlusion to complete seamless t
 Maintain the visual continuity of the flowers in the picture and form a lens style that feels like "one shot can reach the whole world": hand-held follow-up shooting, slight camera shake, quick push-and-pull, close-up and mid-shot combination, real ambient sound atmosphere, and movie-level street shooting texture. The background music is warm, brisk, and has a sense of world travel, and the ending fades out gently. Scene 1 <<<image_1_1>>>>A real-life scene in a Chinese flower shop. The girl took a rose, looked at the camera, smiled, and said naturally: "Thank you!" The camera followed the flowers from the right side of the screen, and the girl gently raised the bouquet after receiving the flowers. Scene 2<<<image_2_2>>>>Street in England, cool weather, natural street scene. The man took a carnation, smiled, nodded, and said, "Thank you!" Through the transition, the flower was thrown from the previous scene into this scene. Scene 3 <<<image_3_3>>>>Mexican market, rich in color and full of fireworks. The aunt took the bouquet of marigolds, clasped her hands together, and said warmly: "¡Gracias!" The camera quickly passed over the stall and the crowd, and the moment of receiving the flowers was frozen. Scene 4 <<<image_4_4>>> Indonesian countryside, natural sunlight shines. The child took a plumeria, smiled happily, bowed slightly, and said: "Terima kasih!" The camera had a sense of running, and the atmosphere was pure and natural. Scene 5 <<<image_5_5>>>>The streets of Thailand are bustling with people. The vendor took a bunch of jasmine garlands, clasped his hands together, and said kindly: "ขอบคุณค่ะ!" The camera moved forward briskly, and the garlands swayed slightly in the sunlight. Scene 6 <<<image_6_6>>>Arabic courtyard, soft light and shadow, elegant environment. The lady took a desert rose, caressed her chest, smiled, and said, "شكراً!" The picture was quiet and warm, and the character's expression was sincere. Scene 7 <<<image_7_7>>>>Brazilian community, the atmosphere is warm and lively. The boy took the gerbera and was very happy and said: "Obrigado!" The shot is rhythmic and full of vitality. Scene 8 <<<image_8_8>>> Japanese street, an office worker took a small flower from the lunch box, bowed politely, and said: "ありがとう! "The shot is short and neat, retaining the sense of urban rhythm. Scene 9 <<<image_9_9>>> Korean streets, modern urban feel. The young woman took a branch of azalea, naturally closed her hands, smiled and said: "감사합니다!" The camera paused for a moment at her smile, and then the scene softly faded out.
 ```
 
-</details>
+### Seasons in One Shot
 
-### tpl-sd25-12
+#### Result Video
 
-**Result video:** [tpl-sd25-12-src.mp4](./videos/generated/tpl-sd25-12-src.mp4)
+[tpl-sd25-12-src.mp4](./videos/generated/tpl-sd25-12-src.mp4)
 
-**Input video:** [tpl-sd25-12-video-1.mp4](./videos/reference/tpl-sd25-12-video-1.mp4) · [tpl-sd25-12-video-2.mp4](./videos/reference/tpl-sd25-12-video-2.mp4) · [tpl-sd25-12-video-3.mp4](./videos/reference/tpl-sd25-12-video-3.mp4)
+#### Input Video
 
-**Reference images:** [tpl-sd25-12-image-1.png](./assets/reference-images/tpl-sd25-12-image-1.png) · [tpl-sd25-12-image-2.png](./assets/reference-images/tpl-sd25-12-image-2.png) · [tpl-sd25-12-image-3.png](./assets/reference-images/tpl-sd25-12-image-3.png) · [tpl-sd25-12-image-4.png](./assets/reference-images/tpl-sd25-12-image-4.png) · [tpl-sd25-12-image-5.png](./assets/reference-images/tpl-sd25-12-image-5.png) · [tpl-sd25-12-image-6.jpeg](./assets/reference-images/tpl-sd25-12-image-6.jpeg) · [tpl-sd25-12-image-7.png](./assets/reference-images/tpl-sd25-12-image-7.png) · [tpl-sd25-12-image-8.png](./assets/reference-images/tpl-sd25-12-image-8.png) · [tpl-sd25-12-image-9.png](./assets/reference-images/tpl-sd25-12-image-9.png) · [tpl-sd25-12-image-10.png](./assets/reference-images/tpl-sd25-12-image-10.png) · [tpl-sd25-12-image-11.png](./assets/reference-images/tpl-sd25-12-image-11.png) · [tpl-sd25-12-image-12.png](./assets/reference-images/tpl-sd25-12-image-12.png) · [tpl-sd25-12-image-13.png](./assets/reference-images/tpl-sd25-12-image-13.png)
+[tpl-sd25-12-video-1.mp4](./videos/reference/tpl-sd25-12-video-1.mp4) · [tpl-sd25-12-video-2.mp4](./videos/reference/tpl-sd25-12-video-2.mp4) · [tpl-sd25-12-video-3.mp4](./videos/reference/tpl-sd25-12-video-3.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-12-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-12-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-12-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-12-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-12-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-12-image-6.jpeg) |
+| ![Reference 7](./assets/reference-images/tpl-sd25-12-image-7.png) | ![Reference 8](./assets/reference-images/tpl-sd25-12-image-8.png) | ![Reference 9](./assets/reference-images/tpl-sd25-12-image-9.png) |
+| ![Reference 10](./assets/reference-images/tpl-sd25-12-image-10.png) | ![Reference 11](./assets/reference-images/tpl-sd25-12-image-11.png) | ![Reference 12](./assets/reference-images/tpl-sd25-12-image-12.png) |
+| ![Reference 13](./assets/reference-images/tpl-sd25-12-image-13.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 Core instructions: A 26-second one-shot narrative short film, with stable tracking, refer to <<<video_1_1>>> and smooth surround movement, refer to <<<video_2_2>>>. Smooth travel feeling. The alternation of day and night and the flow of the four seasons are realized within the lens. The protagonist is a European woman <<<image_1_3>>>, placed in a sea of ​​people full of fireworks, highlighting the ultimate sense of loneliness and the quality of cinematography.
@@ -126,16 +157,19 @@ Segmented camera movement and scene description:
 24-26 seconds (slow push and beat): As she walked towards the end of the long street, the sky darkened at a speed visible to the naked eye, and the day sank seamlessly into the night. The dim street lights on both sides and the light bulbs of the stalls were turned on one after another <<<image_12_15>>>. The vendors were packing up their goods. The noise seemed to be slowly absorbed and distant by the heavy snow, and her steps gradually slowed down. Grand fireworks suddenly bloomed in the night sky <<<image_13_16>>>, and the sound reference of the fireworks bursting <<<voice_1_17>>> was reflected in the colorful light spots flickering on the building walls and in her eyes. The world is still lively, but she looks up quietly, the camera slowly zooms out, and ends here gently.
 ```
 
-</details>
+### Youth Racing Finale
 
-### tpl-sd25-15
+#### Result Video
 
-**Result video:** [tpl-sd25-15-src.mp4](./videos/generated/tpl-sd25-15-src.mp4)
+[tpl-sd25-15-src.mp4](./videos/generated/tpl-sd25-15-src.mp4)
 
-**Reference images:** [tpl-sd25-15-image-1.png](./assets/reference-images/tpl-sd25-15-image-1.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-15-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 30 seconds cinematic youth racing short film, 2d animation style. The protagonist is a young driver who drives a motorcycle to participate in high-profile competitions. The overall style is passionate, youthful, emotionally intense, and cinematic, with a complete beginning, transition, and clear emotional arc. Only two types of camera movements are used in the entire film: high-speed tracking and slow-motion surround. There are very few lines, and they appear naturally like memory fragments. The tone is sincere, gentle, and restrained, without shouting slogans or overly sensationalizing. Don’t feel disaster, don’t express negatively, and don’t exaggerate science fiction. It focuses on love, support, counterattack and growth in the race of youth.
@@ -154,16 +188,24 @@ An ascending track appeared ahead, and the boy sprinted at full speed against th
 27 seconds to 30 secondsThe camera circles the locomotive in mid-air for a slow-motion panoramic close-up. Push the emotions of passion, tenderness, freedom and upward leap to the climax. Flowers bloom behind you with special effects, and then seedance appears, refer to <<<image_1_1>>>
 ```
 
-</details>
+### Windows of Wonder
 
-### tpl-sd25-17
+#### Result Video
 
-**Result video:** [tpl-sd25-17-src.mp4](./videos/generated/tpl-sd25-17-src.mp4)
+[tpl-sd25-17-src.mp4](./videos/generated/tpl-sd25-17-src.mp4)
 
-**Reference images:** [tpl-sd25-17-image-1.png](./assets/reference-images/tpl-sd25-17-image-1.png) · [tpl-sd25-17-image-2.png](./assets/reference-images/tpl-sd25-17-image-2.png) · [tpl-sd25-17-image-3.png](./assets/reference-images/tpl-sd25-17-image-3.png) · [tpl-sd25-17-image-4.png](./assets/reference-images/tpl-sd25-17-image-4.png) · [tpl-sd25-17-image-5.png](./assets/reference-images/tpl-sd25-17-image-5.png) · [tpl-sd25-17-image-6.png](./assets/reference-images/tpl-sd25-17-image-6.png) · [tpl-sd25-17-image-7.png](./assets/reference-images/tpl-sd25-17-image-7.png) · [tpl-sd25-17-image-8.png](./assets/reference-images/tpl-sd25-17-image-8.png) · [tpl-sd25-17-image-9.png](./assets/reference-images/tpl-sd25-17-image-9.png) · [tpl-sd25-17-image-10.png](./assets/reference-images/tpl-sd25-17-image-10.png) · [tpl-sd25-17-image-11.png](./assets/reference-images/tpl-sd25-17-image-11.png) · [tpl-sd25-17-image-12.png](./assets/reference-images/tpl-sd25-17-image-12.png) · [tpl-sd25-17-image-13.png](./assets/reference-images/tpl-sd25-17-image-13.png) · [tpl-sd25-17-image-14.png](./assets/reference-images/tpl-sd25-17-image-14.png) · [tpl-sd25-17-image-15.png](./assets/reference-images/tpl-sd25-17-image-15.png) · [tpl-sd25-17-image-16.png](./assets/reference-images/tpl-sd25-17-image-16.png) · [tpl-sd25-17-image-17.png](./assets/reference-images/tpl-sd25-17-image-17.png) · [tpl-sd25-17-image-18.png](./assets/reference-images/tpl-sd25-17-image-18.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-17-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-17-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-17-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-17-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-17-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-17-image-6.png) |
+| ![Reference 7](./assets/reference-images/tpl-sd25-17-image-7.png) | ![Reference 8](./assets/reference-images/tpl-sd25-17-image-8.png) | ![Reference 9](./assets/reference-images/tpl-sd25-17-image-9.png) |
+| ![Reference 10](./assets/reference-images/tpl-sd25-17-image-10.png) | ![Reference 11](./assets/reference-images/tpl-sd25-17-image-11.png) | ![Reference 12](./assets/reference-images/tpl-sd25-17-image-12.png) |
+| ![Reference 13](./assets/reference-images/tpl-sd25-17-image-13.png) | ![Reference 14](./assets/reference-images/tpl-sd25-17-image-14.png) | ![Reference 15](./assets/reference-images/tpl-sd25-17-image-15.png) |
+| ![Reference 16](./assets/reference-images/tpl-sd25-17-image-16.png) | ![Reference 17](./assets/reference-images/tpl-sd25-17-image-17.png) | ![Reference 18](./assets/reference-images/tpl-sd25-17-image-18.png) |
+
+#### Prompt (English)
 
 ```text
 Cinematic brand concept short film. <<<image_1_1>>> is the first frame, the screen shakes slightly, the camera gradually zooms in, and comes to the rapidly retreating tree shadow outside the window. The tree shadow retreats faster and faster, and suddenly cuts to <<<image_2_2>>>, the speed suddenly slows down, the camera slowly moves along the stream, with the birds singing and the flowers fragrant.
@@ -172,14 +214,13 @@ The camera slowly pulls back and the picture is out of focus. Then it refocuses 
 The screen stays on a close-up of human eyes, then the eyes are closed, and the screen goes black. Then suddenly the eyes are opened, and the word "seedance" with an accent appears in the center of the eyes.
 ```
 
-</details>
+### Drunk Rooftop Fall
 
-### tpl-sd25-18
+#### Result Video
 
-**Result video:** [tpl-sd25-18-src.mp4](./videos/generated/tpl-sd25-18-src.mp4)
+[tpl-sd25-18-src.mp4](./videos/generated/tpl-sd25-18-src.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Prompt (English)
 
 ```text
 [Drunk man's horror on the rooftop - he slipped and fell - he grabbed the rope and broke the window - fell asleep | Black humorous short film | About 30 seconds]
@@ -188,50 +229,21 @@ Physics (extremely realistic) - real gravity throughout, and the chubby drunkard
 S1 (0–4 seconds)・Opening: Close-up of chewing (audio) - The opening is a close-up of the man's face filling the entire screen: <<<image_1_1>>> is chewing a burger, his cheeks fluttering, his cheeks flushed, his drunken eyes narrowed, his expression blurred, and the corners of his mouth were stained with sauce, showing a contented drunken state. There are audible chewing sounds, vague grunts of contentment, and the distant sounds of the neon city environment. real time. S2 (4–9 seconds)・Panorama: Stretching → Slip and Fall (sound) - The camera smoothly pans to the panorama: the drunk man stands near the edge of the rooftop, with empty beer cans and hamburger bags scattered around him. He stood up unsteadily, stretched out comfortably, and leaned back - before he could stand firmly, his feet slipped, and he stumbled backwards over the edge of the rooftop and fell. The movements are clumsy and realistic, and the burger hasn't let go yet. Urban ambient sounds + a short panicked "Eh--!" real time. S3 (9–12 seconds)・Cut: Close-up of surprised face (yelling, loud noise) - Hard cut to a close-up of his falling face: his drunken eyes suddenly widened, his double chin was squeezed into a ball, his face was full of horror, his mouth opened wide and he screamed "Ah——!!". The shouting was loud and explosive, and the wind roared in my ears. real time. S4 (12–16 seconds)・Cut: long shot and head-up perspective (completely silent) - Hard cut to distant shot and head-up perspective: Looking from a distance from the opposite building or street, a tiny white figure is falling straight down from a tall building, and the neon city stands huge and indifferent. The scene is completely silent at this moment - only absolute silence, contrasting with the huge scene just a second ago.The effect forms a strong black humor contrast, highlighting the insignificance and absurdity of the individual. real time. S5 (16–21 seconds)・Cut: Close-up of face (yelling) → Grabbing the rope - Hard cut back to close-up of face, the voice suddenly returns: He continues to scream "Ahhhhhhhhhhhhhhhhhhhhhhhhhhh!", grabbing the rope in the air - and suddenly grabs the life-saving rope! The cable instantly tensed and bent under his weight, making a crashing sound. His scream was suddenly stopped, and his whole body was dragged and swung out. Speed ​​change: The moment when the force of the grab rope is applied, there is a brief slow motion (it can be seen that the cable sinks deeply and the sweatshirt shakes violently) → then returns to real time and is thrown towards the window. S6 (21–26 seconds)・Cut: Indoor perspective (quiet) → Glass bursts → Falling in - Hard cut to indoor perspective: The camera is in a dark and quiet room, looking out through a bright window - it is quiet at first, with only the slight hum of the air conditioner in the room. The next second, the glass exploded inward (short slow-motion bullet time), and the drunkard smashed the window with his hamburger. The fragments flew radially, and neon light spilled in through the broken glass. He fell heavily into the room and hit the floor/sofa, and the broken glass jingled. Snap back to real time. S7 (26–30 seconds)・End: Surprised for a second → falling asleep (black humor ending) - The man is sprawled on the floor indoors, covered with broken glass, and miraculously the burger is still in his hand (or dropped on his chest). He slowly opened his eyes and was stunned for a full second - looking around, as if thinking, "Where am I...?". Then, drunkenness completely took over. He smacked his lips nonchalantly, put the burger in his arms, turned over, lay down comfortably on the spot, and fell asleep, snoring lightly. The camera slowly opens or freezes on this absurd yet peaceful scene. Hard cut to black scene. Audio (Dark Humor Sound Design) – Live sound only, no music/subtitles. The core is the repeated hard cuts of "loud noise ↔ silent" **: S1 chewing and grunting of satisfaction (sound) → S2 stretching and losing a foot + short exclamation (sound) → S3 close-up of the face and a huge scream (explosion) → S4 distant view is completely silent (contrast with silence) → S5 close-up of the face and another huge scream + cable collapse + the scream stopped abruptly after being caught → S6 The room was quiet at first, then there was a huge explosion of glass → the muffled sound of S7 falling + the jingle of broken glass + a second of silence + satisfied smacking of lips and light snoring, and everything returned to calm. Background mat cyberpunk urban environment sounds (traffic, neon current, drones, rain, wind roar enhanced with falling). No dialogue (except for visceral exclamations). Positive Constraint - about 30 seconds, black humor film and televisionThe clips are cut with multiple lenses and strictly follow the scene switching (chewing close-up → panorama → surprised close-up → long shot and flat view → facial close-up → indoor perspective) and sound switching (repeated collision of sound/silence) mentioned above. There is only one character in the whole film: a fat, cute, drunk middle-aged man wearing a white sweatshirt and jeans with a sauce, and holding a burger in his hand. There are no other characters. The identity/appearance/body shape/drunk state/dress/burger 100% matches the reference picture, and is consistent throughout the whole process. Real physics throughout (full weight, distinct impacts, no floating feeling), and the chubby drunk body shape makes falls and impacts more weighty and comical. Drunken state from beginning to end (loose, slow, confused movements). The closed loop of the story: eating burgers and drinking wine → stretching and losing a foot → falling with a scream → grabbing the rope → falling through a broken window → being surprised for a second → falling asleep. Real shot texture, night cyberpunk neon style, no 3D rendering/game/anime feel. Only environmental sound effects and character voices, no music/subtitles/screen text.
 ```
 
-</details>
-
 ## Advertising, Brand & Product
-### tpl-sd25-10-bp
+### Capsule Coffee Machine Setup (BytePlus)
 
-**Result video:** [tpl-sd25-10-src-bp.mp4](./videos/generated/tpl-sd25-10-src-bp.mp4)
+#### Result Video
 
-**Reference images:** [tpl-sd25-10-image-1.png](./assets/reference-images/tpl-sd25-10-image-1.png) · [tpl-sd25-10-image-2.png](./assets/reference-images/tpl-sd25-10-image-2.png) · [tpl-sd25-10-image-3.png](./assets/reference-images/tpl-sd25-10-image-3.png) · [tpl-sd25-10-image-4.png](./assets/reference-images/tpl-sd25-10-image-4.png) · [tpl-sd25-10-image-5.png](./assets/reference-images/tpl-sd25-10-image-5.png) · [tpl-sd25-10-image-6.png](./assets/reference-images/tpl-sd25-10-image-6.png)
+[tpl-sd25-10-src-bp.mp4](./videos/generated/tpl-sd25-10-src-bp.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
 
-```text
-A 30-second tutorial video on how to install and use a capsule coffee machine.
-0-2 seconds, the title text at the beginning is: seedance capsule coffee machine installation and use tutorial
-2-5 seconds, Step 1: Install the water tank, refer to <<<image_1_1>>>
-Lens: Medium shot, slightly overhead view Position: Action on the back of the fuselage: Align the water tank with the slot on the back of the fuselage, push it vertically downwards, and hear a "click" sound to lock it in place. Requirements: Clearly display the alignment relationship between the buckle at the bottom of the water tank and the slot on the fuselage, and the water level line can be seen in the transparent part of the water tank.
-Narrator: "First, install the water tank."
-5-9 seconds, step 2: Install the drip tray, refer to <<<image_2_2>>>
-Lens: Close-up, front view, Position: In front of the bottom of the fuselage, Action: Push the drip tray into the guide rail at the bottom of the fuselage in parallel, push it until the bottom is completely fitted, Requirements: Show the guide rail alignment process, highlight the smoothness of the sliding action
-Narrator: "Next align the pallet with the bottom rails."
-9-13 seconds, step 3: Install the waste capsule collection box, refer to <<<image_3_3>>>
-Lens: Close-up, slightly elevated angle of view, Position: Cavity below the drip tray, Action: Align the collection box with the groove and push it in, flush with the drip tray. Requirements: Show the fitting relationship between the collection box and the fuselage, and confirm that it is installed in place
-13-18 seconds, step 4: first water injection, refer to <<<image_4_4>>>
-Lens: Close-up, side view, position: water tank on the top/back of the fuselage, action: open the water tank cover, pour water to the MAX water level, close the water tank cover, requirements: highlight the water level mark, and the water pouring is clearly visible
-Narrator: "Open the water tank cover and pour in clean water. Be careful not to exceed the maximum water level."
-The screen highlights the maximum water level.
-18-25 seconds, step 5: power on, refer to <<<image_5_5>>>
-Shot: Medium shot, front view, Position: Front of the fuselage, Action: Plug in the power cord, press the power button, the indicator light changes from flashing to solid (preheating completed), Requirements: Close-up of the status changes of the power button and indicator light, reflecting the process of waiting until ready
-Narrator: "Plug in the power and press the power button."
-25-30 seconds, step 6: first rinse (without placing capsule), refer to <<<image_6_6>>>
-Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.Narrator: "The last step is to rinse for the first time. No need to put in the capsule, just press the extraction button. Your coffee machine is ready for official use."
-```
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-10-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-10-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-10-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-10-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-10-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-10-image-6.png) |
 
-</details>
-
-### tpl-sd25-10-cn
-
-**Result video:** [tpl-sd25-10-src-cn.mov](./videos/generated/tpl-sd25-10-src-cn.mov)
-
-**Reference images:** [tpl-sd25-10-image-1.png](./assets/reference-images/tpl-sd25-10-image-1.png) · [tpl-sd25-10-image-2.png](./assets/reference-images/tpl-sd25-10-image-2.png) · [tpl-sd25-10-image-3.png](./assets/reference-images/tpl-sd25-10-image-3.png) · [tpl-sd25-10-image-4.png](./assets/reference-images/tpl-sd25-10-image-4.png) · [tpl-sd25-10-image-5.png](./assets/reference-images/tpl-sd25-10-image-5.png) · [tpl-sd25-10-image-6.png](./assets/reference-images/tpl-sd25-10-image-6.png)
-
-<details>
-<summary>Prompt (English)</summary>
+#### Prompt (English)
 
 ```text
 A 30-second tutorial video on how to install and use a capsule coffee machine.
@@ -255,66 +267,78 @@ Narrator: "Plug in the power and press the power button."
 Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.Narrator: "The last step is to rinse for the first time. No need to put in the capsule, just press the extraction button. Your coffee machine is ready for official use."
 ```
 
-</details>
+### Capsule Coffee Machine Setup (China)
 
-### tpl-sd25-13
+#### Result Video
 
-**Result video:** [tpl-sd25-13-src.mp4](./videos/generated/tpl-sd25-13-src.mp4)
+[tpl-sd25-10-src-cn.mov](./videos/generated/tpl-sd25-10-src-cn.mov)
 
-**Input video:** [tpl-sd25-13-video-1.mp4](./videos/reference/tpl-sd25-13-video-1.mp4) · [tpl-sd25-13-video-2.mp4](./videos/reference/tpl-sd25-13-video-2.mp4) · [tpl-sd25-13-video-3.mp4](./videos/reference/tpl-sd25-13-video-3.mp4) · [tpl-sd25-13-video-4.mp4](./videos/reference/tpl-sd25-13-video-4.mp4) · [tpl-sd25-13-video-5.mp4](./videos/reference/tpl-sd25-13-video-5.mp4) · [tpl-sd25-13-video-6.mp4](./videos/reference/tpl-sd25-13-video-6.mp4)
+#### Reference Images
 
-**Reference images:** [tpl-sd25-13-image-1.png](./assets/reference-images/tpl-sd25-13-image-1.png)
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-10-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-10-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-10-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-10-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-10-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-10-image-6.png) |
 
-<details>
-<summary>Prompt (English)</summary>
+#### Prompt (English)
+
+```text
+A 30-second tutorial video on how to install and use a capsule coffee machine.
+0-2 seconds, the title text at the beginning is: seedance capsule coffee machine installation and use tutorial
+2-5 seconds, Step 1: Install the water tank, refer to <<<image_1_1>>>
+Lens: Medium shot, slightly overhead view Position: Action on the back of the fuselage: Align the water tank with the slot on the back of the fuselage, push it vertically downwards, and hear a "click" sound to lock it in place. Requirements: Clearly display the alignment relationship between the buckle at the bottom of the water tank and the slot on the fuselage, and the water level line can be seen in the transparent part of the water tank.
+Narrator: "First, install the water tank."
+5-9 seconds, step 2: Install the drip tray, refer to <<<image_2_2>>>
+Lens: Close-up, front view, Position: In front of the bottom of the fuselage, Action: Push the drip tray into the guide rail at the bottom of the fuselage in parallel, push it until the bottom is completely fitted, Requirements: Show the guide rail alignment process, highlight the smoothness of the sliding action
+Narrator: "Next align the pallet with the bottom rails."
+9-13 seconds, step 3: Install the waste capsule collection box, refer to <<<image_3_3>>>
+Lens: Close-up, slightly elevated angle of view, Position: Cavity below the drip tray, Action: Align the collection box with the groove and push it in, flush with the drip tray. Requirements: Show the fitting relationship between the collection box and the fuselage, and confirm that it is installed in place
+13-18 seconds, step 4: first water injection, refer to <<<image_4_4>>>
+Lens: Close-up, side view, position: water tank on the top/back of the fuselage, action: open the water tank cover, pour water to the MAX water level, close the water tank cover, requirements: highlight the water level mark, and the water pouring is clearly visible
+Narrator: "Open the water tank cover and pour in clean water. Be careful not to exceed the maximum water level."
+The screen highlights the maximum water level.
+18-25 seconds, step 5: power on, refer to <<<image_5_5>>>
+Shot: Medium shot, front view, Position: Front of the fuselage, Action: Plug in the power cord, press the power button, the indicator light changes from flashing to solid (preheating completed), Requirements: Close-up of the status changes of the power button and indicator light, reflecting the process of waiting until ready
+Narrator: "Plug in the power and press the power button."
+25-30 seconds, step 6: first rinse (without placing capsule), refer to <<<image_6_6>>>
+Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.Narrator: "The last step is to rinse for the first time. No need to put in the capsule, just press the extraction button. Your coffee machine is ready for official use."
+```
+
+### Fruit Cookie Flavor Parade
+
+#### Result Video
+
+[tpl-sd25-13-src.mp4](./videos/generated/tpl-sd25-13-src.mp4)
+
+#### Input Video
+
+[tpl-sd25-13-video-1.mp4](./videos/reference/tpl-sd25-13-video-1.mp4) · [tpl-sd25-13-video-2.mp4](./videos/reference/tpl-sd25-13-video-2.mp4) · [tpl-sd25-13-video-3.mp4](./videos/reference/tpl-sd25-13-video-3.mp4) · [tpl-sd25-13-video-4.mp4](./videos/reference/tpl-sd25-13-video-4.mp4) · [tpl-sd25-13-video-5.mp4](./videos/reference/tpl-sd25-13-video-5.mp4) · [tpl-sd25-13-video-6.mp4](./videos/reference/tpl-sd25-13-video-6.mp4)
+
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-13-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 The style of the commercial is bright and colorful, with fruity biscuits as the protagonist, including four flavors: strawberry, apple, grape, and orange. The strawberry flavor refers to <<<image_1_1>>>. The biscuits and corresponding fruits are arranged in a geometric array with a strong sense of order. The overall picture is clean, advanced, and rhythmic. The opening fruit quickly establishes visual focus, referring to the composition of <<<video_1_2>>>, and the music is re-recorded. Then the biscuits of different flavors were arranged neatly and cut into close-ups, referring to the dynamics and camera movements of <<<video_2_3>>>. During the climax, a biscuit is broken and instantly enters slow motion. The fruity sandwich explodes and the crumbs fly. The juice and particle impact are magnified and displayed. Please refer to the impact of <<<video_3_4>>>. The horizontal array forms a rhythmic parabola, referencing the movement of <<<video_4_5>>>, highlighting the beauty of order and product richness. Then quickly back to fast-paced editing. The ending English text One bite of crispness, a heart full of delight quickly switches to the picture, combined with the strong rhythm text movement and product freeze-frame, refer to <<<video_5_6>>>, and finally the brand sense is wrapped up, and the biscuits and fruits spread out around, refer to <<<video_6_7>>>. The picture is full of young, energetic, delicious, and want to share advertising atmosphere.
 ```
 
-</details>
+### Desert Horned Lizard Fruit Ad (BytePlus)
 
-### tpl-sd25-14-bp
+#### Result Video
 
-**Result video:** [tpl-sd25-14-src-bp.mov](./videos/generated/tpl-sd25-14-src-bp.mov)
+[tpl-sd25-14-src-bp.mov](./videos/generated/tpl-sd25-14-src-bp.mov)
 
-**Reference images:** [tpl-sd25-14-image-1.png](./assets/reference-images/tpl-sd25-14-image-1.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-14-image-1.png) |  |  |
 
-```text
-3D animation advertising style, bright and transparent colors, and the pulp and juice should have a strong sense of refreshing and impact. The overall temperament is like a high-quality commercial animation short film with a bit of exaggerated humor. The desert horned lizard character is cute, smart and expressive, please refer to <<<image_1_1>>>. The texture of the picture refers to the soft natural light, fine fluff/skin texture, dreamy macro depth of field, and a real childlike feeling in the picture.
-0-3 seconds: The picture shows a desert exposed to the scorching sun. The air was distorted by heat, the sand was hot, and smoke seemed to be rising in the distance. A desert horned lizard lay on the hot sand, its tongue hanging out slightly, its eyes unfocused, almost drying out in the sun. It took two steps and swayed, and the entire desert horned lizard was about to "evaporate".
-Sound effects include the whirring sound of heat waves and a slightly exaggerated dry crackling sound.
-3-6 seconds: The desert horned lizard suddenly stops and moves its nose. It looked down and saw a cold, plump grapefruit with water drops buried in the sand. The grapefruit shines brightly in the sun, with delicate skin, like a miracle that suddenly appeared in the desert.
-The performing lizard's eyes widened instantly, as if seeing a life-saving straw.
-The sound effect "ding" is a discovery sound effect.
-6-8 seconds: The desert horned lizard swoops over, hugs the grapefruit with both hands, and presses its entire face against the peel. It has a happy expression of "finally alive". The image freezes for 1 second, forming an exaggerated and funny advertising memory point.
-The sound effect plopped, then went silent for half a second.
-Seconds 8-11: Screenshot of a desert horned lizard grabbing a grapefruit. The grapefruit peel is split open, and the plump flesh inside shines translucently. The next moment, the juice didn't flow out, but spewed out like a tsunami.
-The sound effect is a "click" sound of biting open, followed by an exaggerated sound of juice popping.
-11-16 seconds: The screen shows orange-pink, clear and shiny grapefruit juice pouring out crazily, pouring down the sand dunes, and quickly flooding the entire desert. The dry yellow sand instantly transforms into a cool, sparkling, fruity summer ocean. The cacti, stones, and small sand dunes in the desert are engulfed by the waves of juice, and the picture is exaggerated and dreamy.
-The performance of the Desert Horned Lizard was very exciting at first, but the next second I realized something was wrong, and my expression changed from surprise to horror.
-16-20 seconds: The desert horned lizard is almost submerged in the "grapefruit sea". It hurriedly hugs half of the grapefruit and floats on the sea like a lifebuoy. It stuck its head out wetly, with a confused expression. The sea surface is sparkling, the color is like juice illuminated by the sun.
-The sound effects exaggerate the sound of flapping and waves, with a sense of comedy.
-20-23 seconds: The screen suddenly cuts to white screen. The brand name and slogan appeared in the center of the screen: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."The narrator reads the entire sentence: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."
-Brand tone with clean and refreshing sound.
-23-29 seconds: The screen switches back to white screen. The desert horned lizard is already sitting leisurely on a floating grapefruit, wearing a pair of small sunglasses, holding a sippy cup, and slowly floating on the "juice sea" for vacation. Orange pulp, small ice cubes, and cool water splashes floated around, the sky turned blue, and the atmosphere suddenly changed from "survival" to "vacation." In the end, the desert horned lizard rested on the grapefruit contentedly, and the camera zoomed out, freezing in a refreshing, bright, and fun summer scene.
-Sound effects relaxing summer music, the sound of lapping waves.
-The subtitles can only keep the brand name, without adding too many words.
-```
-
-</details>
-
-### tpl-sd25-14-cn
-
-**Result video:** [tpl-sd25-14-src-cn.mp4](./videos/generated/tpl-sd25-14-src-cn.mp4)
-
-**Reference images:** [tpl-sd25-14-image-1.png](./assets/reference-images/tpl-sd25-14-image-1.png)
-
-<details>
-<summary>Prompt (English)</summary>
+#### Prompt (English)
 
 ```text
 3D animation advertising style, bright and transparent colors, and the pulp and juice should have a strong sense of refreshing and impact. The overall temperament is like a high-quality commercial animation short film with a bit of exaggerated humor. The desert horned lizard character is cute, smart and expressive, please refer to <<<image_1_1>>>. The texture of the picture refers to the soft natural light, fine fluff/skin texture, dreamy macro depth of field, and a real childlike feeling in the picture.
@@ -338,16 +362,56 @@ Sound effects relaxing summer music, the sound of lapping waves.
 The subtitles can only keep the brand name, without adding too many words.
 ```
 
-</details>
+### Desert Horned Lizard Fruit Ad (China)
 
-### tpl-sd25-23-bp
+#### Result Video
 
-**Result video:** [tpl-sd25-23-src-bp.mov](./videos/generated/tpl-sd25-23-src-bp.mov)
+[tpl-sd25-14-src-cn.mp4](./videos/generated/tpl-sd25-14-src-cn.mp4)
 
-**Reference images:** [tpl-sd25-23-image-1.png](./assets/reference-images/tpl-sd25-23-image-1.png) · [tpl-sd25-23-image-2.png](./assets/reference-images/tpl-sd25-23-image-2.png) · [tpl-sd25-23-image-3.png](./assets/reference-images/tpl-sd25-23-image-3.png) · [tpl-sd25-23-image-4.png](./assets/reference-images/tpl-sd25-23-image-4.png) · [tpl-sd25-23-image-5.png](./assets/reference-images/tpl-sd25-23-image-5.png) · [tpl-sd25-23-image-6.png](./assets/reference-images/tpl-sd25-23-image-6.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-14-image-1.png) |  |  |
+
+#### Prompt (English)
+
+```text
+3D animation advertising style, bright and transparent colors, and the pulp and juice should have a strong sense of refreshing and impact. The overall temperament is like a high-quality commercial animation short film with a bit of exaggerated humor. The desert horned lizard character is cute, smart and expressive, please refer to <<<image_1_1>>>. The texture of the picture refers to the soft natural light, fine fluff/skin texture, dreamy macro depth of field, and a real childlike feeling in the picture.
+0-3 seconds: The picture shows a desert exposed to the scorching sun. The air was distorted by heat, the sand was hot, and smoke seemed to be rising in the distance. A desert horned lizard lay on the hot sand, its tongue hanging out slightly, its eyes unfocused, almost drying out in the sun. It took two steps and swayed, and the entire desert horned lizard was about to "evaporate".
+Sound effects include the whirring sound of heat waves and a slightly exaggerated dry crackling sound.
+3-6 seconds: The desert horned lizard suddenly stops and moves its nose. It looked down and saw a cold, plump grapefruit with water drops buried in the sand. The grapefruit shines brightly in the sun, with delicate skin, like a miracle that suddenly appeared in the desert.
+The performing lizard's eyes widened instantly, as if seeing a life-saving straw.
+The sound effect "ding" is a discovery sound effect.
+6-8 seconds: The desert horned lizard swoops over, hugs the grapefruit with both hands, and presses its entire face against the peel. It has a happy expression of "finally alive". The image freezes for 1 second, forming an exaggerated and funny advertising memory point.
+The sound effect plopped, then went silent for half a second.
+Seconds 8-11: Screenshot of a desert horned lizard grabbing a grapefruit. The grapefruit peel is split open, and the plump flesh inside shines translucently. The next moment, the juice didn't flow out, but spewed out like a tsunami.
+The sound effect is a "click" sound of biting open, followed by an exaggerated sound of juice popping.
+11-16 seconds: The screen shows orange-pink, clear and shiny grapefruit juice pouring out crazily, pouring down the sand dunes, and quickly flooding the entire desert. The dry yellow sand instantly transforms into a cool, sparkling, fruity summer ocean. The cacti, stones, and small sand dunes in the desert are engulfed by the waves of juice, and the picture is exaggerated and dreamy.
+The performance of the Desert Horned Lizard was very exciting at first, but the next second I realized something was wrong, and my expression changed from surprise to horror.
+16-20 seconds: The desert horned lizard is almost submerged in the "grapefruit sea". It hurriedly hugs half of the grapefruit and floats on the sea like a lifebuoy. It stuck its head out wetly, with a confused expression. The sea surface is sparkling, the color is like juice illuminated by the sun.
+The sound effects exaggerate the sound of flapping and waves, with a sense of comedy.
+20-23 seconds: The screen suddenly cuts to white screen. The brand name and slogan appeared in the center of the screen: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."The narrator reads the entire sentence: "Seedance grapefruit, what you bite into is the pulp, what comes out is summer."
+Brand tone with clean and refreshing sound.
+23-29 seconds: The screen switches back to white screen. The desert horned lizard is already sitting leisurely on a floating grapefruit, wearing a pair of small sunglasses, holding a sippy cup, and slowly floating on the "juice sea" for vacation. Orange pulp, small ice cubes, and cool water splashes floated around, the sky turned blue, and the atmosphere suddenly changed from "survival" to "vacation." In the end, the desert horned lizard rested on the grapefruit contentedly, and the camera zoomed out, freezing in a refreshing, bright, and fun summer scene.
+Sound effects relaxing summer music, the sound of lapping waves.
+The subtitles can only keep the brand name, without adding too many words.
+```
+
+### Capsule Coffee Machine User Guide (BytePlus)
+
+#### Result Video
+
+[tpl-sd25-23-src-bp.mov](./videos/generated/tpl-sd25-23-src-bp.mov)
+
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-23-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-23-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-23-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-23-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-23-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-23-image-6.png) |
+
+#### Prompt (English)
 
 ```text
 A 30-second tutorial video on how to install and use a capsule coffee machine.
@@ -372,16 +436,20 @@ Lens: medium shot to close-up, front view, position: front of the fuselage, cup 
 Narrator: "The last step, the first rinse. Just press the extraction button. Your coffee machine is ready for use."
 ```
 
-</details>
+### Capsule Coffee Machine User Guide (China)
 
-### tpl-sd25-23-cn
+#### Result Video
 
-**Result video:** [tpl-sd25-23-src-cn.mov](./videos/generated/tpl-sd25-23-src-cn.mov)
+[tpl-sd25-23-src-cn.mov](./videos/generated/tpl-sd25-23-src-cn.mov)
 
-**Reference images:** [tpl-sd25-23-image-1.png](./assets/reference-images/tpl-sd25-23-image-1.png) · [tpl-sd25-23-image-2.png](./assets/reference-images/tpl-sd25-23-image-2.png) · [tpl-sd25-23-image-3.png](./assets/reference-images/tpl-sd25-23-image-3.png) · [tpl-sd25-23-image-4.png](./assets/reference-images/tpl-sd25-23-image-4.png) · [tpl-sd25-23-image-5.png](./assets/reference-images/tpl-sd25-23-image-5.png) · [tpl-sd25-23-image-6.png](./assets/reference-images/tpl-sd25-23-image-6.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-23-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-23-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-23-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-23-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-23-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-23-image-6.png) |
+
+#### Prompt (English)
 
 ```text
 A 30-second tutorial video on how to install and use a capsule coffee machine.
@@ -405,50 +473,58 @@ Narrator: "Plug in the power and press the power button."
 Lens: medium shot to close-up, front view, position: front of the fuselage, cup under the water outlet, action: press the extraction button directly without inserting the capsule, hot water flows out of the flushing pipe, and water flows into the cup. Requirements: Emphasize the prompt label "no need to put a capsule" and show the entire process of flushing water out.
 Narrator: "The last step, the first rinse. Just press the extraction button. Your coffee machine is ready for use."
 ```
-
-</details>
 
 ## Video Editing & Restoration
-### tpl-sd25-09
+### Remove the Safari Drone
 
-**Result video:** [tpl-sd25-09-src.mp4](./videos/generated/tpl-sd25-09-src.mp4)
+#### Result Video
 
-**Input video:** [tpl-sd25-09-video-1.mp4](./videos/reference/tpl-sd25-09-video-1.mp4)
+[tpl-sd25-09-src.mp4](./videos/generated/tpl-sd25-09-src.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Input Video
+
+[tpl-sd25-09-video-1.mp4](./videos/reference/tpl-sd25-09-video-1.mp4)
+
+#### Prompt (English)
 
 ```text
 Delete the drone in the <<<video_1_1>>> screen and the foreground track/car body edge in the lower left corner, and naturally complete the deleted area.
 Keep the giraffe group, tree branches, distant grassland, golden sunset backlight, aerial perspective and shot composition completely unchanged. The completed background should be consistent with the surrounding environment, generating natural sky, tree branch gaps, and grass details without smearing, flickering, deformation, ghosting, or beating. Ensure that the timing of the front and back frames of the video is consistent, the motion is continuous, the edge transitions are natural, and the overall image is like the original real-shot picture.
 ```
 
-</details>
+### Crowd Removal
 
-### tpl-sd25-19
+#### Result Video
 
-**Result video:** [tpl-sd25-19-src.mov](./videos/generated/tpl-sd25-19-src.mov)
+[tpl-sd25-19-src.mov](./videos/generated/tpl-sd25-19-src.mov)
 
-**Input video:** [tpl-sd25-19-video-1.mp4](./videos/reference/tpl-sd25-19-video-1.mp4)
+#### Input Video
 
-<details>
-<summary>Prompt (English)</summary>
+[tpl-sd25-19-video-1.mp4](./videos/reference/tpl-sd25-19-video-1.mp4)
+
+#### Prompt (English)
 
 ```text
 Video editing: Delete everyone in <<<video_1_1>>> except the protagonist.
 ```
 
-</details>
-
 ## Educational & Explainer Videos
-### tpl-sd25-03
+### One-Shot Multilingual FPV Journey
 
-**Result video:** [tpl-sd25-03-src.mp4](./videos/generated/tpl-sd25-03-src.mp4)
+#### Result Video
 
-**Reference images:** [tpl-sd25-03-image-1.png](./assets/reference-images/tpl-sd25-03-image-1.png) · [tpl-sd25-03-image-2.png](./assets/reference-images/tpl-sd25-03-image-2.png) · [tpl-sd25-03-image-3.png](./assets/reference-images/tpl-sd25-03-image-3.png) · [tpl-sd25-03-image-4.png](./assets/reference-images/tpl-sd25-03-image-4.png) · [tpl-sd25-03-image-5.png](./assets/reference-images/tpl-sd25-03-image-5.png) · [tpl-sd25-03-image-6.png](./assets/reference-images/tpl-sd25-03-image-6.png) · [tpl-sd25-03-image-7.png](./assets/reference-images/tpl-sd25-03-image-7.png) · [tpl-sd25-03-image-8.png](./assets/reference-images/tpl-sd25-03-image-8.png) · [tpl-sd25-03-image-9.png](./assets/reference-images/tpl-sd25-03-image-9.png) · [tpl-sd25-03-image-10.png](./assets/reference-images/tpl-sd25-03-image-10.png) · [tpl-sd25-03-image-11.png](./assets/reference-images/tpl-sd25-03-image-11.png)
+[tpl-sd25-03-src.mp4](./videos/generated/tpl-sd25-03-src.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-03-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-03-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-03-image-3.png) |
+| ![Reference 4](./assets/reference-images/tpl-sd25-03-image-4.png) | ![Reference 5](./assets/reference-images/tpl-sd25-03-image-5.png) | ![Reference 6](./assets/reference-images/tpl-sd25-03-image-6.png) |
+| ![Reference 7](./assets/reference-images/tpl-sd25-03-image-7.png) | ![Reference 8](./assets/reference-images/tpl-sd25-03-image-8.png) | ![Reference 9](./assets/reference-images/tpl-sd25-03-image-9.png) |
+| ![Reference 10](./assets/reference-images/tpl-sd25-03-image-10.png) | ![Reference 11](./assets/reference-images/tpl-sd25-03-image-11.png) |  |
+
+#### Prompt (English)
 
 ```text
 One-shot FPV drone first-person video, 33 seconds of continuous long shot, no editing, no jump cuts, no transitions. The camera starts from inside the high-altitude clouds and forms a continuous descending flight line along the clouds, fog, light and shadow, valleys, waterfalls, lakes, flower fields, urban buildings and near-ground squares. 11 clear and independent language display blocks appear in sequence throughout the process. Each block only displays the text corresponding to a single language. There is no mixing, overlapping, or adding other languages.
@@ -466,16 +542,19 @@ One-shot FPV drone first-person video, 33 seconds of continuous long shot, no ed
 The overall atmosphere is an early morning sunrise, with golden backlight, soft volumetric light, real clouds and fog, natural motion blur, and movie-level realism. The camera speed starts slowly from 3–5 m/s, gradually accelerates to 14–16 m/s across the natural landscape, and then slows down to 2–3 m/s to hover stably in the near-Earth square. Lens parameters: wide-angle lens, 24fps, smooth FPV drone movement, pitch gradually transitions from -5° to -18°, and finally returns to 0°; slight yaw ±10°, roll controlled at 0–10°, ensuring a continuous, stable, and realistic sense of flight from shot to shot.
 ```
 
-</details>
+### Clockwork Worlds
 
-### tpl-sd25-06
+#### Result Video
 
-**Result video:** [tpl-sd25-06-src.mp4](./videos/generated/tpl-sd25-06-src.mp4)
+[tpl-sd25-06-src.mp4](./videos/generated/tpl-sd25-06-src.mp4)
 
-**Reference images:** [tpl-sd25-06-image-1.png](./assets/reference-images/tpl-sd25-06-image-1.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-06-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 A high-end, cinematic 30-second 3D motion graphics sequence, using exquisite steampunk and retro miniature landscape styles, with continuous and smooth surrounding and penetrating camera movements.
@@ -485,16 +564,19 @@ A high-end, cinematic 30-second 3D motion graphics sequence, using exquisite ste
 Technical specifications: Hyper-realistic mechanical textures, rich brass and gold tones, and cinematic shallow depth of field. Smooth and coherent seamless shuttle movement, a strong sense of epic and fantasy adventure atmosphere.
 ```
 
-</details>
+### Football Through Three Thousand Years
 
-### tpl-sd25-08
+#### Result Video
 
-**Result video:** [tpl-sd25-08-src.mp4](./videos/generated/tpl-sd25-08-src.mp4)
+[tpl-sd25-08-src.mp4](./videos/generated/tpl-sd25-08-src.mp4)
 
-**Reference images:** [tpl-sd25-08-image-1.png](./assets/reference-images/tpl-sd25-08-image-1.png) · [tpl-sd25-08-image-2.png](./assets/reference-images/tpl-sd25-08-image-2.png) · [tpl-sd25-08-image-3.png](./assets/reference-images/tpl-sd25-08-image-3.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-08-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-08-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-08-image-3.png) |
+
+#### Prompt (English)
 
 ```text
 Produce a 30-second short popular science video about the three thousand years of evolution of football. The entire film uses the same ball as the main visual line. The ball rolls, travels, and deforms from ancient times, connecting different civilizations and eras. The overall rhythm is compact, the graphics are high-end, the historical science short film is combined with artistic transitions to highlight the feeling of a ball spanning three thousand years, and the oral broadcast is simple and powerful.
@@ -506,17 +588,20 @@ Then the scene quickly enters the modern era, with the ball spinning in the air,
 At the end, the ball is in the center of a modern stadium, and crowds and cheers from all over the world merge in the background, forming the feeling of "a ball connecting the world". The picture is grand and epic. Oral broadcast: Now, football connects the whole world.
 ```
 
-</details>
-
 ## Music, Social & Title Sequences
-### tpl-sd25-20
+### Beachside Multilingual Rap
 
-**Result video:** [tpl-sd25-20-src.mp4](./videos/generated/tpl-sd25-20-src.mp4)
+#### Result Video
 
-**Reference images:** [tpl-sd25-20-image-1.png](./assets/reference-images/tpl-sd25-20-image-1.png)
+[tpl-sd25-20-src.mp4](./videos/generated/tpl-sd25-20-src.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-20-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 Movie-level hip-hop/rap music video, real photo-quality texture, high-end tonality, seaside scene. Use <<<image_1_1>>> to construct the picture: a band performs on the golden beach, with the waves crashing on the shore—— A lead singer holds a microphone and stands on the wet sand to sing passionately, a guitarist stands on the left side of the screen, a guitarist stands on the right side of the screen, and a drummer sits behind the drum set and plays; the vast coastline unfolds behind him, with rolling waves rolling in. The huge and warm golden hour sunset slants across the beach, sparkling on the water, and sea fog and salty water vapor float in the air.
@@ -533,16 +618,19 @@ Arabic: "مرحبا"Shot 1 [0:00–0:03] - A low-angle long shot establishes the
 White balance 4000K, teal-and-amber color grading, 35mm, shallow depth of field, film grain, diffuse sea fog, golden hour halo. The texture is solid, high-end and high-end. Rhythmic rap performance, precise lip-syncing, and head movements to the beat. No subtitles, no text overlays, no dissolve transitions, no repeated characters, just hard cuts. Total duration 20 seconds.
 ```
 
-</details>
+### WILD PAIR Spy Title Sequence
 
-### tpl-sd25-21
+#### Result Video
 
-**Result video:** [tpl-sd25-21-src.mov](./videos/generated/tpl-sd25-21-src.mov)
+[tpl-sd25-21-src.mov](./videos/generated/tpl-sd25-21-src.mov)
 
-**Reference images:** [tpl-sd25-21-image-1.png](./assets/reference-images/tpl-sd25-21-image-1.png)
+#### Reference Images
 
-<details>
-<summary>Prompt (English)</summary>
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-21-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 [Editing movie title trailer - "WILD PAIR" | 16:9 landscape | 20 seconds] Format: 16:9 landscape / landscape, 20 seconds. The fast-paced, cluttered, dynamically typed title sequence takes its style from modern spy thriller titles (rapid cuts, crisp zooms, two-tone poster images, double shots of two people). Style Engine (forward): Off-white paper layout (#F4F4F2) paired with strong golden blocks (#F2C21E). Strict grid, Neue Haas Grotesk / Helvetica Bold font, oversized titles, tight kerning. A two-tone treatment that alternates between a bright yellow (#FFD400) and a deep purple (#6A1B9A), accented by a sharp flash of amber highlight (#FFA400). High contrast, clear printing texture, subtle paper grain, and precise registration marks. Confident, fashionable and glossy, with a "magazine-like espionage poster" temperament. Style Engine (negative): No clutter, no soft focus blur, no 3D rendering feel, no off-grid, no smudged duotones, no lens smudges, no watermarks. Character binding (each picture = one character, 100% match the reference picture) Reference <<<image_1_1>>>:
@@ -550,53 +638,66 @@ Lynx/Serval Female - Lean anthropomorphic lynx/Serval female: dark orange hair, 
 0.0–4s - black field. The amber register scale snaps in quickly. A hard cut to the lynx/serval female in the yellow two-tone half (left), a quick pan to reveal the jaguar/leopard male in the purple half (right). Word 1 (English): "TWO SPIES" smashed across the entire page. 4–6s – Push zoom to advance lynx/serval female’s blue eyes; golden block rubs in. Word 2 (center): "disguise". 6–8s - Split screen: Leopard/leopard male evil smile (right), crisp diagonal wipe. Word 3 (Japanese): "The beauty of two people". 8–11s – Fast moving camera, centered shot of two people back to back. Word 4 (Korean): "비밀". 11–12s – The two-tone poster locks the composition, both characters are presented in wide format, and huge fonts pop in. Word 5 (Portuguese): "DOIS AGENTES". 12–16s – Amber flash frame, grid hard reset. Word 7 (West): "DOBLE JUEGO". 16–20s - The two characters stride towards the camera in a wide heroic double shot, the golden block settles in the center, and the ending wordmark is locked: "WILD PAIR". Layout rules: Only one or two words per beat. Use native text and correct glyphs; Arabic text is arranged from right to left (RTL). Each word pops in with a quick push + slight overshoot on the beat, dropping out instantly on the hard cut. The text fits neatly into the grid, is oversized, and sometimes spills over the edge of the wide frame. Lens guidelines: Locked poster images alternate with sharp and rapid zooming, rapid sideways panning, and short and crisp camera advances. Everything is cut extremely tight and fast to the beat, with high speed and no drag. Movement moves along the horizontal axis of the wide frame. Sound: Fast, bright-tempo percussion spy thriller beat, tight snare drum beats are synchronized with each rapid word smash, and the ending wordmark ends with a deep super bass. No dialogue.
 ```
 
-</details>
-
 ## Visual Effects & Creative Experiments
-### tpl-sd25-05
+### Crystal Ball Match-Cut Transition
 
-**Result video:** [tpl-sd25-05-src.mp4](./videos/generated/tpl-sd25-05-src.mp4)
+#### Result Video
 
-**Reference images:** [tpl-sd25-05-image-1.png](./assets/reference-images/tpl-sd25-05-image-1.png)
+[tpl-sd25-05-src.mp4](./videos/generated/tpl-sd25-05-src.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-05-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 A fast-paced, cinematic seamless transition (match-cut) short film with dynamic electronic beats. A flawless crystal ball is always fixed in the center of the painting, with the luminous ‘seedance’ logo engraved inside. The crystal ball maintains extreme focus, and with the powerful music drumbeat, the background switches seamlessly at high speed: Scene 1: Macro close-up, film-like water splashes around the crystal ball, refracting complex light and shadow. Scene 2: A retro cafe in the morning. The crystal ball is placed on the wooden table. The background is the rising steam of coffee and the blurry flow of commuters outside the window. Scene 3: At the golden hour of the evening, a skateboarding young man throws a crystal ball with one hand. The background is the rapidly regressing street scene and the beautiful sunset backlight. Scene 4: At the Frenzy Music Festival, people hold up crystal balls, reflecting the stage laser with a gorgeous background. Scene 5: A lively family party table, with a crystal ball in the center and blurry figures in the background celebrating a toast and taking food. Scene 6: In a dark cinema, both hands hold a crystal ball, and the dim light of the huge screen flows on its surface. Scene 7: The crystal ball is placed on the strongly vibrating sound diaphragm, and seamlessly switches to the center of the rotating DJ player with the climax of the music. Scene 8: Outdoor camping night, the background changes to a warm bonfire and swaying light spots (Bokeh). Throwing and ending: With the final accent of the music, the crystal ball is thrown high above the screen; it instantly cuts to a pure black background, and the minimalist white text "seedance" on a black background appears in the center of the screen, refer to <<<image_1_1>>>
 Closely follow the dynamic BGM rhythm editing (stuck transition), top-notch cinematic color grading (Cinematic Color Grading). Realistic glass refraction and transmission materials, complex ray tracing, and global illumination. The subject is extremely clear, the background has strong dynamic blur, and the visual impact is extremely strong.
 ```
 
-</details>
+### Energy Bow in the Jungle
 
-### tpl-sd25-07
+#### Result Video
 
-**Result video:** [tpl-sd25-07-src.mp4](./videos/generated/tpl-sd25-07-src.mp4)
+[tpl-sd25-07-src.mp4](./videos/generated/tpl-sd25-07-src.mp4)
 
-**Input video:** [tpl-sd25-07-video-1.mp4](./videos/reference/tpl-sd25-07-video-1.mp4)
+#### Input Video
 
-**Reference images:** [tpl-sd25-07-image-1.png](./assets/reference-images/tpl-sd25-07-image-1.png)
+[tpl-sd25-07-video-1.mp4](./videos/reference/tpl-sd25-07-video-1.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-07-image-1.png) |  |  |
+
+#### Prompt (English)
 
 ```text
 Keep the characters, jungle environment, camera movement, composition, action rhythm and duration in <<<video_1_1>>> unchanged.
 A blue-white energy bow and a luminous arrow <<<image_1_2>>> slowly appear in the character's hand. The bow body is gradually formed by the polymerization of weak arcs and particles, with a delicate flowing current texture, slight volumetric light and a stable energy outline. During the process of drawing the bow, the arrow condenses into a high-bright energy arrow in the center of the bow string. The moment the character lets go, the arrow shoots out at high speed, leaving a bright, slender, continuous and sharp energy trajectory.
 ```
 
-</details>
+### Medieval Unarmed Duel
 
-### tpl-sd25-11
+#### Result Video
 
-**Result video:** [tpl-sd25-11-src.mp4](./videos/generated/tpl-sd25-11-src.mp4)
+[tpl-sd25-11-src.mp4](./videos/generated/tpl-sd25-11-src.mp4)
 
-**Input video:** [tpl-sd25-11-video-1.mp4](./videos/reference/tpl-sd25-11-video-1.mp4)
+#### Input Video
 
-**Reference images:** [tpl-sd25-11-image-1.png](./assets/reference-images/tpl-sd25-11-image-1.png) · [tpl-sd25-11-image-2.png](./assets/reference-images/tpl-sd25-11-image-2.png) · [tpl-sd25-11-image-3.png](./assets/reference-images/tpl-sd25-11-image-3.png)
+[tpl-sd25-11-video-1.mp4](./videos/reference/tpl-sd25-11-video-1.mp4)
 
-<details>
-<summary>Prompt (English)</summary>
+#### Reference Images
+
+| Reference 1 | Reference 2 | Reference 3 |
+|---|---|---|
+| ![Reference 1](./assets/reference-images/tpl-sd25-11-image-1.png) | ![Reference 2](./assets/reference-images/tpl-sd25-11-image-2.png) | ![Reference 3](./assets/reference-images/tpl-sd25-11-image-3.png) |
+
+#### Prompt (English)
 
 ```text
 Replaced the original version of the two-person martial arts video <<<video_1_1>>> with an empty-handed test of the wind before a cold weapon duel.
@@ -605,16 +706,17 @@ The clothing of the man in dark clothing in the video is replaced by <<<image_2_
 AI special effects only enhance the environment and texture: wind blown clothes, light fog, a small amount of dust at contact points, metallic cold reflective texture, slight particles and epic color palette. The overall style is restrained, realistic, and a classic hardcore duel atmosphere. Background music stuck
 ```
 
-</details>
+### Steam Train Breaks the Screen
 
-### tpl-sd25-22
+#### Result Video
 
-**Result video:** [tpl-sd25-22-src.mov](./videos/generated/tpl-sd25-22-src.mov)
+[tpl-sd25-22-src.mov](./videos/generated/tpl-sd25-22-src.mov)
 
-**Input video:** [tpl-sd25-22-video-1.mov](./videos/reference/tpl-sd25-22-video-1.mov)
+#### Input Video
 
-<details>
-<summary>Prompt (English)</summary>
+[tpl-sd25-22-video-1.mov](./videos/reference/tpl-sd25-22-video-1.mov)
+
+#### Prompt (English)
 
 ```text
 Style: Super-realistic movie-like realistic style, photo-realistic real-shot image texture, emphasizing the credibility of reality that breaks out of the entity (steam train); no CGI gloss, no game engine feel, no stylized 3D appearance. Metal, steam, wood, and smoke details need to be detailed and realistic, and respond believably to ambient light. Strictly follow the laws of real physics: there is weight, friction, inertia, contact shadow, and object pressure feedback. It cannot float or be cartoonishly exaggerated. Retain <<<video_1_1>>>'s original composition, auditorium lighting, hand-held lens condition, and natural imperfections.
@@ -626,8 +728,6 @@ Visual tone: Put authenticity as the first priority. Before color transfer, the 
 Sound: No music. Only real live sound effects are retained. Inheriting <<<video_1_1>>>>'s original screening room ambient sounds (the clatter of the projector, slight commotion from the audience), and adding the sounds of tearing and exploding fabrics, the sound of steam gushes, the roar of steel wheels and machinery, and the sound of impacting air waves. The overall listening experience must be close, physical, and believable.
 The total duration is exactly the same as <<<video_1_1>>>. The basic video image must not be changed before color transition, and no other content is added except the train itself, its physical interaction, and the color transition at the moment when the screen breaks and breaks. The screen must appear as a real curtain entrance with thickness and resistance and real tearing, rather than simply mapping or overlaying special effects. The color change must be precisely synchronized with the moment of curtain breaking, crisp and powerful. No slow motion, no sense of magic, no stylized horror design, no over-the-top exaggeration. The final effect should be like an extremely weird and extremely real scene of "a train crashing through the screen and black and white turning into color instantly" accidentally captured by a real camera in an old screening room.
 ```
-
-</details>
 
 ---
 
