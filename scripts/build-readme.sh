@@ -107,7 +107,7 @@ render_cases() {
         end
       end;
     def image_cell($image; $index):
-      if $image == null then "" else "![" + (if $language == "zh" then "参考图 " else "Reference " end) + ($index | tostring) + "](./assets/reference-images/" + ($image | file) + ")" end;
+      if $image == null then "" else "![" + (if $language == "zh" then "参考图 " else "Reference " end) + ($index | tostring) + "](./assets/reference-images/" + ($image | file | sub("\\.(png|jpeg)$"; ".webp")) + ")" end;
     def image_table:
       (.media.images // []) as $images |
       if ($images | length) == 0 then ""
