@@ -495,7 +495,7 @@ S1 (0–4 秒)・开幕：咀嚼大特写 (有声) —— 开幕即男人的脸�
 
 #### 结果视频
 
-[x-sd25-01.mp4](./videos/generated/x-sd25-01.mp4)
+https://github.com/user-attachments/assets/e567fd0a-dff3-4c1b-9551-c59c62396f80
 
 #### 来源
 
@@ -537,7 +537,7 @@ cinematic, emotional confrontation, over-the-shoulder shot, gun aimed forward, t
 
 #### 结果视频
 
-[x-sd25-02.mp4](./videos/generated/x-sd25-02.mp4)
+https://github.com/user-attachments/assets/b9b95ce4-4289-4b32-843a-86f8d5b1da9f
 
 #### 来源
 
@@ -571,7 +571,7 @@ Natural ambience only: birds, palm leaves rustling, village conversations, cocon
 
 #### 结果视频
 
-[x-sd25-03.mp4](./videos/generated/x-sd25-03.mp4)
+https://github.com/user-attachments/assets/b9e5558e-595b-4f29-a9c5-c040be412390
 
 #### 来源
 
@@ -603,7 +603,7 @@ Storyboard (20s, 6 cuts)
 
 #### 结果视频
 
-[x-sd25-04.mp4](./videos/generated/x-sd25-04.mp4)
+https://github.com/user-attachments/assets/bdc1eb65-0c54-4dd1-af96-aade0e9b6ecb
 
 #### 来源
 
@@ -619,7 +619,7 @@ Single unbroken handheld boyfriend vlog take throughout, 30 seconds total. A rea
 
 #### 结果视频
 
-[x-sd25-05.mp4](./videos/generated/x-sd25-05.mp4)
+https://github.com/user-attachments/assets/ada7e735-acf4-4a66-a702-94d055b52742
 
 #### 来源
 
@@ -641,7 +641,7 @@ Dialogue is natural spoken Korean (except "Good enough"), reacting casually to e
 
 #### 结果视频
 
-[x-sd25-06.mp4](./videos/generated/x-sd25-06.mp4)
+https://github.com/user-attachments/assets/ff1899e1-49b6-4b6c-bd8c-58e1fc5f1ccb
 
 #### 来源
 
@@ -673,7 +673,7 @@ It's text to video, so you just have to copy, tweak and paste! Enjoy the quoted 
 
 #### 结果视频
 
-[x-sd25-07.mp4](./videos/generated/x-sd25-07.mp4)
+https://github.com/user-attachments/assets/1048d768-2bb4-4415-80f8-73e526a27681
 
 #### 来源
 
@@ -712,7 +712,7 @@ we are cooked 😮
 
 #### 结果视频
 
-[x-sd25-08.mp4](./videos/generated/x-sd25-08.mp4)
+https://github.com/user-attachments/assets/48b2623d-2d16-4aef-a269-f18d66081398
 
 #### 来源
 
@@ -744,7 +744,7 @@ Ultra-photorealistic vintage documentary, authentic analog exposure, realistic h
 
 #### 结果视频
 
-[x-sd25-09.mp4](./videos/generated/x-sd25-09.mp4)
+https://github.com/user-attachments/assets/d9b8c436-8b26-4189-8f0e-3f7310e915f8
 
 #### 来源
 
@@ -762,7 +762,7 @@ Ultra-photorealistic vintage documentary, authentic analog exposure, realistic h
 
 #### 结果视频
 
-[x-sd25-10.mp4](./videos/generated/x-sd25-10.mp4)
+https://github.com/user-attachments/assets/06bb4e53-6f1e-4e38-be04-a6c14ed1850f
 
 #### 来源
 
@@ -793,7 +793,7 @@ Maintain her exact hairstyle, green eyes, Brazil jersey and white denim shorts u
 
 #### 结果视频
 
-[x-sd25-11.mp4](./videos/generated/x-sd25-11.mp4)
+https://github.com/user-attachments/assets/0ce8163e-d4d2-4957-a291-38445afe4294
 
 #### 来源
 
@@ -809,7 +809,7 @@ A realistic handheld travel vlog filmed by a friend following the main character
 
 #### 结果视频
 
-[x-sd25-12.mp4](./videos/generated/x-sd25-12.mp4)
+https://github.com/user-attachments/assets/d43d6f71-a43a-4097-97df-40035b31a7ef
 
 #### 来源
 
@@ -843,7 +843,7 @@ Performance should rely on micro-expressions, natural blinking, realistic breath
 
 #### 结果视频
 
-[x-sd25-13.mp4](./videos/generated/x-sd25-13.mp4)
+https://github.com/user-attachments/assets/ce4d92ba-3bfe-4aa4-b299-de5e19844a59
 
 #### 来源
 
