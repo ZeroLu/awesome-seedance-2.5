@@ -127,6 +127,112 @@ Image Quality:
 Ultra-photorealistic vintage documentary, authentic analog exposure, realistic human motion, organic focus breathing, imperfect framing, Kodak 16mm archival texture, subtle light leaks, soft highlight bloom, natural skin pores, no AI smoothness, 4:3 aspect ratio.
 ```
 
+### 我的一天 Hip-Hop MV
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/a5029ebf-ec9b-4c9e-8a1d-536b63b82f26
+
+#### 来源
+
+[@AIwithkhan](https://x.com/AIwithkhan) · [X Post](https://x.com/AIwithkhan/status/2085220491233775930) · [Thread Reader](https://twitter-thread.com/t/2085220491233775930)
+
+#### 提示词（原文）
+
+```text
+Use the uploaded reference image as the exact character reference. Preserve her facial identity, eye color, skin tone, hairstyle, makeup, body proportions, and overall appearance throughout the video. She has long black hair in a sleek high ponytail with soft face-framing strands and wears a vibrant hot-pink cropped bomber jacket over a fitted black crop top, a black pleated mini skirt layered over biker shorts, white crew socks, chunky sneakers, silver hoop earrings, layered chain necklaces, and rings. Maintain perfect character consistency in every scene.
+
+Create an ultra-realistic premium American hip-hop music video inside a modern industrial studio with glossy black floors, neon pink and blue lighting, graffiti walls, chrome speakers, LED light bars, a professional drum kit, vintage leather furniture, subtle haze, and cinematic contrast.
+
+The video opens with an extreme close-up as she confidently adjusts the collar of her pink jacket, stares directly into the camera, smirks, and snaps her fingers to the beat. She turns sharply and walks toward the camera with effortless swagger while her jacket flows naturally. She performs energetic hip-hop choreography with shoulder pops, smooth footwork, body rolls, confident poses, and expressive hand gestures as the camera circles around her with dynamic handheld movement.
+
+She jumps onto the drum platform, twirls a drumstick between her fingers, then performs an energetic drum solo with realistic stick movement, powerful cymbal crashes, snare hits, and fast tom fills. The camera alternates between overhead, side-profile, macro close-ups, and dramatic low-angle shots synchronized with the rhythm.
+
+The performance continues beside a graffiti-covered roller shutter where she confidently squats, leans against stacked speakers, points toward the lens, and continues lip-syncing with playful attitude. She walks across the studio beneath moving spotlights, lounges briefly on a vintage leather sofa while nodding to the beat, then stands again as industrial fans create natural movement in her ponytail and jacket.
+
+The final performance takes place center stage beneath vibrant magenta and blue lights surrounded by drums, LED light bars, chrome speakers, and graffiti walls. She delivers the final lyrics with bold confidence, spins one drumstick in her hand, throws it toward the camera, crosses her arms with a confident smile, and holds a powerful hero pose as the camera slowly pulls back while the lights fade.
+
+Style: Premium rap music video, luxury editorial fashion aesthetic, cinematic handheld camera, wide-angle hero shots, smooth gimbal movement, realistic lip-sync, expressive performance, physically accurate lighting, natural fabric simulation, realistic skin texture, shallow depth of field, immersive concert atmosphere, photorealistic, ultra-detailed, 4K HDR, 24fps, 16:9 widescreen.
+
+Negative Prompt: No subtitles, no captions, no logos, no watermarks, no duplicate people, no distorted anatomy, no extra fingers, no AI artifacts, no flickering, no low-resolution textures, no cartoon style, no oversaturated colors, no inconsistent outfit or facial features.
+```
+
+### 工业棚 Hip-Hop 表演
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/a5db73a5-f5a7-4385-8ab3-7b38f6359c97
+
+#### 来源
+
+[@AIwithkhan](https://x.com/AIwithkhan) · [X Post](https://x.com/AIwithkhan/status/2084962268505370835) · [Thread Reader](https://twitter-thread.com/t/2084962268505370835)
+
+#### 提示词（原文）
+
+```text
+Use the uploaded reference image as the exact character reference. Preserve her facial identity, eye color, skin tone, hairstyle, makeup, body proportions, and overall appearance throughout the video. She has long black hair in a sleek high ponytail with soft face-framing strands and wears a vibrant hot-pink cropped bomber jacket over a fitted black crop top, a black pleated mini skirt layered over biker shorts, white crew socks, chunky sneakers, silver hoop earrings, layered chain necklaces, and rings. Maintain perfect character consistency in every scene.
+
+Create an ultra-realistic premium American hip-hop music video inside a modern industrial studio with glossy black floors, neon pink and blue lighting, graffiti walls, chrome speakers, LED light bars, a professional drum kit, vintage leather furniture, subtle haze, and cinematic contrast.
+
+The video opens with an extreme close-up as she confidently adjusts the collar of her pink jacket, stares directly into the camera, smirks, and snaps her fingers to the beat. She turns sharply and walks toward the camera with effortless swagger while her jacket flows naturally. She performs energetic hip-hop choreography with shoulder pops, smooth footwork, body rolls, confident poses, and expressive hand gestures as the camera circles around her with dynamic handheld movement.
+
+She jumps onto the drum platform, twirls a drumstick between her fingers, then performs an energetic drum solo with realistic stick movement, powerful cymbal crashes, snare hits, and fast tom fills. The camera alternates between overhead, side-profile, macro close-ups, and dramatic low-angle shots synchronized with the rhythm.
+
+The performance continues beside a graffiti-covered roller shutter where she confidently squats, leans against stacked speakers, points toward the lens, and continues lip-syncing with playful attitude. She walks across the studio beneath moving spotlights, lounges briefly on a vintage leather sofa while nodding to the beat, then stands again as industrial fans create natural movement in her ponytail and jacket.
+
+The final performance takes place center stage beneath vibrant magenta and blue lights surrounded by drums, LED light bars, chrome speakers, and graffiti walls. She delivers the final lyrics with bold confidence, spins one drumstick in her hand, throws it toward the camera, crosses her arms with a confident smile, and holds a powerful hero pose as the camera slowly pulls back while the lights fade.
+
+Style: Premium rap music video, luxury editorial fashion aesthetic, cinematic handheld camera, wide-angle hero shots, smooth gimbal movement, realistic lip-sync, expressive performance, physically accurate lighting, natural fabric simulation, realistic skin texture, shallow depth of field, immersive concert atmosphere, photorealistic, ultra-detailed, 4K HDR, 24fps, 16:9 widescreen.
+
+Negative Prompt: No subtitles, no captions, no logos, no watermarks, no duplicate people, no distorted anatomy, no extra fingers, no AI artifacts, no flickering, no low-resolution textures, no cartoon style, no oversaturated colors, no inconsistent outfit or facial features.
+```
+
+### 奢华双人流行乐大片
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/2b320d9d-bb0a-4885-baa1-1b1f4b574524
+
+#### 来源
+
+[@ZaraIrahh](https://x.com/ZaraIrahh) · [X Post](https://x.com/ZaraIrahh/status/2084992037313507340) · [Thread Reader](https://twitter-thread.com/t/2084992037313507340)
+
+#### 提示词（原文）
+
+```text
+Create a premium 30-second cinematic pop music video in 16:9 landscape with blockbuster production quality.
+
+The video features one female pop superstar and one male pop singer with youthful, attractive faces, expressive eyes, natural skin texture, confident stage presence, and authentic chemistry. Both artists remain visually consistent throughout every shot.
+
+The female artist wears a crystal-embellished blush corset, oversized pastel pink faux-fur jacket, glossy satin cargo pants, platform sneakers, layered diamond jewelry, shimmering body chains, glamorous editorial makeup, luminous skin, glossy lips, and flowing textured hair. The male artist wears an oversized powder-blue embellished trench coat, shimmering silver knit top, relaxed ivory trousers, crystal sneakers, tinted luxury sunglasses, layered silver chains, rings, bracelets, and premium pop-star accessories. Their outfits naturally react to wind and movement.
+
+Both artists actively perform the song with perfect lip synchronization, realistic mouth movements, expressive facial expressions, confident body language, and emotional delivery. They frequently sing directly into the camera. During instrumental moments they naturally interact with each other through elegant movement and subtle choreography. Reserve full choreography only for the chorus with professional backup dancers.
+
+Blend luxury pop music, Vogue fashion editorials, beauty campaigns, Y2K magazine aesthetics, and world-tour concert visuals. Every frame should resemble a global luxury fashion campaign while remaining fully photorealistic.
+
+Use oversized editorial typography throughout the video with bold condensed fonts, magazine layouts, barcode graphics, registration marks, index numbers, halftone textures, paper overlays, handwritten notes, star icons, heart graphics, sparkles, waveform graphics, glossy gradients, and premium motion graphics. Typography should naturally integrate into architecture, LED screens, mirrors, glass, streets, reflections, and stage environments. Use uplifting pop phrases such as "FEEL THE LOVE", "STAY GOLDEN", "FOREVER YOUNG", "POP VIBES", "HEARTBEAT", "LIVE THE MOMENT", and "SHINE BRIGHT". Do not repeat the same layout twice.
+
+Visual quality should resemble ARRI Alexa 65 with Cooke Anamorphic lenses, IMAX-quality cinematography, HDR color science, cinematic lens flares, volumetric haze, premium beauty lighting, elegant camera movement, shallow depth of field, ultra-realistic skin texture, blockbuster VFX, and luxury commercial production.
+
+Scene 1 (0–5s)
+Inside a luxurious pastel studio featuring giant LED walls, glossy reflective floors, sculptural lighting, mirrors, floating curtains, soft haze, and elegant fashion set design. The female artist opens the song singing directly into the camera while the male artist joins naturally. Oversized kinetic typography and editorial graphics animate around them.
+
+Scene 2 (5–10s)
+Golden-hour rooftop overlooking a modern skyline with reflective glass architecture, designer furniture, and warm sunlight. The artists walk together while singing confidently. Editorial typography wraps around the skyline and architecture.
+
+Scene 3 (10–15s)
+Blue-hour luxury shopping district filled with designer boutiques, giant LED billboards, luxury cars, colorful signs, and cinematic reflections. The artists perform naturally while the camera circles around them. Typography integrates into billboards and digital displays.
+
+Scene 4 (15–20s)
+A spectacular sold-out concert arena featuring massive LED screens, lasers, pyrotechnics, confetti, smoke, moving spotlights, synchronized lighting, professional dancers, and thousands of cheering fans. The artists perform the chorus with energetic choreography and perfect lip-sync.
+
+Scene 5 (20–25s)
+A luxury penthouse at night overlooking a breathtaking skyline with floor-to-ceiling windows, infinity pool reflections, crystal chandeliers, designer interiors, modern art, and elegant ambient lighting. The artists perform together in an intimate yet glamorous atmosphere while editorial graphics subtly float around them.
+
+Scene 6 (25–30s)
+A surreal luxury stage floating above golden clouds at sunrise with mirror floors, cinematic fog, shimmering particles, elegant architecture, and breathtaking golden light. The artists perform the emotional final chorus as dramatic close-ups alternate with cinematic hero shots. Massive elegant typography, fireworks, editorial graphics, lens flares, and premium motion design create an unforgettable blockbuster finale before fading to black.
+```
+
 ## 2. UGC Style
 ### 印尼椰子采买 Vlog
 
@@ -347,6 +453,22 @@ Photorealistic, ultra-detailed wind and hair physics, perfect motion blur only o
 It's text to video, so you just have to copy, tweak and paste! Enjoy the quoted one too 😎
 ```
 
+### 高温冰水降温广告
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/8d1de0cc-9bff-4c76-a097-5e6e490478bf
+
+#### 来源
+
+[@bmx_ai13](https://x.com/bmx_ai13) · [X Post](https://x.com/bmx_ai13/status/2085177285603455460) · [Thread Reader](https://twitter-thread.com/t/2085177285603455460)
+
+#### 提示词（原文）
+
+```text
+High quality video 16:9 aspect ratio 14 seconds duration Cinematic medium shot of a young woman with a short brown bob haircut wearing an open light blue button down shirt over a white crop top and denim skirt She stands on an outdoor patio with hazy warm lighting and out of focus string lights in the background A text graphic reading 111 F is overlaid at the top center She is visibly hot and fans her face with her right hand A hand enters the frame from the right holding a tall glass of ice water with a lemon and a straw She takes the glass with both hands and begins sipping through the straw As she drinks the text graphic rapidly counts down to 69 F She closes her eyes and looks completely refreshed Ambient hazy lighting Upbeat refreshing summer pop music playing Photorealistic 8k resolution highly detailed natural lighting
+```
+
 ## 5. Visual Effects & Experimental Styles
 ### 50 年代餐厅定格回放
 
@@ -376,6 +498,38 @@ Photorealistic cinematic 1950s American diner, chrome stools, red vinyl, neon gl
 Photorealistic, ultra-detailed fluid physics, perfect motion blur only on moving elements, stable characters, cinematic lighting, heavy natural film grain, no artifacts, movie-level temporal coherence, high rewatch value.
 
 30 seconds long is the new AI standard! hope you like it 🫡
+```
+
+### 餐厅时间冻结早餐逃逸
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/56a3ea62-8c5e-486d-88d6-a9abd480af37
+
+#### 来源
+
+[@techhalla](https://x.com/techhalla) · [X Post](https://x.com/techhalla/status/2085200942060691807) · [Thread Reader](https://twitter-thread.com/t/2085200942060691807)
+
+#### 提示词（原文）
+
+```text
+Photorealistic cinematic 1990s American diner, red vinyl booths, neon signs, chrome details, checkerboard floor, soft natural window light mixed with warm practicals, subtle handheld texture, rich lived-in period detail, heavy film grain. Shot with modern realism and precise temporal control.
+
+Use the provided reference image as the exact character lock for the bald bearded man in black sunglasses and dark hoodie. Maintain perfect facial structure, beard, head shape, skin texture and clothing consistency at all times.
+
+0-5s: [Medium Wide] The bald man sits in a red vinyl booth. He stands up, turns, and collides hard into a waitress carrying a full breakfast tray (eggs, bacon, toast, coffee pot). Impact is sudden and physical.
+
+5-12s: [Dynamic Tracking into Super Slow-Motion] Collision detonates. Tray, plate, eggs, bacon strips and coffee pot explode upward. Coffee erupts into long liquid ribbons and perfect suspended droplets. Camera orbits smoothly around the impact. Time locks completely at the peak of the spill. Every face freezes in pure shock. Only the bald man remains free to move. He freezes for one beat with a clear “I fucked up” expression, then quickly grabs two bacon strips and a fried egg from the floating debris.
+
+12-22s: [Tracking Shot] Still inside the frozen diner, he walks toward the exit door while taking deliberate bites of bacon then egg. All patrons, waitress and flying food stay perfectly suspended in mid-air.
+
+22-27s: [Medium Shot] Just as he reaches the door and is about to push it open, time snaps back to normal speed. Everything that was floating crashes down at once — plates, eggs, bacon, tray and coffee slam onto the floor with a loud chaotic impact. The waitress and patrons react in sudden real-time shock.
+
+27-30s: [Medium Close-Up] He pauses, turns slightly, raises his eyebrows and gives a small casual “it is what it is” shrug with a quiet half-smile of acceptance, still holding the remaining food.
+
+Photorealistic, ultra-detailed fluid and object physics, perfect volume and surface tension on liquids, sharp motion blur only on moving elements, stable character, cinematic lighting, heavy natural film grain, no artifacts, movie-level temporal coherence, high rewatch value.
+
+Enjoy! 🫡
 ```
 
 

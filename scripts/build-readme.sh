@@ -11,10 +11,10 @@ render_cases() {
   jq -r --arg language "$language" --arg prompt_field "$prompt_field" '
     def file: split("/") | last;
     def category:
-      if .id | IN("x-sd25-01", "x-sd25-07", "x-sd25-08") then "cinematic-film-styles"
+      if .id | IN("x-sd25-01", "x-sd25-07", "x-sd25-08", "x-sd25-14", "x-sd25-15", "x-sd25-16") then "cinematic-film-styles"
       elif .id | IN("x-sd25-02", "x-sd25-04", "x-sd25-05", "x-sd25-10", "x-sd25-11", "x-sd25-12") then "ugc-style"
       elif .id == "x-sd25-03" then "short-form-drama-web-series"
-      elif .id == "x-sd25-06" then "social-media-viral-memes"
+      elif .id | IN("x-sd25-06", "x-sd25-17") then "social-media-viral-memes"
       else "visual-effects-experimental-styles"
       end;
     def category_order:
