@@ -4,9 +4,9 @@
 
 | [English](./README.md) | [简体中文](./README-zh.md) |
 
-> A curated library of community **Seedance 2.5** prompts collected from standout X showcases.
+A curated collection of the best Seedance 2.5 prompts, video generation techniques, and resources for advanced Seedance AI experiments.
 
-Only community X examples with archived prompts are kept here. Prompt wording remains as close as possible to the original posts.
+This repository focuses on high-fidelity Seedance 2.0 prompts sourced from X (Twitter), WeChat, and top prompt engineers. Whether you are looking for cinematic transitions, character consistency, or complex motion sequences, you will find the most effective inputs here to unlock the full potential of Seedance AI.
 
 ## Table of Contents
 
