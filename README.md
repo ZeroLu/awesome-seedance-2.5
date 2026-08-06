@@ -4,6 +4,11 @@
 
 | [English](./README.md) | [简体中文](./README-zh.md) |
 
+
+<img width="1672" height="837" alt="ultimate seedance 2 5 prompt library" src="https://github.com/user-attachments/assets/f93e69d6-4593-46a2-b448-27090345edd9" />
+
+
+
 A curated collection of the best Seedance 2.5 prompts, video generation techniques, and resources for advanced Seedance AI experiments.
 
 This repository focuses on high-fidelity Seedance 2.0 prompts sourced from X (Twitter), WeChat, and top prompt engineers. Whether you are looking for cinematic transitions, character consistency, or complex motion sequences, you will find the most effective inputs here to unlock the full potential of Seedance AI.
