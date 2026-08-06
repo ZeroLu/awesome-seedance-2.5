@@ -10,7 +10,13 @@
 
 ## 目录
 
-1. [社区 X 案例](#社区-x-案例)
+1. [Cinematic Film Styles](#1-cinematic-film-styles)
+2. [Advertising & Commercial Branding](#2-advertising--commercial-branding)
+3. [UGC Style](#3-ugc-style)
+4. [Anime & Animation Styles](#4-anime--animation-styles)
+5. [Short-form Drama & Web Series](#5-short-form-drama--web-series)
+6. [Social Media & Viral Memes](#6-social-media--viral-memes)
+7. [Visual Effects & Experimental Styles](#7-visual-effects--experimental-styles)
 
 ---
 ## 1. Cinematic Film Styles
@@ -187,6 +193,52 @@ Style: Premium rap music video, luxury editorial fashion aesthetic, cinematic ha
 Negative Prompt: No subtitles, no captions, no logos, no watermarks, no duplicate people, no distorted anatomy, no extra fingers, no AI artifacts, no flickering, no low-resolution textures, no cartoon style, no oversaturated colors, no inconsistent outfit or facial features.
 ```
 
+### 古董市集多参考镜头
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/465cd44c-d57b-4ae3-be2b-7c69ae51f935
+
+#### 来源
+
+[@CuriousRefuge](https://x.com/CuriousRefuge) · [X Post](https://x.com/CuriousRefuge/status/2085050286910120376) · [Thread Reader](https://twitter-thread.com/t/2085050286910120376)
+
+#### 提示词（原文）
+
+```text
+Use [Worn Leather Reference]
+as a reference for WORN LEATHER Use
+[Tarnished Frames Reference]
+as a reference for TARNISHED FRAMES Use
+[Pocket Watch Reference]
+as a reference for POCKET WATCH Use
+[Location Reference]
+as the location reference (only use this as a location reference, not as a color or style reference) Use
+[Layout Refernce]
+as a reference for LAYOUT REFERENCE Use
+[Drinking Glass Reference]
+as a reference for DRINKING GLASS Use
+[Cracked Porcelain Reference]
+as a reference for CRACKED PORCELAIN Use
+[Color Grading Reference]
+as a color grading reference (only use this as a color grading reference, not a location reference) Use
+[Character Reference_03]
+as a character reference for ISAAC Use
+[Character Reference_02]
+as a character reference for SYDNEY Use
+[Character Reference_01]
+as a character reference for MARKUS Use
+[Cased Taxidermy Reference]
+as a reference for CASED TAXIDERMY Use
+[Brass Sextant Reference]
+as a reference for BRASS SEXTANT Use
+[Brass Instruments Reference]
+as a reference for BRASS INSTRUMENTS Use
+[Three Objects Reference]
+as a reference for THREE OBJECTS Thirty-second continuous take, an outdoor antique market at overcast midday. ISAAC moves slowly along a crowded stall, camera tracking with him at chest height. The stall is dense with the referenced objects — BRASS INSTRUMENTS, CRACKED PORCELAIN, TARNISHED FRAMES, WORN LEATHER, CASED TAXIDERMY — arranged exactly as in the LAYOUT REFERENCE. ISAAC lifts a BRASS SEXTANT, turns it once, sets it down. He lifts a POCKET WATCH, opens the case, closes it, sets it down. MARKUS (the stall/shop owner) watches him without speaking. ISAAC passes SYDNEY (who is browsing the far end). Then ISAAC stops. Camera pushes in as he reaches past THREE OBJECTS and lifts a green glass ornate DRINKING GLASS. ISAAC turns it to the light. His expression changes completely. Camera holds on his face. Photoreal, overcast diffuse light, muted palette, 35mm, natural handheld.
+```
+
+## 2. Advertising & Commercial Branding
 ### 奢华双人流行乐大片
 
 #### 结果视频
@@ -233,7 +285,23 @@ Scene 6 (25–30s)
 A surreal luxury stage floating above golden clouds at sunrise with mirror floors, cinematic fog, shimmering particles, elegant architecture, and breathtaking golden light. The artists perform the emotional final chorus as dramatic close-ups alternate with cinematic hero shots. Massive elegant typography, fireworks, editorial graphics, lens flares, and premium motion design create an unforgettable blockbuster finale before fading to black.
 ```
 
-## 2. UGC Style
+### 高温冰水降温广告
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/8d1de0cc-9bff-4c76-a097-5e6e490478bf
+
+#### 来源
+
+[@bmx_ai13](https://x.com/bmx_ai13) · [X Post](https://x.com/bmx_ai13/status/2085177285603455460) · [Thread Reader](https://twitter-thread.com/t/2085177285603455460)
+
+#### 提示词（原文）
+
+```text
+High quality video 16:9 aspect ratio 14 seconds duration Cinematic medium shot of a young woman with a short brown bob haircut wearing an open light blue button down shirt over a white crop top and denim skirt She stands on an outdoor patio with hazy warm lighting and out of focus string lights in the background A text graphic reading 111 F is overlaid at the top center She is visibly hot and fans her face with her right hand A hand enters the frame from the right holding a tall glass of ice water with a lemon and a straw She takes the glass with both hands and begins sipping through the straw As she drinks the text graphic rapidly counts down to 69 F She closes her eyes and looks completely refreshed Ambient hazy lighting Upbeat refreshing summer pop music playing Photorealistic 8k resolution highly detailed natural lighting
+```
+
+## 3. UGC Style
 ### 印尼椰子采买 Vlog
 
 #### 结果视频
@@ -319,20 +387,20 @@ https://github.com/user-attachments/assets/06bb4e53-6f1e-4e38-be04-a6c14ed1850f
 #### 提示词（原文）
 
 ```text
-SEQUENCE SHOT. NO CUT. 
-Single unbroken handheld take throughout, 30 seconds total.  
+SEQUENCE SHOT. NO CUT.
+Single unbroken handheld take throughout, 30 seconds total.
 
-Young Caucasian woman, chin-length auburn bob haircut, green eyes, wearing a yellow and green Brazil national football jersey and white denim shorts, sitting pensively on a sofa inside a large bright suburban Parisian house, summer daytime, sunlight through the windows, young adults dancing and laughing around her holding drinks, loud music implied by energetic crowd movement.  
+Young Caucasian woman, chin-length auburn bob haircut, green eyes, wearing a yellow and green Brazil national football jersey and white denim shorts, sitting pensively on a sofa inside a large bright suburban Parisian house, summer daytime, sunlight through the windows, young adults dancing and laughing around her holding drinks, loud music implied by energetic crowd movement.
 
-0-4s: She rises from the sofa empty-handed, walks toward a kitchen table lined with alcohol bottles and glasses. Handheld camera follows close behind her shoulder, slightly shaky. 
-4-8s: She pours herself a glass of champagne, sips it. Camera holds behind her, shaky, close distance. 
-8-13s: She weaves through the dancing, laughing crowd, some standing, some in groups laughing on sofas, toward a large glass bay window. Camera continues following close behind her, no cut. 
-13-16s: She steps outside into the garden, a big pool comes into view with young adults swimming and laughing inside it. Camera smoothly rotates from following behind her to facing her. She looks toward the pool with amusement, smiles, sets her champagne glass down on a small table beside a lounge chair. 
-16-20s: She removes her jersey, places it on the back of the lounge chair, then removes her white denim shorts, places them on the lounge chair, revealing a swimsuit underneath. Camera holds a medium shot facing her, slight handheld sway. 20-24s: She walks toward the pool, camera repositions behind her as she walks, then she breaks into a run. Handheld camera follows close, shaky, matching her pace. 
-24-27s: She dives into the pool shouting "take care", landing in the water among other laughing young adults. Camera dives in with her, briefly submerged underwater alongside the swimmers. 
-27-30s: She resurfaces laughing, joins the laughing adults nearby. Camera is up in the air, revealing a wide aerial view of the house, garden and pool.  
+0-4s: She rises from the sofa empty-handed, walks toward a kitchen table lined with alcohol bottles and glasses. Handheld camera follows close behind her shoulder, slightly shaky.
+4-8s: She pours herself a glass of champagne, sips it. Camera holds behind her, shaky, close distance.
+8-13s: She weaves through the dancing, laughing crowd, some standing, some in groups laughing on sofas, toward a large glass bay window. Camera continues following close behind her, no cut.
+13-16s: She steps outside into the garden, a big pool comes into view with young adults swimming and laughing inside it. Camera smoothly rotates from following behind her to facing her. She looks toward the pool with amusement, smiles, sets her champagne glass down on a small table beside a lounge chair.
+16-20s: She removes her jersey, places it on the back of the lounge chair, then removes her white denim shorts, places them on the lounge chair, revealing a swimsuit underneath. Camera holds a medium shot facing her, slight handheld sway. 20-24s: She walks toward the pool, camera repositions behind her as she walks, then she breaks into a run. Handheld camera follows close, shaky, matching her pace.
+24-27s: She dives into the pool shouting "take care", landing in the water among other laughing young adults. Camera dives in with her, briefly submerged underwater alongside the swimmers.
+27-30s: She resurfaces laughing, joins the laughing adults nearby. Camera is up in the air, revealing a wide aerial view of the house, garden and pool.
 
-Bright natural summer daylight, warm sunlit color palette, candid documentary energy, slight handheld lens wobble throughout.  
+Bright natural summer daylight, warm sunlit color palette, candid documentary energy, slight handheld lens wobble throughout.
 
 Maintain her exact hairstyle, green eyes, Brazil jersey and white denim shorts until she undresses, then swimsuit consistency for the remainder. Background party guests and swimmers generic, unnamed. No text overlays, no flickering, no ghosting, no morphing artifacts, natural skin tones, stable continuous handheld motion, no hard cuts at any point.
 ```
@@ -387,7 +455,134 @@ A stage manager calls from off camera, "CHASE, standby!" She immediately takes a
 Performance should rely on micro-expressions, natural blinking, realistic breathing, tiny pauses, genuine smiles, subtle nervousness, authentic eye contact, and understated acting. The voice must sound like a real Korean woman in her 20s with soft, warm, conversational delivery—not an AI narrator, influencer, or announcer. Prioritize perfect character consistency, realistic facial animation, natural lip sync, believable body language, authentic environmental audio, and cinematic realism that makes viewers genuinely question whether this was filmed in real life.
 ```
 
-## 3. Short-form Drama & Web Series
+### 海边好友手机随拍
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/307661fb-857d-4294-ba7b-e49f5a51582d
+
+#### 来源
+
+[@Goodmanprotocol](https://x.com/Goodmanprotocol) · [X Post](https://x.com/Goodmanprotocol/status/2084997839059583450) · [Thread Reader](https://twitter-thread.com/t/2084997839059583450)
+
+#### 提示词（原文）
+
+```text
+Super casual real smartphone home video footage of a sunny beach day outing with friends. Natural mobile phone camera recording with slight authentic handheld shake, normal frame rate with smooth natural motion, rapid-fire montage with constant quick jump cuts every 1–2 seconds like scrolling through phone memories. Unpolished authentic phone recording of a mixed group laughing, playing in the sand, snacking and clicking pictures. Pure raw home video feel with no cinematic polish or heavy effects.
+
+Use the provided reference photo as the STRICT ONLY visual reference for the main woman. Maintain her exact appearance with zero deviation: [her described features]. Generate a mixed group of friends of all ages around her on the beach.
+
+0–2.5s:
+Shaky handheld rapid cuts of the main woman laughing with friends near the shoreline. Wind gently moves her hair. Quick flashes of feet in warm sand and waves washing over them.
+
+2.5–5s:
+Abrupt jump cuts showing a close-up of her smiling with sunglasses pushed up onto her head, followed by the group splashing water and taking casual selfies together.
+
+5–7.5s:
+Fast handheld footage of her sitting on a beach towel chatting animatedly with friends. Snacks and cold drinks are scattered around. Natural sunlight creates subtle lens reflections and realistic exposure changes.
+
+7.5–10s:
+Quick cut to a close-up of her giving a big warm smile toward the camera and waving playfully. The footage immediately jumps to the group building a small sandcastle together while laughing naturally.
+
+10–12.5s:
+Abrupt edit showing everyone gathered beneath a beach umbrella, casually passing chips and cold drinks around. Friends cheerfully toast with cans while talking over one another.
+
+12.5–15s:
+Final rapid transition showing the main woman relaxed and sitting among her friends, softly smiling while looking toward the ocean. The video ends naturally with a gentle phone sway as if someone simply stopped recording.
+
+VISUAL STYLE:
+
+- Natural smartphone video quality.
+- Slight realistic handheld shake.
+- Smooth normal frame-rate motion.
+- Authentic casual interactions and physics.
+- Realistic sunlight and exposure adaptation.
+- Stable main character consistency.
+- Unpolished home phone recording aesthetics.
+- No professional stabilization.
+- No cinematic color grading.
+- No beauty filters.
+- No artificial effects.
+- No AI artifacts or glitches.
+
+IMPORTANT GENERATION REQUIREMENTS:
+
+- Consistent identity throughout the video.
+- Realistic human anatomy and hand interactions.
+- Natural walking and body movement.
+- Authentic beach ambience and environmental audio.
+- Physically correct lighting and shadows.
+- Rapid memory-style jump cuts every 1–2 seconds.
+- No duplicated people or objects.
+- No facial distortions.
+- No impossible movements.
+- Preserve the casual smartphone home-video feeling from beginning to end.
+```
+
+## 4. Anime & Animation Styles
+### 雨城小伞大逃亡
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/750306bb-38a0-45e0-8768-82cded325738
+
+#### 来源
+
+[@Dheepanratnam](https://x.com/Dheepanratnam) · [X Post](https://x.com/Dheepanratnam/status/2085033492870488195) · [Thread Reader](https://twitter-thread.com/t/2085033492870488195)
+
+#### 提示词（原文）
+
+```text
+{ "title": "The Umbrella Escape", "style": "3D Pixar family animation. Rainy city afternoon, vibrant reflections on wet pavement, action-comedy chase, warm and cool contrast, dynamic camera.", "shots": [ {"time":"00:00-00:03","type":"CLOSE-UP","action":"Kid in yellow raincoat opens a bright red umbrella. A gust of wind hits. The umbrella inverts and yanks free.","camera":"Macro, raindrops flying.","dialogue":"Umbrella: 'FREEDOM!' Kid: 'Hey!'"}, {"time":"00:03-00:06","type":"TRACKING","action":"Umbrella surfs down the sidewalk, opening and closing to dodge pedestrians. It hops over a puddle like a skipping stone.","camera":"Low tracking, fast.","dialogue":"Umbrella: 'Can't catch me! I'm born to fly!'"}, {"time":"00:06-00:09","type":"WIDE","action":"Umbrella weaves through a flock of pigeons. They scatter. One pigeon gets caught inside and spins out dizzy.","camera":"Chaotic wide.","dialogue":"Pigeon: 'What the-'"}, {"time":"00:09-00:12","type":"ACTION","action":"Umbrella surfs a puddle wave, then catches a crosswind and smacks into a lamppost, spinning around it like a tetherball.","camera":"Spinning camera with umbrella.","dialogue":"Umbrella: 'Wheee! Okay, that hurt.'"}, {"time":"00:12-00:15","type":"TRACKING","action":"A street sweeper approaches. The umbrella gets sucked into the brush, spins wildly, and launches out like a frisbee.","camera":"Following shot, fast.","dialogue":"Umbrella: 'I REGRET NOTHING!'"}, {"time":"00:15-00:18","type":"WIDE","action":"Umbrella glides toward a tree, sticks perfectly in the branches, and sighs. Kid arrives below, out of breath.","camera":"Wide, rain falling.","dialogue":"Kid: 'Got... you...'"}, {"time":"00:18-00:22","type":"TWO-SHOT","action":"Kid climbs up. Reaches for umbrella. Umbrella closes tight, refusing. Kid pouts. Umbrella opens one eye.","camera":"Close two-shot in the tree.","dialogue":"Umbrella: 'I'm not coming back. I tasted the wild.' Kid: 'I'll let you pick the movie.'"}, {"time":"00:22-00:25","type":"CLOSE-UP","action":"Umbrella pauses. Opens fully. Gently covers the kid from the rain, settling onto their shoulder.","camera":"Warm push-in.","dialogue":"Umbrella: 'Fine. But I'm driving next time.'"}, {"time":"00:25-00:28","type":"WIDE","action":"Kid walks home under the umbrella. The umbrella steers them left, then right, playfully. They splash through puddles together.","camera":"Wide, beautiful rainy street.","dialogue":"Kid: 'You're impossible.' Umbrella: 'Thank you.'"}, {"time":"00:28-00:30","type":"TITLE CARD","action":"Black screen. Title 'THE UMBRELLA ESCAPE' in raindrop letters with a red umbrella icon.","camera":"Static.","dialogue":"(soft rain)"} ] }
+```
+
+### 1v2 雨夜格斗场景
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/6f8a7889-47a7-438f-98cf-debf626f80e7
+
+#### 来源
+
+[@aimikoda](https://x.com/aimikoda) · [X Post](https://x.com/aimikoda/status/2085278866940047852) · [Thread Reader](https://twitter-thread.com/t/2085278866940047852)
+
+#### 提示词（原文）
+
+```text
+Create a 15-second action sequence.
+
+SOURCES
+@[char1] = <C1>; preserve complete appearance; ignore background/text.
+@[char2]= <C2>; preserve complete appearance; ignore background/text.
+@[char3] = <C3>; preserve complete appearance; ignore background/text.
+Keep identities and outfits continuous.
+
+STYLE AND SPACE
+Stylized 3D anime, rain-noir tension, wet neon, warm bulbs, crisp grounded impacts, responsive debris, no gore. One night-market corridor: puddle and bag zone foreground-left, fruit stall mid-left, counter with towel and tray shelf right, broom and crates deep. Preserve geography and axis.
+
+CONTINUITY
+Exactly one bag, folded umbrella, tray, towel, knife, and broom. C1 owns bag and umbrella; C3 carries the concealed knife; the stall holds the rest. Preserve prop position, ownership, structure, and damage across cuts. No resets, repairs, duplicates, teleporting, or vanishing. The umbrella breaks once into two pieces; no intact umbrella appears afterward.
+
+AGENCY AND EDIT
+C2 and C3 constantly surround, seize, or strike C1. Until incapacitated, both advance or circle with guard loaded and hands attacking. No posing, watching, or waiting; every miss or hit becomes recovery, pursuit, interception, or another attack. C1 stays compact. Open mid-attack. Hard-cut on contact, counter, or prop transfer. Alternate readable wides and tight contacts; show contact and recoil without decorative shake.
+
+SEQUENCE
+Beat 1: High-corner wide. C2 rushes center with a punch loaded while C3 cuts right to seize C1 from behind. C1 moves mid-left with the only umbrella and bag; the moving frame maps the props. Cut low at puddle level. C1 slings the bag into its foreground-left zone without stopping. C2 punches through the puddle as C3 closes the retreat lane. The bag stays untouched until retrieval.
+
+Beat2: OTS medium. C1 triangle-steps outside-left, catches C2's wrist with the umbrella tip, and redirects him toward the stall while C3 attacks from behind. Cut through the stall slit. The umbrella snaps under C2's chin and into his ribs; boxes spill as C2 recovers and C3 reaches around C1. Tight rear medium. C3 locks a rear grab and drags backward while C2 rises and charges. C1 traps the umbrella underarm across C3's throat line and coils him into C2's path. Ground-level wide. C2 tries to pivot and C3 braces, but they collide. C1 strikes C2's knee with the only umbrella. It breaks into exactly two pieces beside the foreground-left puddle. C1 releases them and never touches an umbrella again; both remain motionless through the ending.
+
+Beat3: Counter-side medium. C3 tears free and drives a forearm while C2 pushes up. C1 ducks and lifts the single tray from its shelf. Tight frontal medium. C2 bursts forward as C3 circles right and reaches around the tray. C1 clips C2's nose with the rim, sending him back while C3 closes from the flank.
+
+Beat4: Knife-side profile wide. C3 draws the single knife and jabs while C2 crowds C1's left escape. C1 retreats along the counter with the tray between blade and torso. Profile medium. C3 overextends and C2 reaches for the tray; C1 shifts off-line, pins C3's knife forearm to the counter with the tray, and uses C3 to block C2. Top-down detail. C2 circles through the earlier spilled fruit. C1 keeps tray pressure, wraps the towel around C3's wrist, twists down, and drops the knife into the puddle, where it remains. Low side medium. C2 hooks over C3's shoulder; C1 releases the tray to lean against the counter, yanks C3 below the hook with the towel, and knees him. C3 folds by the counter, incapacitated; C2 turns directly into pursuit.
+
+Beat5: Deep-lane wide. C2 surges with a front kick. C1 slips along the counter, leaves the tray upright, and snatches the single broom as the kick passes. Frontal wide. C2 guards and drives forward. The broom hits his forearm; he tries to catch it and counter, but the second hit buckles his thigh. He throws a final punch; the third hit sends him into the deep crates. Hold through the collapse until he cannot continue. Spilled fruit stays near the stall.
+
+Beat6: Rear wide. C1 drops the broom by the toppled crates, returns the same tray to its shelf, unwraps the towel from C3's wrist and lays it on the stall, retrieves the same bag, and exits. End with C1 leaving frame. The two umbrella pieces remain beside the puddle, the knife remains inside it, spilled fruit remains mid-left, and toppled crates remain deep.
+
+AUDIO No dialogue or music. Rain, wet shoes, plastic scrape, cloth strain, fruit clatter, one umbrella crack, tray scrape/ring, blade-metal ticks, towel snap, knife splash, body thuds, wood hits, crate collapse, and breath, synchronized to visible causes.
+```
+
+## 5. Short-form Drama & Web Series
 ### CHASE 康复 MiniDV 日记
 
 #### 结果视频
@@ -420,7 +615,7 @@ Storyboard (20s, 6 cuts)
 (~4s, bedroom, dim cozy light, closing shot) She climbs into bed early, pulling the blanket up, eyes already heavy, a small content smile before the screen fades. VOICEOVER (CHASE): "Some nights, the earlier the better."
 ```
 
-## 4. Social Media & Viral Memes
+## 6. Social Media & Viral Memes
 ### 过山车假发翻车现场
 
 #### 结果视频
@@ -453,23 +648,7 @@ Photorealistic, ultra-detailed wind and hair physics, perfect motion blur only o
 It's text to video, so you just have to copy, tweak and paste! Enjoy the quoted one too 😎
 ```
 
-### 高温冰水降温广告
-
-#### 结果视频
-
-https://github.com/user-attachments/assets/8d1de0cc-9bff-4c76-a097-5e6e490478bf
-
-#### 来源
-
-[@bmx_ai13](https://x.com/bmx_ai13) · [X Post](https://x.com/bmx_ai13/status/2085177285603455460) · [Thread Reader](https://twitter-thread.com/t/2085177285603455460)
-
-#### 提示词（原文）
-
-```text
-High quality video 16:9 aspect ratio 14 seconds duration Cinematic medium shot of a young woman with a short brown bob haircut wearing an open light blue button down shirt over a white crop top and denim skirt She stands on an outdoor patio with hazy warm lighting and out of focus string lights in the background A text graphic reading 111 F is overlaid at the top center She is visibly hot and fans her face with her right hand A hand enters the frame from the right holding a tall glass of ice water with a lemon and a straw She takes the glass with both hands and begins sipping through the straw As she drinks the text graphic rapidly counts down to 69 F She closes her eyes and looks completely refreshed Ambient hazy lighting Upbeat refreshing summer pop music playing Photorealistic 8k resolution highly detailed natural lighting
-```
-
-## 5. Visual Effects & Experimental Styles
+## 7. Visual Effects & Experimental Styles
 ### 50 年代餐厅定格回放
 
 #### 结果视频

@@ -11,25 +11,31 @@ render_cases() {
   jq -r --arg language "$language" --arg prompt_field "$prompt_field" '
     def file: split("/") | last;
     def category:
-      if .id | IN("x-sd25-01", "x-sd25-07", "x-sd25-08", "x-sd25-14", "x-sd25-15", "x-sd25-16") then "cinematic-film-styles"
-      elif .id | IN("x-sd25-02", "x-sd25-04", "x-sd25-05", "x-sd25-10", "x-sd25-11", "x-sd25-12") then "ugc-style"
+      if .id | IN("x-sd25-01", "x-sd25-07", "x-sd25-08", "x-sd25-14", "x-sd25-15", "x-sd25-20") then "cinematic-film-styles"
+      elif .id | IN("x-sd25-16", "x-sd25-17") then "advertising-commercial-branding"
+      elif .id | IN("x-sd25-02", "x-sd25-04", "x-sd25-05", "x-sd25-10", "x-sd25-11", "x-sd25-12", "x-sd25-19") then "ugc-style"
       elif .id == "x-sd25-03" then "short-form-drama-web-series"
       elif .id | IN("x-sd25-06", "x-sd25-17") then "social-media-viral-memes"
+      elif .id | IN("x-sd25-21", "x-sd25-22") then "anime-animation-styles"
       else "visual-effects-experimental-styles"
       end;
     def category_order:
       if . == "cinematic-film-styles" then 1
-      elif . == "ugc-style" then 2
-      elif . == "short-form-drama-web-series" then 3
-      elif . == "social-media-viral-memes" then 4
-      else 5
+      elif . == "advertising-commercial-branding" then 2
+      elif . == "ugc-style" then 3
+      elif . == "anime-animation-styles" then 4
+      elif . == "short-form-drama-web-series" then 5
+      elif . == "social-media-viral-memes" then 6
+      else 7
       end;
     def category_title:
       if . == "cinematic-film-styles" then "1. Cinematic Film Styles"
-      elif . == "ugc-style" then "2. UGC Style"
-      elif . == "short-form-drama-web-series" then "3. Short-form Drama & Web Series"
-      elif . == "social-media-viral-memes" then "4. Social Media & Viral Memes"
-      else "5. Visual Effects & Experimental Styles"
+      elif . == "advertising-commercial-branding" then "2. Advertising & Commercial Branding"
+      elif . == "ugc-style" then "3. UGC Style"
+      elif . == "anime-animation-styles" then "4. Anime & Animation Styles"
+      elif . == "short-form-drama-web-series" then "5. Short-form Drama & Web Series"
+      elif . == "social-media-viral-memes" then "6. Social Media & Viral Memes"
+      else "7. Visual Effects & Experimental Styles"
       end;
     def title: (.title.fallback[$language] // .title.fallback.en);
     def prompt_header:
@@ -76,7 +82,7 @@ render_cases() {
         ] | join("\n\n")) + "\n\n"
       end;
     map(select((.source.promptStatus // "complete") == "complete")) as $items |
-    ["cinematic-film-styles", "ugc-style", "short-form-drama-web-series", "social-media-viral-memes", "visual-effects-experimental-styles"]
+    ["cinematic-film-styles", "advertising-commercial-branding", "ugc-style", "anime-animation-styles", "short-form-drama-web-series", "social-media-viral-memes", "visual-effects-experimental-styles"]
     | map(
         . as $cat |
         ($items | map(select(category == $cat)) | sort_by(.id)) as $group |
@@ -114,10 +120,12 @@ Only community X examples with archived prompts are kept here. Prompt wording re
 ## Table of Contents
 
 1. [Cinematic Film Styles](#1-cinematic-film-styles)
-2. [UGC Style](#2-ugc-style)
-3. [Short-form Drama & Web Series](#3-short-form-drama--web-series)
-4. [Social Media & Viral Memes](#4-social-media--viral-memes)
-5. [Visual Effects & Experimental Styles](#5-visual-effects--experimental-styles)
+2. [Advertising & Commercial Branding](#2-advertising--commercial-branding)
+3. [UGC Style](#3-ugc-style)
+4. [Anime & Animation Styles](#4-anime--animation-styles)
+5. [Short-form Drama & Web Series](#5-short-form-drama--web-series)
+6. [Social Media & Viral Memes](#6-social-media--viral-memes)
+7. [Visual Effects & Experimental Styles](#7-visual-effects--experimental-styles)
 
 ---
 EOF
@@ -147,7 +155,13 @@ EOF
 
 ## 目录
 
-1. [社区 X 案例](#社区-x-案例)
+1. [Cinematic Film Styles](#1-cinematic-film-styles)
+2. [Advertising & Commercial Branding](#2-advertising--commercial-branding)
+3. [UGC Style](#3-ugc-style)
+4. [Anime & Animation Styles](#4-anime--animation-styles)
+5. [Short-form Drama & Web Series](#5-short-form-drama--web-series)
+6. [Social Media & Viral Memes](#6-social-media--viral-memes)
+7. [Visual Effects & Experimental Styles](#7-visual-effects--experimental-styles)
 
 ---
 EOF
