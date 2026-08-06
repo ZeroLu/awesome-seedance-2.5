@@ -1,13 +1,11 @@
-# Awesome Seedance 2.5
+<img width="1672" height="837" alt="ultimate seedance 2 5 prompt library" src="https://github.com/user-attachments/assets/f93e69d6-4593-46a2-b448-27090345edd9" />
+
+
+# 🚀 Awesome Seedance 2.5
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-seedance-2.5?style=social)](https://github.com/ZeroLu/awesome-seedance-2.5/stargazers)
 
 | [English](./README.md) | [简体中文](./README-zh.md) |
-
-
-<img width="1672" height="837" alt="ultimate seedance 2 5 prompt library" src="https://github.com/user-attachments/assets/f93e69d6-4593-46a2-b448-27090345edd9" />
-
-
 
 A curated collection of the best Seedance 2.5 prompts, video generation techniques, and resources for advanced Seedance AI experiments.
 
