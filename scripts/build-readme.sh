@@ -2,7 +2,8 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cases="$repo_root/data/byteplus-seedance-2.5-cases.json"
+official_cases="$repo_root/data/byteplus-seedance-2.5-cases.json"
+community_cases="$repo_root/data/community-x-seedance-cases.json"
 
 render_cases() {
   local language="$1"
@@ -10,7 +11,7 @@ render_cases() {
 
   jq -r --arg language "$language" --arg prompt_field "$prompt_field" '
     def file: split("/") | last;
-    def category:
+    def legacy_category:
       if .id | IN("tpl-sd25-01", "tpl-sd25-02", "tpl-sd25-04", "tpl-sd25-12", "tpl-sd25-15", "tpl-sd25-17", "tpl-sd25-18") then "cinematic"
       elif .id | IN("tpl-sd25-10-bp", "tpl-sd25-10-cn", "tpl-sd25-13", "tpl-sd25-14-bp", "tpl-sd25-14-cn", "tpl-sd25-23-bp", "tpl-sd25-23-cn") then "commercial"
       elif .id | IN("tpl-sd25-03", "tpl-sd25-06", "tpl-sd25-08") then "education"
@@ -19,6 +20,8 @@ render_cases() {
       elif .id | IN("tpl-sd25-05", "tpl-sd25-07", "tpl-sd25-11", "tpl-sd25-22") then "vfx"
       else "editing"
       end;
+    def category:
+      if .id | startswith("x-sd25-") then "community" else legacy_category end;
     def category_title:
       if $language == "zh" then
         if . == "cinematic" then "电影叙事与短剧"
@@ -27,6 +30,7 @@ render_cases() {
         elif . == "social" then "音乐、社媒与片头"
         elif . == "animation" then "动画与风格化叙事"
         elif . == "vfx" then "视觉特效与创意实验"
+        elif . == "community" then "社区 X 案例"
         else "视频编辑与修复"
         end
       else
@@ -36,6 +40,7 @@ render_cases() {
         elif . == "social" then "Music, Social & Title Sequences"
         elif . == "animation" then "Animation & Stylized Stories"
         elif . == "vfx" then "Visual Effects & Creative Experiments"
+        elif . == "community" then "Community X Showcases"
         else "Video Editing & Restoration"
         end
       end;
@@ -46,9 +51,10 @@ render_cases() {
       elif . == "social" then 4
       elif . == "animation" then 5
       elif . == "vfx" then 6
-      else 7
+      elif . == "editing" then 7
+      else 8
       end;
-    def title:
+    def legacy_title:
       if $language == "zh" then
         if .id == "tpl-sd25-01" then "三勇士决战熔岩巨兽"
         elif .id == "tpl-sd25-02" then "绝境突围：五机大战母舰"
@@ -108,6 +114,34 @@ render_cases() {
         else "Capsule Coffee Machine User Guide (China)"
         end
       end;
+    def title: (.title.fallback[$language] // .title.fallback.en // legacy_title);
+    def prompt_header:
+      if $language == "zh" then
+        if (.prompt.originalLanguage // "zh") == "zh" then "提示词（中文）" else "提示词（原文）" end
+      else
+        if (.prompt.originalLanguage // "zh") == "zh" then "Prompt (English)" else "Prompt (Original English)" end
+      end;
+    def source_block:
+      if .source == null then ""
+      else
+        "#### " + (if $language == "zh" then "来源" else "Source" end) + "\n\n" +
+        "[@"
+        + .source.author.username
+        + "](https://x.com/"
+        + .source.author.username
+        + ")"
+        + " · [X Post]("
+        + .source.tweetUrl
+        + ")"
+        + " · [Thread Reader]("
+        + .source.threadUrl
+        + ")"
+        + (if .source.promptStatus == "missing"
+            then "\n\n> " + (if $language == "zh" then "截至 2026-08-06，原帖和归档 thread 中未公开 prompt。" else "Prompt was not publicly available in the original post or archived thread as of 2026-08-06." end)
+            else ""
+          end)
+        + "\n\n"
+      end;
     def image_header($image; $index):
       if $image == null then "" else (if $language == "zh" then "参考图 " else "Reference " end) + ($index | tostring) end;
     def image_cell($image; $index):
@@ -130,13 +164,14 @@ render_cases() {
       "### \(title)\n\n" +
       "#### " + (if $language == "zh" then "结果视频" else "Result Video" end) + "\n\n" +
       (if .readmeVideoUrl then .readmeVideoUrl else "[" + (.src | file) + "](./videos/generated/" + (.src | file) + ")" end) + "\n\n" +
+      source_block +
       (if ((.media.videos // []) | length) > 0 then
         "#### " + (if $language == "zh" then "输入视频" else "Input Video" end) + "\n\n" + ((.media.videos // []) | map("[" + (file) + "](./videos/reference/" + (file) + ")") | join(" · ")) + "\n\n"
        else "" end) +
       image_table +
-      "#### " + (if $language == "zh" then "提示词（中文）" else "Prompt (English)" end) + "\n\n```text\n\(.prompt.fallback[$prompt_field])\n```\n"
+      "#### " + prompt_header + "\n\n```text\n\(.prompt.fallback[$prompt_field])\n```\n"
     ) | join("\n"))
-  ' "$cases"
+  ' <(jq -s 'add' "$official_cases" "$community_cases")
 }
 
 {
@@ -147,9 +182,9 @@ render_cases() {
 
 | [English](./README.md) | [简体中文](./README-zh.md) |
 
-> A curated library of official **Seedance 2.5** prompts, organized around the video you want to make: cinematic stories, ads, explainers, music videos, animation, visual effects, and editing.
+> A curated library of official and community **Seedance 2.5** prompts, organized around the video you want to make: cinematic stories, ads, explainers, music videos, animation, visual effects, editing, and standout X showcases.
 
-Every example includes its original media files. The prompt below is an English translation of the official Chinese prompt; see [README-zh.md](./README-zh.md) for the original Chinese text.
+Every example includes its original media files. Official BytePlus examples use translated English prompts here; community X examples preserve their original prompt wording.
 
 ## Table of Contents
 
@@ -160,6 +195,7 @@ Every example includes its original media files. The prompt below is an English 
 5. [Animation & Stylized Stories](#animation--stylized-stories)
 6. [Visual Effects & Creative Experiments](#visual-effects--creative-experiments)
 7. [Video Editing & Restoration](#video-editing--restoration)
+8. [Community X Showcases](#community-x-showcases)
 
 ---
 EOF
@@ -169,9 +205,10 @@ EOF
 
 ## Source & Notes
 
-- Prompts and media are archived from the [official BytePlus Seedance 2.5 showcase](https://ai.byteplus.com/ark/promotion?modelName=seedance-2-5).
+- Official prompts and media are archived from the [official BytePlus Seedance 2.5 showcase](https://ai.byteplus.com/ark/promotion?modelName=seedance-2-5).
+- Community X cases are archived from public X posts and thread captures on August 6, 2026.
 - `<<<image_*>>>` and `<<<video_*>>>` placeholders refer to the local input files listed in each example, in order.
-- The complete machine-readable source record is available at [`data/byteplus-seedance-2.5-cases.json`](./data/byteplus-seedance-2.5-cases.json).
+- The machine-readable source records are available at [`data/byteplus-seedance-2.5-cases.json`](./data/byteplus-seedance-2.5-cases.json) and [`data/community-x-seedance-cases.json`](./data/community-x-seedance-cases.json).
 EOF
 } > "$repo_root/README.md"
 
@@ -183,9 +220,9 @@ EOF
 
 | [English](./README.md) | [简体中文](./README-zh.md) |
 
-> 按你的创作场景整理的官方 **Seedance 2.5** 提示词与素材库：电影叙事、广告、科普、音乐视频、动画、视觉特效和视频编辑。
+> 按你的创作场景整理的 **Seedance 2.5** 官方与社区提示词素材库：电影叙事、广告、科普、音乐视频、动画、视觉特效、视频编辑，以及精选 X 社区案例。
 
-每个案例都包含可直接使用的原始媒体文件。英文 README 提供翻译后的提示词；本页保留官方中文原文。
+每个案例都包含可直接使用的原始媒体文件。官方案例保留中文原文；社区 X 案例若原帖为英文，则本页保留英文原文。
 
 ## 目录
 
@@ -196,6 +233,7 @@ EOF
 5. [动画与风格化叙事](#动画与风格化叙事)
 6. [视觉特效与创意实验](#视觉特效与创意实验)
 7. [视频编辑与修复](#视频编辑与修复)
+8. [社区 X 案例](#社区-x-案例)
 
 ---
 EOF
@@ -205,8 +243,9 @@ EOF
 
 ## 来源与说明
 
-- 提示词与媒体素材均归档自 [BytePlus Seedance 2.5 官方展示页](https://ai.byteplus.com/ark/promotion?modelName=seedance-2-5)。
+- 官方提示词与媒体素材归档自 [BytePlus Seedance 2.5 官方展示页](https://ai.byteplus.com/ark/promotion?modelName=seedance-2-5)。
+- 社区 X 案例归档自 2026 年 8 月 6 日前公开可访问的 X 帖子与 thread 抓取结果。
 - 提示词中的 `<<<image_*>>>` 和 `<<<video_*>>>` 占位符，对应本案例中按顺序列出的本地输入文件。
-- 完整的结构化案例数据位于 [`data/byteplus-seedance-2.5-cases.json`](./data/byteplus-seedance-2.5-cases.json)。
+- 完整的结构化案例数据位于 [`data/byteplus-seedance-2.5-cases.json`](./data/byteplus-seedance-2.5-cases.json) 与 [`data/community-x-seedance-cases.json`](./data/community-x-seedance-cases.json)。
 EOF
 } > "$repo_root/README-zh.md"
