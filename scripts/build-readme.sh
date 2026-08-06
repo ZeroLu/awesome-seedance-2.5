@@ -10,11 +10,26 @@ render_cases() {
 
   jq -r --arg language "$language" --arg prompt_field "$prompt_field" '
     def file: split("/") | last;
+    def category:
+      if .id | IN("x-sd25-01", "x-sd25-07", "x-sd25-08") then "cinematic-film-styles"
+      elif .id | IN("x-sd25-02", "x-sd25-04", "x-sd25-05", "x-sd25-10", "x-sd25-11", "x-sd25-12") then "ugc-style"
+      elif .id == "x-sd25-03" then "short-form-drama-web-series"
+      elif .id == "x-sd25-06" then "social-media-viral-memes"
+      else "visual-effects-experimental-styles"
+      end;
+    def category_order:
+      if . == "cinematic-film-styles" then 1
+      elif . == "ugc-style" then 2
+      elif . == "short-form-drama-web-series" then 3
+      elif . == "social-media-viral-memes" then 4
+      else 5
+      end;
     def category_title:
-      if $language == "zh" then
-        "社区 X 案例"
-      else
-        "Community X Showcases"
+      if . == "cinematic-film-styles" then "1. Cinematic Film Styles"
+      elif . == "ugc-style" then "2. UGC Style"
+      elif . == "short-form-drama-web-series" then "3. Short-form Drama & Web Series"
+      elif . == "social-media-viral-memes" then "4. Social Media & Viral Memes"
+      else "5. Visual Effects & Experimental Styles"
       end;
     def title: (.title.fallback[$language] // .title.fallback.en);
     def prompt_header:
@@ -60,20 +75,27 @@ render_cases() {
           "| " + ([range(0; $count) as $offset | image_cell($images[$i + $offset]; $i + $offset + 1)] | join(" | ")) + " |"
         ] | join("\n\n")) + "\n\n"
       end;
-    map(select((.source.promptStatus // "complete") == "complete")) |
-    sort_by(.id) |
-    "## \(category_title)\n" +
-    (map(
-      "### \(title)\n\n" +
-      "#### " + (if $language == "zh" then "结果视频" else "Result Video" end) + "\n\n" +
-      (if .readmeVideoUrl then .readmeVideoUrl else "[" + (.src | file) + "](./videos/generated/" + (.src | file) + ")" end) + "\n\n" +
-      source_block +
-      (if ((.media.videos // []) | length) > 0 then
-        "#### " + (if $language == "zh" then "输入视频" else "Input Video" end) + "\n\n" + ((.media.videos // []) | map("[" + (file) + "](./videos/reference/" + (file) + ")") | join(" · ")) + "\n\n"
-       else "" end) +
-      image_table +
-      "#### " + prompt_header + "\n\n```text\n\(.prompt.fallback[$prompt_field])\n```\n"
-    ) | join("\n"))
+    map(select((.source.promptStatus // "complete") == "complete")) as $items |
+    ["cinematic-film-styles", "ugc-style", "short-form-drama-web-series", "social-media-viral-memes", "visual-effects-experimental-styles"]
+    | map(
+        . as $cat |
+        ($items | map(select(category == $cat)) | sort_by(.id)) as $group |
+        if ($group | length) == 0 then ""
+        else
+          "## " + ($cat | category_title) + "\n" +
+          ($group | map(
+            "### \(title)\n\n" +
+            "#### " + (if $language == "zh" then "结果视频" else "Result Video" end) + "\n\n" +
+            (if .readmeVideoUrl then .readmeVideoUrl else "[" + (.src | file) + "](./videos/generated/" + (.src | file) + ")" end) + "\n\n" +
+            source_block +
+            (if ((.media.videos // []) | length) > 0 then
+              "#### " + (if $language == "zh" then "输入视频" else "Input Video" end) + "\n\n" + ((.media.videos // []) | map("[" + (file) + "](./videos/reference/" + (file) + ")") | join(" · ")) + "\n\n"
+             else "" end) +
+            image_table +
+            "#### " + prompt_header + "\n\n```text\n\(.prompt.fallback[$prompt_field])\n```\n"
+          ) | join("\n")) + "\n"
+        end
+      ) | join("")
   ' "$community_cases"
 }
 
@@ -91,7 +113,11 @@ Only community X examples with archived prompts are kept here. Prompt wording re
 
 ## Table of Contents
 
-1. [Community X Showcases](#community-x-showcases)
+1. [Cinematic Film Styles](#1-cinematic-film-styles)
+2. [UGC Style](#2-ugc-style)
+3. [Short-form Drama & Web Series](#3-short-form-drama--web-series)
+4. [Social Media & Viral Memes](#4-social-media--viral-memes)
+5. [Visual Effects & Experimental Styles](#5-visual-effects--experimental-styles)
 
 ---
 EOF

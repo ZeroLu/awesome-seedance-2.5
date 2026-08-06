@@ -13,7 +13,7 @@
 1. [社区 X 案例](#社区-x-案例)
 
 ---
-## 社区 X 案例
+## 1. Cinematic Film Styles
 ### 泪眼持枪对峙
 
 #### 结果视频
@@ -54,142 +54,6 @@ For sound design, use only real environmental sound. No background music. You ma
 
 Style keywords:
 cinematic, emotional confrontation, over-the-shoulder shot, gun aimed forward, tear-filled eyes, restrained breakdown, conflicted emotion, unable to shoot, internal struggle, high tension silence, character close-up, dramatic film scene.
-```
-
-### 印尼椰子采买 Vlog
-
-#### 结果视频
-
-https://github.com/user-attachments/assets/b9b95ce4-4289-4b32-843a-86f8d5b1da9f
-
-#### 来源
-
-[@saniaspeaks_](https://x.com/saniaspeaks_) · [X Post](https://x.com/saniaspeaks_/status/2084969852171939875) · [Thread Reader](https://twitter-thread.com/t/2084969852171939875)
-
-#### 提示词（原文）
-
-```text
-Preserve the exact face, hairstyle, identity, skin tone, and body proportions from @ image1 throughout. Outfit: oversized terracotta linen shirt, dusty burgundy wide-leg trousers, brown leather sandals, small gold hoop earrings, loose natural wavy hair. Authentic Indonesian woman. Late-2000s personal vlog aesthetic. Extremely raw handheld flip-camera footage with heavy camera shake, natural reframing, partial face crops, focus hunting, exposure shifts, warm faded colors, mild digital noise, and authentic home-video imperfections. No posing, no cinematic glamour, no stabilization, no modern color grading.
-
-00:00–00:04 Walking through a peaceful tropical village lined with coconut trees, smiling into the camera. "Today we're hunting for fresh coconuts!"
-
-00:04–00:08 Stops at a small roadside coconut stall where a friendly local vendor expertly chops open a fresh green coconut. She watches with an excited reaction.
-
-00:08–00:12 Takes her first sip of fresh coconut water, smiles brightly, and says, "This is so refreshing!"
-
-00:12–00:16 Sits with local villagers on a wooden bench, chatting, laughing, and enjoying the relaxed atmosphere while holding the coconut.
-
-00:16–00:20 Tries opening another coconut herself using simple tools, struggles playfully, laughs, and the locals cheer and laugh with her.
-
-00:20–00:24 Scoops out the soft coconut flesh with a spoon, tastes it, and gives a happy thumbs-up to the camera.
-
-00:24–00:27 Walks slowly through the village, waving to children and locals while carrying the empty coconut shell.
-
-00:27–00:30 Stops beneath tall coconut trees, turns back toward the camera with a warm smile, waves, and says, "See you in my next adventure. Bye!" before naturally ending the recording.
-
-Natural ambience only: birds, palm leaves rustling, village conversations, coconut chopping sounds, footsteps, breeze, insects, and distant laughter. No background music, subtitles, logos, or watermarks. The footage should feel exactly like a genuine late-2000s handheld flip-camera vacation vlog with authentic human movement and realistic interactions.
-```
-
-### CHASE 康复 MiniDV 日记
-
-#### 结果视频
-
-https://github.com/user-attachments/assets/b9e5558e-595b-4f29-a9c5-c040be412390
-
-#### 来源
-
-[@doctorwasif](https://x.com/doctorwasif) · [X Post](https://x.com/doctorwasif/status/2083905705300664481) · [Thread Reader](https://twitter-thread.com/t/2083905705300664481)
-
-#### 提示词（原文）
-
-```text
-CAMERA:
-DV 16mm tape camcorder handheld feel. POV of CHASE holding the camera herself throughout each location, occasionally propped briefly for hands-free moments. Hand shake, misaligned framing, delayed focus pulls, clumsy zooms, occasional face cut-off framing, imperfect shots. Camcorder never appears on screen.
-LOOK:
-Soft, slightly blurry tape quality, faint tape noise, bloomed highlights, flickering auto-exposure, muted contrast, realistic skin tones — lighting shifts per location (clinical soft light at physio → warm home light for stretching → soft steamy bathroom light → dim cozy bedroom light).
-STYLE:
-Slow, gentle montage feel — calmer and more tender than her usual bubbly vlogs. Quiet reflective voiceover narration plays over the visuals instead of synced dialogue. Mood stays soft and caring throughout, centered on rest and self-care.
-Character
-CHASE — Korean idol, 20s. Long straight black hair, natural and softly tied back, dewy glass skin, minimal to no makeup, tired but peaceful expression. Wearing a modest robe or oversized loungewear throughout — fully covering arms, torso, and legs at all times, including during the bath/shower segment (framed only from shoulders up or via steam/robe coverage, nothing revealing shown).
-Setting Progression
-Physio/massage clinic (afternoon) → her room, stretching mat (early evening) → bathroom, steamy warm light (night) → bedroom (late night).
-Storyboard (20s, 6 cuts)
-(~3.5s, physio clinic, propped camera, medium shot) She lies on a treatment table as a therapist's hands (off-camera) work on her shoulder, wincing slightly then relaxing. VOICEOVER (CHASE): "Some days, taking care of myself has to come first."
-(~3s, physio clinic, close handheld) She sits up slowly afterward, rolling her shoulder, small relieved exhale. VOICEOVER (CHASE): "That already feels so much better."
-(~3.5s, home, stretching mat, medium propped shot) She stretches gently on a mat in her room, slow and unhurried, soft evening light. VOICEOVER (CHASE): "A little more stretching never hurts."
-(~3s, bathroom, steamy soft light, framed modestly — shoulders up only, robe visible) She sits wrapped in a robe near a warm bath or shower, steam softly filling the frame, eyes closed peacefully. VOICEOVER (CHASE): "And then... just letting the day melt away."
-(~3s, bathroom, macro insert) Close-up on water droplets and steam, soft warm light, no exposed skin beyond hands/face. No narration — ambient water sound only.
-(~4s, bedroom, dim cozy light, closing shot) She climbs into bed early, pulling the blanket up, eyes already heavy, a small content smile before the screen fades. VOICEOVER (CHASE): "Some nights, the earlier the better."
-```
-
-### 东京男友视角 Vlog
-
-#### 结果视频
-
-https://github.com/user-attachments/assets/bdc1eb65-0c54-4dd1-af96-aade0e9b6ecb
-
-#### 来源
-
-[@BubbleBrain](https://x.com/BubbleBrain) · [X Post](https://x.com/BubbleBrain/status/2083785548649607668) · [Thread Reader](https://twitter-thread.com/t/2083785548649607668)
-
-#### 提示词（原文）
-
-```text
-Single unbroken handheld boyfriend vlog take throughout, 30 seconds total. A realistic personal travel vlog filmed by a boyfriend following his girlfriend during a normal day in Tokyo. Use the woman from the reference image as the main character. Maintain her exact facial identity, hairstyle, facial features, body proportions, and overall appearance throughout the entire video. She must remain the same person in every shot. The camera feels like a real boyfriend holding a small mirrorless camera or phone, not a professional production. Natural handheld movement, imperfect framing, occasional camera shake, spontaneous reactions, authentic everyday moments. The woman does not pose for the camera. She behaves naturally, sometimes forgetting the camera is there. 0-5s: Morning at a small Tokyo apartment. The camera starts recording as the boyfriend casually walks into the room. Soft morning sunlight enters through the window. The woman is sitting near the bed, fixing her hair and preparing for the day. She notices the camera, smiles naturally, laughs, and playfully tells him to stop filming. The camera stays close, slightly shaky, capturing a private everyday moment. 5-10s: Walking through Tokyo neighborhood streets. The boyfriend follows behind her as they leave the apartment. She walks through a quiet Tokyo street, carrying a small bag. Morning shops are opening, bicycles pass by, locals walk along the street. She stops at a convenience store. The camera follows her inside. She looks at different drinks and snacks, turns around and asks the person behind the camera which one she should choose. Natural interaction, casual conversation, realistic body language. 10-18s: Local food experience. The camera follows her through a small Tokyo alley to a cozy local restaurant. She sits down and tries a bowl of ramen or a local dish. The camera captures close handheld moments: her picking up chopsticks, tasting the food, reacting naturally, laughing when the food is hotter than expected. The boyfriend laughs behind the camera. The moment feels unplanned and authentic. 18-25s: Tokyo afternoon exploration. The couple walks through a lively neighborhood. She browses small shops, looks at interesting objects, takes photos, and occasionally looks back at the camera. The camera moves naturally between her face, her hands, the street atmosphere, and small details of daily life. Crowds pass naturally around them. The city feels alive and real. 25-30s: Tokyo night ending. Night falls. The camera follows her through illuminated Tokyo streets. She walks slightly ahead, then turns back and smiles at the camera. They ride a train home. She sits beside the window, watching city lights pass outside. The camera slowly moves closer as she rests quietly, ending like a real personal memory. Visual style: Authentic boyfriend travel vlog footage. Realistic handheld camera movement. Natural lighting. Casual documentary realism. Unplanned everyday moments. Real human expressions and interactions. Slight motion blur, natural exposure changes, realistic camera autofocus adjustments. No commercial advertisement style. No dramatic posing. No perfect cinematic composition. No text overlays. No logos. No face changes. No identity changes. No artificial transitions. No CGI feeling. Stable character consistency throughout.
-```
-
-### 韩式洗衣日常
-
-#### 结果视频
-
-https://github.com/user-attachments/assets/ada7e735-acf4-4a66-a702-94d055b52742
-
-#### 来源
-
-[@doctorwasif](https://x.com/doctorwasif) · [X Post](https://x.com/doctorwasif/status/2083779989414019109) · [Thread Reader](https://twitter-thread.com/t/2083779989414019109)
-
-#### 提示词（原文）
-
-```text
-15s handheld home-video vlog, 7-shot montage. Photorealistic phone footage with slight tilt, natural shake, window light, subtle film grain.
-
-A woman (use Image1 only for facial identity and hairstyle) does laundry alone on a quiet morning. Outfit: oversized cream linen shirt with rolled sleeves, grey knit shorts, loose cotton apron. Cozy sunlit laundry nook with an open front-load washer, overflowing basket, wooden drying rack, clothespins, and warm sunlight. She is the only person in the video.
-
-Sequence: untangles wet clothes → shakes out a shirt → checks a collar stain by the window → hangs it saying "Good enough." → finds a mismatched sock → struggles with a heavy bedsheet while laughing → finishes hanging it and quietly admires the sunlit laundry.
-
-Dialogue is natural spoken Korean (except "Good enough"), reacting casually to each moment. Ambient sound only: washer winding down, wet fabric, clothespins, rustling clothes, soft laughter, breeze. No subtitles, text, logos, or watermarks. Do not recreate or copy the reference image—use it only for facial identity and hairstyle.
-```
-
-### 过山车假发翻车现场
-
-#### 结果视频
-
-https://github.com/user-attachments/assets/ff1899e1-49b6-4b6c-bd8c-58e1fc5f1ccb
-
-#### 来源
-
-[@techhalla](https://x.com/techhalla) · [X Post](https://x.com/techhalla/status/2083585132917579834) · [Thread Reader](https://twitter-thread.com/t/2083585132917579834)
-
-#### 提示词（原文）
-
-```text
-Photorealistic cinematic daytime amusement park roller coaster, bright hard sunlight, strong wind, realistic motion blur on tracks and background, subtle handheld camera energy, rich skin detail, heavy natural film grain.
-
-0-5s: [Medium Shot] A young woman in her early 20s sits in the front seat of a moving roller coaster car, calm and slightly bored, hair whipping in the wind. Beside her sits a middle-aged man wearing what looks like a normal full head of hair. Behind them, another car with a woman is visible. The coaster drops and banks hard.
-
-5-9s: [Dynamic Tracking] The force of the turn rips the man’s wig free. It peels off his bald head in a chaotic upward arc, spinning and flying backward through the air. The wig lands messily on the head of the woman in the car behind. Everyone’s faces freeze in pure shock and confusion at the peak of the chaos. Time locks completely. Only the young woman in the front keeps moving.
-
-9-15s: [Slow Orbital + Detail] Camera slowly orbits the frozen cars. The wig hangs mid-air in a twisted shape with individual hairs suspended. The bald man’s scalp is fully exposed, mouth open. The woman behind is frozen mid-scream with the wig draped over her face. The young woman looks sideways, rolls her eyes and mouths “joder, otra vez”. She reaches into her pocket, pulls out a stick of chewing gum, unwraps it and calmly puts it in her mouth, starting to chew while the entire frozen scene (except her) begins a precise reverse.
-
-15-20s: [Medium Close-up] The rewind is controlled and elegant: the wig lifts off the woman behind, flies backward through the air in reverse, and returns exactly to the moment it is only beginning to peel off the bald man’s head. Time freezes again at that precise instant — the front edge of the wig just lifting, a few strands already loose.
-
-20-26s: [Tight Medium] Still frozen for everyone else, the young woman takes the chewed gum out of her mouth, reaches over and firmly presses it onto the center of the bald man’s scalp, right under the lifting wig. With the same hand she smooths and presses the wig back down into perfect place, locking it with the gum. She sits back, looks straight ahead with a tiny private smile, completely unbothered.
-
-26-30s: [Medium Shot] Time suddenly resumes at full real-time speed. The coaster continues its drop. The man touches his head, feels the wig still firmly in place, looks confused for a second, then breaks into a relieved, happy smile. The young woman stares forward, already chewing a new piece of gum, expression of quiet satisfaction.
-
-Photorealistic, ultra-detailed wind and hair physics, perfect motion blur only on moving elements, stable characters, cinematic lighting, heavy natural film grain, no artifacts, movie-level temporal coherence, high rewatch value.
-
-It's text to video, so you just have to copy, tweak and paste! Enjoy the quoted one too 😎
 ```
 
 ### 中世纪耻辱游街
@@ -261,6 +125,79 @@ She reaches a small overlook facing the sparkling sea. Instead of stopping drama
 
 Image Quality:
 Ultra-photorealistic vintage documentary, authentic analog exposure, realistic human motion, organic focus breathing, imperfect framing, Kodak 16mm archival texture, subtle light leaks, soft highlight bloom, natural skin pores, no AI smoothness, 4:3 aspect ratio.
+```
+
+## 2. UGC Style
+### 印尼椰子采买 Vlog
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/b9b95ce4-4289-4b32-843a-86f8d5b1da9f
+
+#### 来源
+
+[@saniaspeaks_](https://x.com/saniaspeaks_) · [X Post](https://x.com/saniaspeaks_/status/2084969852171939875) · [Thread Reader](https://twitter-thread.com/t/2084969852171939875)
+
+#### 提示词（原文）
+
+```text
+Preserve the exact face, hairstyle, identity, skin tone, and body proportions from @ image1 throughout. Outfit: oversized terracotta linen shirt, dusty burgundy wide-leg trousers, brown leather sandals, small gold hoop earrings, loose natural wavy hair. Authentic Indonesian woman. Late-2000s personal vlog aesthetic. Extremely raw handheld flip-camera footage with heavy camera shake, natural reframing, partial face crops, focus hunting, exposure shifts, warm faded colors, mild digital noise, and authentic home-video imperfections. No posing, no cinematic glamour, no stabilization, no modern color grading.
+
+00:00–00:04 Walking through a peaceful tropical village lined with coconut trees, smiling into the camera. "Today we're hunting for fresh coconuts!"
+
+00:04–00:08 Stops at a small roadside coconut stall where a friendly local vendor expertly chops open a fresh green coconut. She watches with an excited reaction.
+
+00:08–00:12 Takes her first sip of fresh coconut water, smiles brightly, and says, "This is so refreshing!"
+
+00:12–00:16 Sits with local villagers on a wooden bench, chatting, laughing, and enjoying the relaxed atmosphere while holding the coconut.
+
+00:16–00:20 Tries opening another coconut herself using simple tools, struggles playfully, laughs, and the locals cheer and laugh with her.
+
+00:20–00:24 Scoops out the soft coconut flesh with a spoon, tastes it, and gives a happy thumbs-up to the camera.
+
+00:24–00:27 Walks slowly through the village, waving to children and locals while carrying the empty coconut shell.
+
+00:27–00:30 Stops beneath tall coconut trees, turns back toward the camera with a warm smile, waves, and says, "See you in my next adventure. Bye!" before naturally ending the recording.
+
+Natural ambience only: birds, palm leaves rustling, village conversations, coconut chopping sounds, footsteps, breeze, insects, and distant laughter. No background music, subtitles, logos, or watermarks. The footage should feel exactly like a genuine late-2000s handheld flip-camera vacation vlog with authentic human movement and realistic interactions.
+```
+
+### 东京男友视角 Vlog
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/bdc1eb65-0c54-4dd1-af96-aade0e9b6ecb
+
+#### 来源
+
+[@BubbleBrain](https://x.com/BubbleBrain) · [X Post](https://x.com/BubbleBrain/status/2083785548649607668) · [Thread Reader](https://twitter-thread.com/t/2083785548649607668)
+
+#### 提示词（原文）
+
+```text
+Single unbroken handheld boyfriend vlog take throughout, 30 seconds total. A realistic personal travel vlog filmed by a boyfriend following his girlfriend during a normal day in Tokyo. Use the woman from the reference image as the main character. Maintain her exact facial identity, hairstyle, facial features, body proportions, and overall appearance throughout the entire video. She must remain the same person in every shot. The camera feels like a real boyfriend holding a small mirrorless camera or phone, not a professional production. Natural handheld movement, imperfect framing, occasional camera shake, spontaneous reactions, authentic everyday moments. The woman does not pose for the camera. She behaves naturally, sometimes forgetting the camera is there. 0-5s: Morning at a small Tokyo apartment. The camera starts recording as the boyfriend casually walks into the room. Soft morning sunlight enters through the window. The woman is sitting near the bed, fixing her hair and preparing for the day. She notices the camera, smiles naturally, laughs, and playfully tells him to stop filming. The camera stays close, slightly shaky, capturing a private everyday moment. 5-10s: Walking through Tokyo neighborhood streets. The boyfriend follows behind her as they leave the apartment. She walks through a quiet Tokyo street, carrying a small bag. Morning shops are opening, bicycles pass by, locals walk along the street. She stops at a convenience store. The camera follows her inside. She looks at different drinks and snacks, turns around and asks the person behind the camera which one she should choose. Natural interaction, casual conversation, realistic body language. 10-18s: Local food experience. The camera follows her through a small Tokyo alley to a cozy local restaurant. She sits down and tries a bowl of ramen or a local dish. The camera captures close handheld moments: her picking up chopsticks, tasting the food, reacting naturally, laughing when the food is hotter than expected. The boyfriend laughs behind the camera. The moment feels unplanned and authentic. 18-25s: Tokyo afternoon exploration. The couple walks through a lively neighborhood. She browses small shops, looks at interesting objects, takes photos, and occasionally looks back at the camera. The camera moves naturally between her face, her hands, the street atmosphere, and small details of daily life. Crowds pass naturally around them. The city feels alive and real. 25-30s: Tokyo night ending. Night falls. The camera follows her through illuminated Tokyo streets. She walks slightly ahead, then turns back and smiles at the camera. They ride a train home. She sits beside the window, watching city lights pass outside. The camera slowly moves closer as she rests quietly, ending like a real personal memory. Visual style: Authentic boyfriend travel vlog footage. Realistic handheld camera movement. Natural lighting. Casual documentary realism. Unplanned everyday moments. Real human expressions and interactions. Slight motion blur, natural exposure changes, realistic camera autofocus adjustments. No commercial advertisement style. No dramatic posing. No perfect cinematic composition. No text overlays. No logos. No face changes. No identity changes. No artificial transitions. No CGI feeling. Stable character consistency throughout.
+```
+
+### 韩式洗衣日常
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/ada7e735-acf4-4a66-a702-94d055b52742
+
+#### 来源
+
+[@doctorwasif](https://x.com/doctorwasif) · [X Post](https://x.com/doctorwasif/status/2083779989414019109) · [Thread Reader](https://twitter-thread.com/t/2083779989414019109)
+
+#### 提示词（原文）
+
+```text
+15s handheld home-video vlog, 7-shot montage. Photorealistic phone footage with slight tilt, natural shake, window light, subtle film grain.
+
+A woman (use Image1 only for facial identity and hairstyle) does laundry alone on a quiet morning. Outfit: oversized cream linen shirt with rolled sleeves, grey knit shorts, loose cotton apron. Cozy sunlit laundry nook with an open front-load washer, overflowing basket, wooden drying rack, clothespins, and warm sunlight. She is the only person in the video.
+
+Sequence: untangles wet clothes → shakes out a shirt → checks a collar stain by the window → hangs it saying "Good enough." → finds a mismatched sock → struggles with a heavy bedsheet while laughing → finishes hanging it and quietly admires the sunlit laundry.
+
+Dialogue is natural spoken Korean (except "Good enough"), reacting casually to each moment. Ambient sound only: washer winding down, wet fabric, clothespins, rustling clothes, soft laughter, breeze. No subtitles, text, logos, or watermarks. Do not recreate or copy the reference image—use it only for facial identity and hairstyle.
 ```
 
 ### 巴西球衣派对长镜头
@@ -344,6 +281,73 @@ A stage manager calls from off camera, "CHASE, standby!" She immediately takes a
 Performance should rely on micro-expressions, natural blinking, realistic breathing, tiny pauses, genuine smiles, subtle nervousness, authentic eye contact, and understated acting. The voice must sound like a real Korean woman in her 20s with soft, warm, conversational delivery—not an AI narrator, influencer, or announcer. Prioritize perfect character consistency, realistic facial animation, natural lip sync, believable body language, authentic environmental audio, and cinematic realism that makes viewers genuinely question whether this was filmed in real life.
 ```
 
+## 3. Short-form Drama & Web Series
+### CHASE 康复 MiniDV 日记
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/b9e5558e-595b-4f29-a9c5-c040be412390
+
+#### 来源
+
+[@doctorwasif](https://x.com/doctorwasif) · [X Post](https://x.com/doctorwasif/status/2083905705300664481) · [Thread Reader](https://twitter-thread.com/t/2083905705300664481)
+
+#### 提示词（原文）
+
+```text
+CAMERA:
+DV 16mm tape camcorder handheld feel. POV of CHASE holding the camera herself throughout each location, occasionally propped briefly for hands-free moments. Hand shake, misaligned framing, delayed focus pulls, clumsy zooms, occasional face cut-off framing, imperfect shots. Camcorder never appears on screen.
+LOOK:
+Soft, slightly blurry tape quality, faint tape noise, bloomed highlights, flickering auto-exposure, muted contrast, realistic skin tones — lighting shifts per location (clinical soft light at physio → warm home light for stretching → soft steamy bathroom light → dim cozy bedroom light).
+STYLE:
+Slow, gentle montage feel — calmer and more tender than her usual bubbly vlogs. Quiet reflective voiceover narration plays over the visuals instead of synced dialogue. Mood stays soft and caring throughout, centered on rest and self-care.
+Character
+CHASE — Korean idol, 20s. Long straight black hair, natural and softly tied back, dewy glass skin, minimal to no makeup, tired but peaceful expression. Wearing a modest robe or oversized loungewear throughout — fully covering arms, torso, and legs at all times, including during the bath/shower segment (framed only from shoulders up or via steam/robe coverage, nothing revealing shown).
+Setting Progression
+Physio/massage clinic (afternoon) → her room, stretching mat (early evening) → bathroom, steamy warm light (night) → bedroom (late night).
+Storyboard (20s, 6 cuts)
+(~3.5s, physio clinic, propped camera, medium shot) She lies on a treatment table as a therapist's hands (off-camera) work on her shoulder, wincing slightly then relaxing. VOICEOVER (CHASE): "Some days, taking care of myself has to come first."
+(~3s, physio clinic, close handheld) She sits up slowly afterward, rolling her shoulder, small relieved exhale. VOICEOVER (CHASE): "That already feels so much better."
+(~3.5s, home, stretching mat, medium propped shot) She stretches gently on a mat in her room, slow and unhurried, soft evening light. VOICEOVER (CHASE): "A little more stretching never hurts."
+(~3s, bathroom, steamy soft light, framed modestly — shoulders up only, robe visible) She sits wrapped in a robe near a warm bath or shower, steam softly filling the frame, eyes closed peacefully. VOICEOVER (CHASE): "And then... just letting the day melt away."
+(~3s, bathroom, macro insert) Close-up on water droplets and steam, soft warm light, no exposed skin beyond hands/face. No narration — ambient water sound only.
+(~4s, bedroom, dim cozy light, closing shot) She climbs into bed early, pulling the blanket up, eyes already heavy, a small content smile before the screen fades. VOICEOVER (CHASE): "Some nights, the earlier the better."
+```
+
+## 4. Social Media & Viral Memes
+### 过山车假发翻车现场
+
+#### 结果视频
+
+https://github.com/user-attachments/assets/ff1899e1-49b6-4b6c-bd8c-58e1fc5f1ccb
+
+#### 来源
+
+[@techhalla](https://x.com/techhalla) · [X Post](https://x.com/techhalla/status/2083585132917579834) · [Thread Reader](https://twitter-thread.com/t/2083585132917579834)
+
+#### 提示词（原文）
+
+```text
+Photorealistic cinematic daytime amusement park roller coaster, bright hard sunlight, strong wind, realistic motion blur on tracks and background, subtle handheld camera energy, rich skin detail, heavy natural film grain.
+
+0-5s: [Medium Shot] A young woman in her early 20s sits in the front seat of a moving roller coaster car, calm and slightly bored, hair whipping in the wind. Beside her sits a middle-aged man wearing what looks like a normal full head of hair. Behind them, another car with a woman is visible. The coaster drops and banks hard.
+
+5-9s: [Dynamic Tracking] The force of the turn rips the man’s wig free. It peels off his bald head in a chaotic upward arc, spinning and flying backward through the air. The wig lands messily on the head of the woman in the car behind. Everyone’s faces freeze in pure shock and confusion at the peak of the chaos. Time locks completely. Only the young woman in the front keeps moving.
+
+9-15s: [Slow Orbital + Detail] Camera slowly orbits the frozen cars. The wig hangs mid-air in a twisted shape with individual hairs suspended. The bald man’s scalp is fully exposed, mouth open. The woman behind is frozen mid-scream with the wig draped over her face. The young woman looks sideways, rolls her eyes and mouths “joder, otra vez”. She reaches into her pocket, pulls out a stick of chewing gum, unwraps it and calmly puts it in her mouth, starting to chew while the entire frozen scene (except her) begins a precise reverse.
+
+15-20s: [Medium Close-up] The rewind is controlled and elegant: the wig lifts off the woman behind, flies backward through the air in reverse, and returns exactly to the moment it is only beginning to peel off the bald man’s head. Time freezes again at that precise instant — the front edge of the wig just lifting, a few strands already loose.
+
+20-26s: [Tight Medium] Still frozen for everyone else, the young woman takes the chewed gum out of her mouth, reaches over and firmly presses it onto the center of the bald man’s scalp, right under the lifting wig. With the same hand she smooths and presses the wig back down into perfect place, locking it with the gum. She sits back, looks straight ahead with a tiny private smile, completely unbothered.
+
+26-30s: [Medium Shot] Time suddenly resumes at full real-time speed. The coaster continues its drop. The man touches his head, feels the wig still firmly in place, looks confused for a second, then breaks into a relieved, happy smile. The young woman stares forward, already chewing a new piece of gum, expression of quiet satisfaction.
+
+Photorealistic, ultra-detailed wind and hair physics, perfect motion blur only on moving elements, stable characters, cinematic lighting, heavy natural film grain, no artifacts, movie-level temporal coherence, high rewatch value.
+
+It's text to video, so you just have to copy, tweak and paste! Enjoy the quoted one too 😎
+```
+
+## 5. Visual Effects & Experimental Styles
 ### 50 年代餐厅定格回放
 
 #### 结果视频
@@ -373,6 +377,7 @@ Photorealistic, ultra-detailed fluid physics, perfect motion blur only on moving
 
 30 seconds long is the new AI standard! hope you like it 🫡
 ```
+
 
 ---
 
