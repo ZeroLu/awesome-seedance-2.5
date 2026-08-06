@@ -272,40 +272,6 @@
     "readmeVideoUrl": "https://github.com/user-attachments/assets/48b2623d-2d16-4aef-a269-f18d66081398"
   },
   {
-    "id": "x-sd25-09",
-    "category": "community",
-    "title": {
-      "fallback": {
-        "zh": "未归档提示词的社区案例",
-        "en": "Community Showcase Without Archived Prompt"
-      }
-    },
-    "prompt": {
-      "originalLanguage": "en",
-      "fallback": {
-        "zh": "[Prompt not available in the original tweet or archived thread as of 2026-08-06.]",
-        "en": "[Prompt not available in the original tweet or archived thread as of 2026-08-06.]"
-      }
-    },
-    "src": "x-sd25-09.mp4",
-    "media": {
-      "images": [],
-      "videos": []
-    },
-    "source": {
-      "platform": "x",
-      "tweetUrl": "https://x.com/SimplyAnnisa/status/2083525752809480610",
-      "threadUrl": "https://twitter-thread.com/t/2083525752809480610",
-      "author": {
-        "name": "Anissa",
-        "username": "SimplyAnnisa"
-      },
-      "archivedAt": "2026-08-06",
-      "promptStatus": "missing"
-    },
-    "readmeVideoUrl": "https://github.com/user-attachments/assets/d9b8c436-8b26-4189-8f0e-3f7310e915f8"
-  },
-  {
     "id": "x-sd25-10",
     "category": "community",
     "title": {
